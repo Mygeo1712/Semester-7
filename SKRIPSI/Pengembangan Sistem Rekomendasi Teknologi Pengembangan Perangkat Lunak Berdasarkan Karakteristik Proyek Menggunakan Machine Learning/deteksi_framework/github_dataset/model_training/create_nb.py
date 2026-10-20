@@ -1,0 +1,215 @@
+import json
+
+notebook = {
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Evaluasi Model Klasifikasi Framework Web\n",
+    "\n",
+    "Jalankan *cell* di bawah ini. Anda akan diminta untuk **mengunggah (upload)** file `dataset_train.csv` dan `dataset_test.csv` melalui tombol *Choose Files* yang akan muncul."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import io\n",
+    "import matplotlib.pyplot as plt\n",
+    "import seaborn as sns\n",
+    "from sklearn.ensemble import RandomForestClassifier\n",
+    "from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report, confusion_matrix\n",
+    "\n",
+    "# Menyediakan tombol trigger untuk upload file di Google Colab\n",
+    "from google.colab import files\n",
+    "print(\"Silakan klik 'Choose Files' dan pilih dataset_train.csv serta dataset_test.csv secara bersamaan:\")\n",
+    "uploaded = files.upload()\n",
+    "\n",
+    "# Deteksi otomatis mana file train dan test dari nama file yang diunggah\n",
+    "nama_file_diunggah = list(uploaded.keys())\n",
+    "train_file = next(f for f in nama_file_diunggah if 'train' in f.lower())\n",
+    "test_file = next(f for f in nama_file_diunggah if 'test' in f.lower())\n",
+    "\n",
+    "# Memuat dataset ke dalam Pandas DataFrame\n",
+    "df_train = pd.read_csv(io.BytesIO(uploaded[train_file]))\n",
+    "df_test = pd.read_csv(io.BytesIO(uploaded[test_file]))\n",
+    "\n",
+    "print(f\"\\nBerhasil memuat data training dari: {train_file}\")\n",
+    "print(f\"Berhasil memuat data testing dari: {test_file}\")\n",
+    "\n",
+    "# Memisahkan fitur dan target\n",
+    "X_train = df_train.drop(columns=['Y_framework', 'repository'])\n",
+    "y_train = df_train['Y_framework']\n",
+    "\n",
+    "X_test = df_test.drop(columns=['Y_framework', 'repository'])\n",
+    "y_test = df_test['Y_framework']\n",
+    "\n",
+    "# Mapping Framework\n",
+    "framework_mapping = {\n",
+    "    1: 'Django', 2: 'FastAPI', 3: 'Ruby on Rails',\n",
+    "    4: 'Next.js', 5: 'Flask', 6: 'Spring Boot',\n",
+    "    7: 'Laravel', 8: 'Symfony', 9: 'Express.js'\n",
+    "}\n",
+    "labels = [framework_mapping[i] for i in range(1, 10)]\n",
+    "\n",
+    "print(\"\\nDataset Training Shape:\", X_train.shape)\n",
+    "print(\"Dataset Testing Shape:\", X_test.shape)\n",
+    "df_train.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Melatih Model\n",
+    "print(\"Melatih model Random Forest...\")\n",
+    "rf = RandomForestClassifier(n_estimators=100, random_state=42, class_weight='balanced')\n",
+    "rf.fit(X_train, y_train)\n",
+    "\n",
+    "# Melakukan Prediksi\n",
+    "y_pred = rf.predict(X_test)\n",
+    "print(\"Selesai melatih dan melakukan prediksi pada data testing!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 1. Metrik Evaluasi Utama (Tabel)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "accuracy = accuracy_score(y_test, y_pred)\n",
+    "macro_precision = precision_score(y_test, y_pred, average='macro')\n",
+    "macro_recall = recall_score(y_test, y_pred, average='macro')\n",
+    "macro_f1 = f1_score(y_test, y_pred, average='macro')\n",
+    "\n",
+    "metrics_df = pd.DataFrame({\n",
+    "    'Metrik': ['Accuracy', 'Macro Precision', 'Macro Recall', 'Macro F1-Score'],\n",
+    "    'Nilai': [accuracy, macro_precision, macro_recall, macro_f1]\n",
+    "})\n",
+    "\n",
+    "display(metrics_df)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 2. Classification Report (Tabel Kinerja per Kelas)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "report_dict = classification_report(y_test, y_pred, target_names=labels, output_dict=True)\n",
+    "report_df = pd.DataFrame(report_dict).transpose()\n",
+    "\n",
+    "display(report_df)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 3. Confusion Matrix"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "cm = confusion_matrix(y_test, y_pred)\n",
+    "cm_df = pd.DataFrame(cm, index=labels, columns=labels)\n",
+    "cm_df.index.name = 'Actual Framework'\n",
+    "cm_df.columns.name = 'Predicted Framework'\n",
+    "\n",
+    "print(\"Tabel Confusion Matrix:\")\n",
+    "display(cm_df)\n",
+    "\n",
+    "print(\"\\nGrafik Heatmap:\")\n",
+    "plt.figure(figsize=(10, 8))\n",
+    "sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=labels, yticklabels=labels)\n",
+    "plt.title('Confusion Matrix')\n",
+    "plt.xlabel('Predicted Framework')\n",
+    "plt.ylabel('Actual Framework')\n",
+    "plt.xticks(rotation=45)\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 4. Feature Importance (Karakteristik Paling Berpengaruh)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "importances = rf.feature_importances_\n",
+    "features = X_train.columns\n",
+    "clean_features = [f.split('_', 1)[1] if '_' in f else f for f in features]\n",
+    "\n",
+    "importance_df = pd.DataFrame({\n",
+    "    'Karakteristik Proyek': clean_features,\n",
+    "    'Tingkat Kepentingan': importances\n",
+    "}).sort_values(by='Tingkat Kepentingan', ascending=False)\n",
+    "\n",
+    "print(\"Tabel Feature Importance:\")\n",
+    "display(importance_df)\n",
+    "\n",
+    "print(\"\\nGrafik Feature Importance:\")\n",
+    "plt.figure(figsize=(10, 6))\n",
+    "sns.barplot(x='Tingkat Kepentingan', y='Karakteristik Proyek', data=importance_df, palette='viridis')\n",
+    "plt.title('Feature Importances in Random Forest')\n",
+    "plt.show()"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
+
+with open('Evaluasi_Model.ipynb', 'w') as f:
+    json.dump(notebook, f, indent=1)
+print("Notebook updated successfully.")

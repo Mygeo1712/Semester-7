@@ -1,0 +1,901 @@
+﻿repository,repository_url,primary_language,database,application_type,has_docker,has_ci_cd,has_tests,has_documentation,monorepo,contributors,repository_size_kb,dependency_count,stars,forks,commits_last_52_weeks,active_weeks_last_52_weeks,framework,framework_confidence,framework_evidence,database_evidence,is_framework_repository,is_tutorial_repository,is_library_repository
+cookiecutter/cookiecutter-django,https://github.com/cookiecutter/cookiecutter-django,Python,Unknown,Web Application,1,1,1,1,0,478,12733,31,13602,3067,853,51,Django,0.95,Python deps: django,,0,0,0
+Miserlou/Zappa,https://github.com/Miserlou/Zappa,Python,Unknown,Unknown,0,1,1,1,0,262,5645,80,11822,1169,0,0,Django,0.95,Python deps: django,,0,0,0
+wsvincent/awesome-django,https://github.com/wsvincent/awesome-django,Python,Unknown,Web Application,0,1,0,1,0,124,1519,0,11223,1471,34,18,Django,0.95,Python deps: django,,0,0,0
+django-cms/django-cms,https://github.com/django-cms/django-cms,Python,Unknown,CMS,0,1,1,1,0,605,122296,123,10663,3193,372,49,Django,0.95,Python deps: django,,0,0,0
+pennersr/django-allauth,https://github.com/pennersr/django-allauth,Python,Unknown,Web Application,1,1,1,1,0,812,22060,19,10375,3113,245,40,Django,0.95,Python deps: django,,0,0,0
+healthchecks/healthchecks,https://github.com/healthchecks/healthchecks,Python,PostgreSQL,Web Application,1,1,1,1,0,104,27705,15,10282,1000,514,48,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+vitalik/django-ninja,https://github.com/vitalik/django-ninja,Python,PostgreSQL,API,1,1,1,1,0,187,8965,7,9174,611,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+inventree/InvenTree,https://github.com/inventree/InvenTree,Python,PostgreSQL,Web Application,1,1,1,1,0,173,362443,190,7442,1521,1476,52,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+liangliangyy/DjangoBlog,https://github.com/liangliangyy/DjangoBlog,Python,MySQL,CMS,1,1,0,1,0,26,6118,63,7418,2846,194,30,Django,0.95,Python deps: django,dependencies mention mysql/mysqlclient/dll,0,0,0
+wger-project/wger,https://github.com/wger-project/wger,Python,PostgreSQL,Web Application,1,1,1,1,0,351,90809,5,6750,995,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+django-oscar/django-oscar,https://github.com/django-oscar/django-oscar,Python,PostgreSQL,E-commerce,1,1,1,1,0,384,127724,22,6623,2306,48,19,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+QingdaoU/OnlineJudge,https://github.com/QingdaoU/OnlineJudge,Python,PostgreSQL,Web Application,1,1,0,1,0,29,22885,22,6535,1534,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+WeblateOrg/weblate,https://github.com/WeblateOrg/weblate,Python,PostgreSQL,Web Application,1,1,1,1,0,2206,5572196,16,6036,1343,8910,52,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+adamchainz/django-cors-headers,https://github.com/adamchainz/django-cors-headers,Python,Unknown,Web Application,0,1,1,0,0,70,2729,0,5586,552,0,0,Django,0.95,Python deps: django,,0,0,0
+authlib/authlib,https://github.com/authlib/authlib,Python,Relational (ORM),Web Application,0,1,1,1,0,148,4069,0,5404,557,0,0,Django,0.95,Python deps: django,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+DefectDojo/django-DefectDojo,https://github.com/DefectDojo/django-DefectDojo,Python,PostgreSQL,Web Application,1,1,1,1,0,601,652674,100,4975,1954,4499,52,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+ets-labs/python-dependency-injector,https://github.com/ets-labs/python-dependency-injector,Python,Unknown,Web Application,1,1,1,1,0,49,40995,12,4908,351,40,12,Django,0.95,Python deps: django,,0,0,0
+amidaware/tacticalrmm,https://github.com/amidaware/tacticalrmm,Python,PostgreSQL,Web Application,1,1,1,1,0,69,110256,45,4444,651,182,38,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+pydantic/logfire,https://github.com/pydantic/logfire,Python,PostgreSQL,API,0,1,1,1,0,117,85608,1,4438,280,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+graphql-python/graphene-django,https://github.com/graphql-python/graphene-django,Python,Unknown,Web Application,0,1,1,1,0,224,1355,12,4392,762,0,0,Django,0.95,Python deps: django,,0,0,0
+dynaconf/dynaconf,https://github.com/dynaconf/dynaconf,Python,Redis,API,1,1,1,1,0,147,9160,8,4327,345,0,0,Django,0.95,Python deps: django,dependencies mention redis,0,0,0
+newpanjing/simpleui,https://github.com/newpanjing/simpleui,Python,Unknown,Web Application,1,1,0,1,0,49,14177,3,3819,714,0,0,Django,0.95,Python deps: django,,0,0,0
+fastapi-admin/fastapi-admin,https://github.com/fastapi-admin/fastapi-admin,Python,PostgreSQL,API,1,1,1,1,0,19,7354,0,3818,466,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+FactoryBoy/factory_boy,https://github.com/FactoryBoy/factory_boy,Python,Relational (ORM),Web Application,0,1,1,1,0,134,1867,3,3805,420,0,0,Django,0.95,Python deps: django,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+zappa/Zappa,https://github.com/zappa/Zappa,Python,Unknown,API,0,1,1,1,0,301,6054,2,3690,391,44,18,Django,0.95,Python deps: django,,0,0,0
+unfoldadmin/django-unfold,https://github.com/unfoldadmin/django-unfold,Python,PostgreSQL,Dashboard,0,1,1,1,0,69,7875,3,3637,363,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+axnsan12/drf-yasg,https://github.com/axnsan12/drf-yasg,Python,PostgreSQL,API,1,1,1,1,0,77,25688,6,3545,441,24,12,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+modoboa/modoboa,https://github.com/modoboa/modoboa,Python,PostgreSQL,Web Application,1,1,1,0,0,132,41288,39,3531,480,478,46,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+Gerapy/Gerapy,https://github.com/Gerapy/Gerapy,Python,MySQL,Dashboard,1,1,0,1,0,17,37954,38,3513,647,0,0,Django,0.95,Python deps: django,dependencies mention mysql/mysqlclient/dll,0,0,0
+FuzzyGrim/Yamtrack,https://github.com/FuzzyGrim/Yamtrack,Python,PostgreSQL,Web Application,1,1,1,1,0,45,9525,0,3442,292,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+guohongze/adminset,https://github.com/guohongze/adminset,Python,MySQL,Web Application,0,1,1,1,0,8,30267,57,3440,1418,0,0,Django,0.95,Python deps: django,dependencies mention mysql/mysqlclient/dll,0,0,0
+pinry/pinry,https://github.com/pinry/pinry,Python,PostgreSQL,Web Application,1,1,1,1,0,45,9819,49,3412,373,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+django-import-export/django-import-export,https://github.com/django-import-export/django-import-export,Python,PostgreSQL,Web Application,1,1,1,1,0,250,6330,0,3334,838,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+django-oauth/django-oauth-toolkit,https://github.com/django-oauth/django-oauth-toolkit,Python,Unknown,Web Application,1,1,1,1,0,299,4834,18,3333,856,0,0,Django,0.95,Python deps: django,,0,0,0
+awesto/django-shop,https://github.com/awesto/django-shop,Python,Unknown,E-commerce,0,1,1,1,0,97,9121,99,3320,1040,0,0,Django,0.95,Python deps: django,,0,0,0
+milesmcc/shynet,https://github.com/milesmcc/shynet,Python,PostgreSQL,Web Application,1,1,1,1,0,38,35629,7,3150,207,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+swirlai/swirl-search,https://github.com/swirlai/swirl-search,Python,PostgreSQL,Web Application,1,1,1,1,0,38,271223,199,3042,286,255,35,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+jschneier/django-storages,https://github.com/jschneier/django-storages,Python,Unknown,Web Application,0,1,1,1,0,285,1908,2,2958,890,1,1,Django,0.95,Python deps: django,,0,0,0
+ciur/papermerge,https://github.com/ciur/papermerge,Python,Unknown,Web Application,1,1,0,1,0,23,26691,0,2935,311,0,0,Django,0.95,Python deps: django,,0,0,0
+tfranzel/drf-spectacular,https://github.com/tfranzel/drf-spectacular,Python,Unknown,API,0,1,1,1,0,145,1706,0,2855,329,0,0,Django,0.95,Python deps: django,,0,0,0
+opencve/opencve,https://github.com/opencve/opencve,Python,PostgreSQL,Web Application,1,1,1,1,0,28,15941,37,2809,336,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+rafalp/Misago,https://github.com/rafalp/Misago,Python,PostgreSQL,Web Application,1,1,1,1,0,49,120540,140,2775,555,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+evansd/whitenoise,https://github.com/evansd/whitenoise,Python,Unknown,Web Application,0,1,1,1,0,70,1464,0,2760,155,0,0,Django,0.95,Python deps: django,,0,0,0
+django-commons/django-unicorn,https://github.com/django-commons/django-unicorn,Python,Redis,Web Application,0,1,1,1,0,39,8993,19,2660,131,0,0,Django,0.95,Python deps: django,dependencies mention redis,0,0,0
+django-webpack/django-webpack-loader,https://github.com/django-webpack/django-webpack-loader,Python,Unknown,Web Application,0,0,1,1,0,67,9449,31,2540,341,0,0,Django,0.95,Python deps: django,,0,0,0
+allegro/ralph,https://github.com/allegro/ralph,Python,PostgreSQL,Web Application,1,1,1,1,0,70,39964,12,2514,593,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+pretix/pretix,https://github.com/pretix/pretix,Python,PostgreSQL,E-commerce,1,1,1,1,0,529,919029,27,2502,653,1363,52,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+wsvincent/lithium,https://github.com/wsvincent/lithium,Python,PostgreSQL,Web Application,1,0,0,1,0,24,30667,25,2462,448,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+Tivix/django-rest-auth,https://github.com/Tivix/django-rest-auth,Python,Unknown,Web Application,0,1,1,1,0,98,490,3,2418,646,0,0,Django,0.95,Python deps: django,,0,0,0
+Django-CRM/Django-CRM,https://github.com/Django-CRM/Django-CRM,Python,PostgreSQL,Web Application,1,1,1,1,0,48,33235,35,2394,1037,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+kmmbvnr/django-fsm,https://github.com/kmmbvnr/django-fsm,Python,Unknown,Web Application,0,1,1,0,0,70,370,1,2351,298,0,0,Django,0.95,Python deps: django,,0,0,0
+mirumee/ariadne,https://github.com/mirumee/ariadne,Python,Relational (ORM),API,0,1,1,1,0,88,4287,0,2342,195,0,0,Django,0.95,Python deps: django,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+zostera/django-bootstrap3,https://github.com/zostera/django-bootstrap3,Python,SQLite,Web Application,0,1,1,1,0,101,1915,0,2332,671,0,0,Django,0.95,Python deps: django,dependencies mention sqlite,0,0,0
+vintasoftware/django-react-boilerplate,https://github.com/vintasoftware/django-react-boilerplate,Python,PostgreSQL,Web Application,1,1,1,1,0,55,2011,79,2269,553,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+wemake-services/wemake-django-template,https://github.com/wemake-services/wemake-django-template,Python,PostgreSQL,Web Application,1,1,1,1,0,60,8642,0,2268,224,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+wooey/Wooey,https://github.com/wooey/Wooey,Python,PostgreSQL,Web Application,1,1,1,1,0,25,3583,35,2244,190,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+suitenumerique/meet,https://github.com/suitenumerique/meet,Python,PostgreSQL,Web Application,1,1,1,1,0,59,32645,57,2235,279,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+brightbeanxyz/brightbean-studio,https://github.com/brightbeanxyz/brightbean-studio,Python,PostgreSQL,CMS,1,1,1,1,0,6,4083,31,2170,454,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+python-social-auth/social-app-django,https://github.com/python-social-auth/social-app-django,Python,Unknown,Web Application,0,1,1,0,0,340,2989,0,2141,392,0,0,Django,0.95,Python deps: django,,0,0,0
+Fantomas42/django-blog-zinnia,https://github.com/Fantomas42/django-blog-zinnia,Python,Unknown,CMS,0,1,1,1,0,71,7990,15,2124,729,0,0,Django,0.95,Python deps: django,,0,0,0
+evennia/evennia,https://github.com/evennia/evennia,Python,PostgreSQL,CLI,1,1,1,1,0,239,383727,4,2090,766,351,39,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+fabiocaccamo/django-admin-interface,https://github.com/fabiocaccamo/django-admin-interface,Python,Unknown,Web Application,0,1,1,1,0,46,1167,2,2039,204,0,0,Django,0.95,Python deps: django,,0,0,0
+ansible-community/ara,https://github.com/ansible-community/ara,Python,PostgreSQL,API,0,0,1,1,0,54,40426,16,2019,181,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+brack3t/django-braces,https://github.com/brack3t/django-braces,Python,Unknown,Web Application,0,1,1,1,0,83,8814,5,2019,217,0,0,Django,0.95,Python deps: django,,0,0,0
+jieter/django-tables2,https://github.com/jieter/django-tables2,Python,Unknown,Web Application,0,1,1,1,0,163,3891,12,2011,443,0,0,Django,0.95,Python deps: django,,0,0,0
+dfunckt/django-rules,https://github.com/dfunckt/django-rules,Python,Unknown,Web Application,0,1,1,0,0,34,279,0,1977,152,0,0,Django,0.95,Python deps: django,,0,0,0
+typeddjango/django-stubs,https://github.com/typeddjango/django-stubs,Python,PostgreSQL,Web Application,0,1,1,1,0,345,10424,0,1968,564,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+photonixapp/photonix,https://github.com/photonixapp/photonix,Python,PostgreSQL,Web Application,1,1,1,1,0,24,5898,76,1955,136,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+rq/django-rq,https://github.com/rq/django-rq,Python,PostgreSQL,Web Application,0,1,1,1,0,139,1379,4,1951,294,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+django-wiki/django-wiki,https://github.com/django-wiki/django-wiki,Python,Unknown,Web Application,0,0,1,1,0,139,12466,0,1932,588,0,0,Django,0.95,Python deps: django,,0,0,0
+doableware/djongo,https://github.com/doableware/djongo,Python,MongoDB,Web Application,0,0,0,1,0,52,22292,0,1921,355,0,0,Django,0.95,Python deps: django,dependencies mention mongodb/mongoose/dll,0,0,0
+anymail/django-anymail,https://github.com/anymail/django-anymail,Python,Unknown,Web Application,0,1,1,1,0,73,2981,0,1897,149,0,0,Django,0.95,Python deps: django,,0,0,0
+jazzband/django-two-factor-auth,https://github.com/jazzband/django-two-factor-auth,Python,Unknown,Web Application,0,1,1,1,0,112,2204,0,1878,458,0,0,Django,0.95,Python deps: django,,0,0,0
+yourlabs/django-autocomplete-light,https://github.com/yourlabs/django-autocomplete-light,Python,Unknown,Web Application,0,1,1,1,0,200,13759,30,1870,459,0,0,Django,0.95,Python deps: django,,0,0,0
+iMerica/dj-rest-auth,https://github.com/iMerica/dj-rest-auth,Python,Unknown,API,1,1,1,1,0,214,1343,37,1867,342,0,0,Django,0.95,Python deps: django,,0,0,0
+django-cms/django-filer,https://github.com/django-cms/django-filer,Python,Unknown,CMS,0,1,1,1,0,189,13712,80,1856,591,0,0,Django,0.95,Python deps: django,,0,0,0
+uselotus/lotus,https://github.com/uselotus/lotus,Python,PostgreSQL,API,1,1,1,1,0,33,66361,64,1834,133,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+django-commons/django-polymorphic,https://github.com/django-commons/django-polymorphic,Python,PostgreSQL,Web Application,0,1,1,1,0,152,4188,4,1833,305,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+alanjds/drf-nested-routers,https://github.com/alanjds/drf-nested-routers,Python,Unknown,Web Application,0,1,1,1,0,65,9351,2,1800,173,0,0,Django,0.95,Python deps: django,,0,0,0
+dj-stripe/dj-stripe,https://github.com/dj-stripe/dj-stripe,Python,PostgreSQL,Web Application,0,1,1,1,0,134,7950,0,1791,516,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+etesync/server,https://github.com/etesync/server,Python,Redis,Web Application,1,0,0,1,0,26,518,44,1766,102,0,0,Django,0.95,Python deps: django,dependencies mention redis,0,0,0
+codingforentrepreneurs/eCommerce,https://github.com/codingforentrepreneurs/eCommerce,Python,PostgreSQL,E-commerce,0,0,0,1,0,2,1169,28,1758,966,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+timonweb/django-tailwind,https://github.com/timonweb/django-tailwind,Python,Unknown,Web Application,0,1,1,1,0,27,6494,25,1753,108,43,8,Django,0.95,Python deps: django,,0,0,0
+django-hijack/django-hijack,https://github.com/django-hijack/django-hijack,Python,Unknown,Web Application,0,1,1,1,0,94,1727,4,1742,186,0,0,Django,0.95,Python deps: django,,0,0,0
+jimmy201602/webterminal,https://github.com/jimmy201602/webterminal,Python,MySQL,CLI,1,0,0,1,0,6,775405,56,1713,559,0,0,Django,0.95,Python deps: django,dependencies mention mysql/mysqlclient/dll,0,0,0
+GeoNode/geonode,https://github.com/GeoNode/geonode,Python,PostgreSQL,Web Application,1,1,1,1,0,387,485842,5,1711,1198,451,49,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+django-helpdesk/django-helpdesk,https://github.com/django-helpdesk/django-helpdesk,Python,PostgreSQL,Web Application,1,1,1,1,0,183,26268,25,1687,688,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+pyeventsourcing/eventsourcing,https://github.com/pyeventsourcing/eventsourcing,Python,PostgreSQL,Web Application,1,1,1,1,0,29,13300,0,1684,141,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+uriyyo/fastapi-pagination,https://github.com/uriyyo/fastapi-pagination,Python,PostgreSQL,API,0,1,1,1,0,61,10442,0,1679,163,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+django-commons/django-prometheus,https://github.com/django-commons/django-prometheus,Python,PostgreSQL,CLI,0,1,1,1,0,69,670,12,1664,265,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+dj-bolt/django-bolt,https://github.com/dj-bolt/django-bolt,Python,Unknown,API,0,1,1,1,0,30,24130,0,1651,86,0,0,Django,0.95,Python deps: django,,0,0,0
+gtalarico/django-vue-template,https://github.com/gtalarico/django-vue-template,Python,PostgreSQL,API,0,0,0,1,0,13,528,9,1613,395,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+agconti/cookiecutter-django-rest,https://github.com/agconti/cookiecutter-django-rest,Python,PostgreSQL,API,1,1,1,1,0,19,6028,21,1603,191,0,0,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+amisadmin/fastapi-amis-admin,https://github.com/amisadmin/fastapi-amis-admin,Python,SQLite,API,0,1,1,1,0,21,2358,0,1567,215,0,0,Django,0.95,Python deps: django,dependencies mention sqlite,0,0,0
+HaoZhang95/Python24,https://github.com/HaoZhang95/Python24,Python,MySQL,Web Application,0,0,0,1,0,1,269229,69,1546,415,0,0,Django,0.95,Python deps: django,dependencies mention mysql/mysqlclient/dll,0,0,0
+pytest-dev/pytest-django,https://github.com/pytest-dev/pytest-django,Python,PostgreSQL,Web Application,0,1,1,1,0,161,1898,0,1545,365,63,18,Django,0.95,Python deps: django,dependencies mention postgresql/psycopg/dll,0,0,0
+SmileyChris/django-countries,https://github.com/SmileyChris/django-countries,Python,Unknown,Web Application,0,1,1,1,0,59,4770,0,1532,301,0,0,Django,0.95,Python deps: django,,0,0,0
+deschler/django-modeltranslation,https://github.com/deschler/django-modeltranslation,Python,Unknown,Web Application,0,1,1,1,0,122,2136,0,1480,270,0,0,Django,0.95,Python deps: django,,0,0,0
+marshmallow-code/webargs,https://github.com/marshmallow-code/webargs,Python,Unknown,Web Application,0,1,1,1,0,75,3711,6,1406,167,0,0,Django,0.95,Python deps: django,,0,0,0
+sloria/environs,https://github.com/sloria/environs,Python,Unknown,Web Application,0,1,1,1,0,39,729,0,1373,114,0,0,Django,0.95,Python deps: django,,0,0,0
+coleifer/flask-peewee,https://github.com/coleifer/flask-peewee,Python,Unknown,API,0,1,1,1,0,21,4846,6,783,174,0,0,Flask,0.95,Python deps: flask,,0,0,0
+elliotgao2/toapi,https://github.com/elliotgao2/toapi,Python,Unknown,API,0,1,1,1,0,12,2196,0,3555,241,0,0,Flask,0.95,Python deps: flask,,0,0,0
+codelucas/flask_reddit,https://github.com/codelucas/flask_reddit,Python,MySQL,Web Application,0,0,0,1,0,2,339,11,536,106,0,0,Flask,0.95,Python deps: flask,dependencies mention mysql/mysqlclient/dll,0,0,0
+pallets-eco/flask-security,https://github.com/pallets-eco/flask-security,Python,Relational (ORM),Web Application,0,1,1,1,0,184,8145,0,698,171,0,0,Flask,0.95,Python deps: flask,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+mjhea0/flaskr-tdd,https://github.com/mjhea0/flaskr-tdd,Python,PostgreSQL,Web Application,0,1,1,1,0,18,521,7,2343,514,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+cyberboysumanjay/JioSaavnAPI,https://github.com/cyberboysumanjay/JioSaavnAPI,Python,Unknown,API,0,0,0,1,0,6,48,5,458,255,0,0,Flask,0.95,Python deps: flask,,0,0,0
+skylines-project/skylines,https://github.com/skylines-project/skylines,Python,PostgreSQL,Web Application,1,1,1,1,0,59,47271,82,407,101,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+Maicius/QQZoneMood,https://github.com/Maicius/QQZoneMood,Python,Redis,Web Application,1,0,0,1,0,6,60053,23,533,129,0,0,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+Maicius/QQZoneMood,https://github.com/Maicius/QQZoneMood,Python,Redis,Web Application,1,0,0,1,0,6,60053,23,533,129,0,0,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+lyric777/Book-Management-System,https://github.com/lyric777/Book-Management-System,Python,MySQL,Web Application,0,0,0,1,0,2,19729,18,402,98,0,0,Flask,0.95,Python deps: flask,dependencies mention mysql/mysqlclient/dll,0,0,0
+indico/indico,https://github.com/indico/indico,Python,PostgreSQL,Web Application,0,1,1,1,0,181,281358,334,2100,547,494,50,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+simple-login/app,https://github.com/simple-login/app,Python,PostgreSQL,Web Application,1,1,1,1,0,80,17887,10,6947,649,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+Baiyuetribe/kamiFaka,https://github.com/Baiyuetribe/kamiFaka,Python,PostgreSQL,Web Application,1,1,0,1,0,2,39842,16,2316,572,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+matsui528/sis,https://github.com/matsui528/sis,Python,Unknown,Web Application,0,0,0,1,0,3,28,3,778,241,0,0,Flask,0.95,Python deps: flask,,0,0,0
+jofpin/trape,https://github.com/jofpin/trape,Python,Unknown,API,0,1,0,1,0,23,6711,16,8978,1364,0,0,Flask,0.95,Python deps: flask,,0,0,0
+lyric777/Book-Management-System,https://github.com/lyric777/Book-Management-System,Python,MySQL,Web Application,0,0,0,1,0,2,19729,18,402,98,0,0,Flask,0.95,Python deps: flask,dependencies mention mysql/mysqlclient/dll,0,0,0
+pallets-eco/flask-wtf,https://github.com/pallets-eco/flask-wtf,Python,Unknown,Web Application,0,1,1,1,0,106,1461,0,1508,315,0,0,Flask,0.95,Python deps: flask,,0,0,0
+viniciuschiele/flask-apscheduler,https://github.com/viniciuschiele/flask-apscheduler,Python,Unknown,Web Application,0,1,1,1,0,19,834,17,1136,178,0,0,Flask,0.95,Python deps: flask,,0,0,0
+jofpin/trape,https://github.com/jofpin/trape,Python,Unknown,API,0,1,0,1,0,23,6711,16,8978,1364,0,0,Flask,0.95,Python deps: flask,,0,0,0
+xming521/CTAI,https://github.com/xming521/CTAI,Python,Unknown,Web Application,0,0,0,0,0,2,4257,34,669,113,0,0,Flask,0.95,Python deps: flask,,0,0,0
+gouthambs/Flask-Blogging,https://github.com/gouthambs/Flask-Blogging,Python,Unknown,CMS,1,1,0,1,0,24,660,2,700,162,0,0,Flask,0.95,Python deps: flask,,0,0,0
+mjhea0/flaskr-tdd,https://github.com/mjhea0/flaskr-tdd,Python,PostgreSQL,Web Application,0,1,1,1,0,18,521,7,2343,514,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+spiral-project/ihatemoney,https://github.com/spiral-project/ihatemoney,Python,PostgreSQL,Web Application,1,1,1,1,0,211,18787,0,1389,295,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+weijiang1994/Blogin,https://github.com/weijiang1994/Blogin,Python,MySQL,CMS,1,0,1,1,0,3,30090,137,527,105,0,0,Flask,0.95,Python deps: flask,dependencies mention mysql/mysqlclient/dll,0,0,0
+muatik/flask-profiler,https://github.com/muatik/flask-profiler,Python,Relational (ORM),Dashboard,0,1,1,1,0,29,1110,10,753,98,0,0,Flask,0.95,Python deps: flask,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+Baiyuetribe/kamiFaka,https://github.com/Baiyuetribe/kamiFaka,Python,PostgreSQL,Web Application,1,1,0,1,0,2,39842,16,2316,572,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+hashview/hashview,https://github.com/hashview/hashview,Python,MySQL,Web Application,1,1,1,1,0,12,59058,18,400,52,0,0,Flask,0.95,Python deps: flask,dependencies mention mysql/mysqlclient/dll,0,0,0
+karec/cookiecutter-flask-restful,https://github.com/karec/cookiecutter-flask-restful,Python,Redis,API,1,1,1,1,0,13,155,22,812,175,0,0,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+cs01/pyxtermjs,https://github.com/cs01/pyxtermjs,Python,Unknown,Web Application,0,0,0,1,0,8,167,10,398,100,0,0,Flask,0.95,Python deps: flask,,0,0,0
+marshmallow-code/flask-smorest,https://github.com/marshmallow-code/flask-smorest,Python,Unknown,API,0,1,1,1,0,26,1274,0,719,78,77,30,Flask,0.95,Python deps: flask,,0,0,0
+psincraian/pepy,https://github.com/psincraian/pepy,Python,MongoDB,Web Application,1,1,1,1,0,14,1285,0,892,36,0,0,Flask,0.95,Python deps: flask,dependencies mention mongodb/mongoose/dll,0,0,0
+tthn0/Spotify-Readme,https://github.com/tthn0/Spotify-Readme,Python,Unknown,API,0,0,0,1,0,3,200,4,394,291,0,0,Flask,0.95,Python deps: flask,,0,0,0
+gouthambs/Flask-Blogging,https://github.com/gouthambs/Flask-Blogging,Python,Unknown,CMS,1,1,0,1,0,24,660,2,700,162,0,0,Flask,0.95,Python deps: flask,,0,0,0
+honmaple/maple-bbs,https://github.com/honmaple/maple-bbs,Python,PostgreSQL,Web Application,1,0,0,1,0,1,6412,33,479,167,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+elliotgao2/toapi,https://github.com/elliotgao2/toapi,Python,Unknown,API,0,1,1,1,0,12,2196,0,3555,241,0,0,Flask,0.95,Python deps: flask,,0,0,0
+rycus86/prometheus_flask_exporter,https://github.com/rycus86/prometheus_flask_exporter,Python,Unknown,Web Application,1,1,1,1,0,29,4292,12,685,161,0,0,Flask,0.95,Python deps: flask,,0,0,0
+rycus86/prometheus_flask_exporter,https://github.com/rycus86/prometheus_flask_exporter,Python,Unknown,Web Application,1,1,1,1,0,29,4292,12,685,161,0,0,Flask,0.95,Python deps: flask,,0,0,0
+MongoEngine/flask-mongoengine,https://github.com/MongoEngine/flask-mongoengine,Python,MongoDB,Web Application,1,1,1,1,0,90,1185,6,831,246,0,0,Flask,0.95,Python deps: flask,dependencies mention mongodb/mongoose/dll,0,0,0
+rycus86/prometheus_flask_exporter,https://github.com/rycus86/prometheus_flask_exporter,Python,Unknown,Web Application,1,1,1,1,0,29,4292,12,685,161,0,0,Flask,0.95,Python deps: flask,,0,0,0
+Haohao-end/openagent,https://github.com/Haohao-end/openagent,Python,PostgreSQL,Web Application,1,0,1,1,0,3,41290,283,796,81,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+jwkvam/bowtie,https://github.com/jwkvam/bowtie,Python,Unknown,Dashboard,1,1,1,0,0,4,633,57,766,68,0,0,Flask,0.95,Python deps: flask,,0,0,0
+xming521/CTAI,https://github.com/xming521/CTAI,Python,Unknown,Web Application,0,0,0,0,0,2,4257,34,669,113,0,0,Flask,0.95,Python deps: flask,,0,0,0
+simple-login/app,https://github.com/simple-login/app,Python,PostgreSQL,Web Application,1,1,1,1,0,80,17887,10,6947,649,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+Haohao-end/openagent,https://github.com/Haohao-end/openagent,Python,PostgreSQL,Web Application,1,0,1,1,0,3,41290,283,796,81,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+miguelgrinberg/Flask-SocketIO,https://github.com/miguelgrinberg/Flask-SocketIO,Python,Redis,Web Application,0,1,0,1,0,72,843,16,5509,902,14,4,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+mjhea0/flaskr-tdd,https://github.com/mjhea0/flaskr-tdd,Python,PostgreSQL,Web Application,0,1,1,1,0,18,521,7,2343,514,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+pallets-eco/flask-session,https://github.com/pallets-eco/flask-session,Python,PostgreSQL,Web Application,1,1,1,1,0,20,1610,0,534,248,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+apiflask/apiflask,https://github.com/apiflask/apiflask,Python,Relational (ORM),API,0,1,1,1,0,55,2320,31,1132,142,0,0,Flask,0.95,Python deps: flask,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+flaskbb/flaskbb,https://github.com/flaskbb/flaskbb,Python,Redis,Web Application,0,1,1,1,0,78,15848,29,2660,669,0,0,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+joeyespo/grip,https://github.com/joeyespo/grip,Python,Unknown,Web Application,0,1,1,1,0,40,631,7,6823,438,0,0,Flask,0.95,Python deps: flask,,0,0,0
+hashview/hashview,https://github.com/hashview/hashview,Python,MySQL,Web Application,1,1,1,1,0,12,59058,18,400,52,0,0,Flask,0.95,Python deps: flask,dependencies mention mysql/mysqlclient/dll,0,0,0
+gouthambs/Flask-Blogging,https://github.com/gouthambs/Flask-Blogging,Python,Unknown,CMS,1,1,0,1,0,24,660,2,700,162,0,0,Flask,0.95,Python deps: flask,,0,0,0
+pallets/quart,https://github.com/pallets/quart,Python,Unknown,Web Application,0,1,1,1,0,123,3128,0,3658,204,0,0,Flask,0.95,Python deps: flask,,0,0,0
+cookiecutter-flask/cookiecutter-flask,https://github.com/cookiecutter-flask/cookiecutter-flask,Python,PostgreSQL,Web Application,1,1,1,1,0,78,3442,25,4723,772,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+beijingcao/binance-deribit-btc,https://github.com/beijingcao/binance-deribit-btc,Python,Redis,Dashboard,0,0,0,1,0,1,655,6,399,140,0,0,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+matsui528/sis,https://github.com/matsui528/sis,Python,Unknown,Web Application,0,0,0,1,0,3,28,3,778,241,0,0,Flask,0.95,Python deps: flask,,0,0,0
+jofpin/trape,https://github.com/jofpin/trape,Python,Unknown,API,0,1,0,1,0,23,6711,16,8978,1364,0,0,Flask,0.95,Python deps: flask,,0,0,0
+underyx/flask-redis,https://github.com/underyx/flask-redis,Python,Redis,Web Application,0,1,0,1,0,13,74,2,439,70,0,0,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+tthn0/Spotify-Readme,https://github.com/tthn0/Spotify-Readme,Python,Unknown,API,0,0,0,1,0,3,200,4,394,291,0,0,Flask,0.95,Python deps: flask,,0,0,0
+gouthambs/Flask-Blogging,https://github.com/gouthambs/Flask-Blogging,Python,Unknown,CMS,1,1,0,1,0,24,660,2,700,162,0,0,Flask,0.95,Python deps: flask,,0,0,0
+taosir/cnn_handwritten_chinese_recognition,https://github.com/taosir/cnn_handwritten_chinese_recognition,Python,Unknown,Web Application,0,0,0,0,0,2,25337,0,555,134,0,0,Flask,0.95,Python deps: flask,,0,0,0
+PhialsBasement/LibreCrawl,https://github.com/PhialsBasement/LibreCrawl,Python,Unknown,Web Application,1,0,1,1,0,11,563,12,877,187,0,0,Flask,0.95,Python deps: flask,,0,0,0
+HisMax/RedInk,https://github.com/HisMax/RedInk,Python,Unknown,Web Application,1,1,1,1,0,1,28101,8,5477,1033,42,6,Flask,0.95,Python deps: flask,,0,0,0
+MongoEngine/flask-mongoengine,https://github.com/MongoEngine/flask-mongoengine,Python,MongoDB,Web Application,1,1,1,1,0,90,1185,6,831,246,0,0,Flask,0.95,Python deps: flask,dependencies mention mongodb/mongoose/dll,0,0,0
+miguelgrinberg/Flask-HTTPAuth,https://github.com/miguelgrinberg/Flask-HTTPAuth,Python,Unknown,Web Application,0,1,1,1,0,34,303,0,1289,238,0,0,Flask,0.95,Python deps: flask,,0,0,0
+LiangYang666/ChatGPT-Web,https://github.com/LiangYang666/ChatGPT-Web,Python,Unknown,Web Application,0,0,0,1,0,1,366,4,493,288,0,0,Flask,0.95,Python deps: flask,,0,0,0
+antkahn/flask-api-starter-kit,https://github.com/antkahn/flask-api-starter-kit,Python,PostgreSQL,API,1,0,0,1,0,4,65,16,461,121,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+alisaifee/flask-limiter,https://github.com/alisaifee/flask-limiter,Python,MongoDB,Web Application,1,1,1,0,0,46,2622,0,1204,129,0,0,Flask,0.95,Python deps: flask,dependencies mention mongodb/mongoose/dll,0,0,0
+Frozen-Flask/Frozen-Flask,https://github.com/Frozen-Flask/Frozen-Flask,Python,Unknown,Web Application,0,1,1,1,0,30,444,0,797,73,0,0,Flask,0.95,Python deps: flask,,0,0,0
+joeyespo/grip,https://github.com/joeyespo/grip,Python,Unknown,Web Application,0,1,1,1,0,40,631,7,6823,438,0,0,Flask,0.95,Python deps: flask,,0,0,0
+jofpin/trape,https://github.com/jofpin/trape,Python,Unknown,API,0,1,0,1,0,23,6711,16,8978,1364,0,0,Flask,0.95,Python deps: flask,,0,0,0
+Python3WebSpider/ProxyPool,https://github.com/Python3WebSpider/ProxyPool,Python,Redis,Web Application,1,1,0,1,0,27,967,16,6238,2226,6,2,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+noraj/flask-session-cookie-manager,https://github.com/noraj/flask-session-cookie-manager,Python,Unknown,Web Application,0,0,0,1,0,4,41,0,773,93,0,0,Flask,0.95,Python deps: flask,,0,0,0
+joeyespo/grip,https://github.com/joeyespo/grip,Python,Unknown,Web Application,0,1,1,1,0,40,631,7,6823,438,0,0,Flask,0.95,Python deps: flask,,0,0,0
+noraj/flask-session-cookie-manager,https://github.com/noraj/flask-session-cookie-manager,Python,Unknown,Web Application,0,0,0,1,0,4,41,0,773,93,0,0,Flask,0.95,Python deps: flask,,0,0,0
+italomaia/flask-empty,https://github.com/italomaia/flask-empty,Python,PostgreSQL,Web Application,1,0,1,1,0,13,237,66,669,92,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+flaskbb/flaskbb,https://github.com/flaskbb/flaskbb,Python,Redis,Web Application,0,1,1,1,0,78,15848,29,2660,669,0,0,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+beijingcao/binance-deribit-btc,https://github.com/beijingcao/binance-deribit-btc,Python,Redis,Dashboard,0,0,0,1,0,1,655,6,399,140,0,0,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+PhialsBasement/LibreCrawl,https://github.com/PhialsBasement/LibreCrawl,Python,Unknown,Web Application,1,0,1,1,0,11,563,12,877,187,0,0,Flask,0.95,Python deps: flask,,0,0,0
+chr0nzz/traefik-manager,https://github.com/chr0nzz/traefik-manager,Python,Unknown,Web Application,1,1,1,1,0,6,316861,13,1320,54,0,0,Flask,0.95,Python deps: flask,,0,0,0
+gae-init/gae-init,https://github.com/gae-init/gae-init,Python,Unknown,API,0,1,1,1,0,22,9760,53,534,125,0,0,Flask,0.95,Python deps: flask,,0,0,0
+rycus86/prometheus_flask_exporter,https://github.com/rycus86/prometheus_flask_exporter,Python,Unknown,Web Application,1,1,1,1,0,29,4292,12,685,161,0,0,Flask,0.95,Python deps: flask,,0,0,0
+pallets/quart,https://github.com/pallets/quart,Python,Unknown,Web Application,0,1,1,1,0,123,3128,0,3658,204,0,0,Flask,0.95,Python deps: flask,,0,0,0
+flask-dashboard/Flask-MonitoringDashboard,https://github.com/flask-dashboard/Flask-MonitoringDashboard,Python,SQLite,Dashboard,0,1,1,1,0,48,17495,39,827,167,0,0,Flask,0.95,Python deps: flask,dependencies mention sqlite,0,0,0
+elliotgao2/toapi,https://github.com/elliotgao2/toapi,Python,Unknown,API,0,1,1,1,0,12,2196,0,3555,241,0,0,Flask,0.95,Python deps: flask,,0,0,0
+codelucas/flask_reddit,https://github.com/codelucas/flask_reddit,Python,MySQL,Web Application,0,0,0,1,0,2,339,11,536,106,0,0,Flask,0.95,Python deps: flask,dependencies mention mysql/mysqlclient/dll,0,0,0
+LiangYang666/ChatGPT-Web,https://github.com/LiangYang666/ChatGPT-Web,Python,Unknown,Web Application,0,0,0,1,0,1,366,4,493,288,0,0,Flask,0.95,Python deps: flask,,0,0,0
+skylines-project/skylines,https://github.com/skylines-project/skylines,Python,PostgreSQL,Web Application,1,1,1,1,0,59,47271,82,407,101,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+rycus86/prometheus_flask_exporter,https://github.com/rycus86/prometheus_flask_exporter,Python,Unknown,Web Application,1,1,1,1,0,29,4292,12,685,161,0,0,Flask,0.95,Python deps: flask,,0,0,0
+FreeTAKTeam/FreeTakServer,https://github.com/FreeTAKTeam/FreeTakServer,Python,Relational (ORM),Web Application,1,1,1,1,0,41,19105,16,949,215,0,0,Flask,0.95,Python deps: flask,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+pallets-eco/flask-pydantic,https://github.com/pallets-eco/flask-pydantic,Python,Unknown,Web Application,0,1,1,1,0,24,196,0,436,67,8,4,Flask,0.95,Python deps: flask,,0,0,0
+honmaple/maple-bbs,https://github.com/honmaple/maple-bbs,Python,PostgreSQL,Web Application,1,0,0,1,0,1,6412,33,479,167,0,0,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+sentriz/betanin,https://github.com/sentriz/betanin,Python,Relational (ORM),Web Application,1,1,0,1,0,12,3549,21,459,28,0,0,Flask,0.95,Python deps: flask,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+matsui528/sis,https://github.com/matsui528/sis,Python,Unknown,Web Application,0,0,0,1,0,3,28,3,778,241,0,0,Flask,0.95,Python deps: flask,,0,0,0
+indico/indico,https://github.com/indico/indico,Python,PostgreSQL,Web Application,0,1,1,1,0,181,281358,334,2100,547,494,50,Flask,0.95,Python deps: flask,dependencies mention postgresql/psycopg/dll,0,0,0
+johnwheeler/flask-ask,https://github.com/johnwheeler/flask-ask,Python,Unknown,Web Application,0,0,1,1,0,40,498,7,1909,362,0,0,Flask,0.95,Python deps: flask,,0,0,0
+hashview/hashview,https://github.com/hashview/hashview,Python,MySQL,Web Application,1,1,1,1,0,12,59058,18,400,52,0,0,Flask,0.95,Python deps: flask,dependencies mention mysql/mysqlclient/dll,0,0,0
+gouthambs/Flask-Blogging,https://github.com/gouthambs/Flask-Blogging,Python,Unknown,CMS,1,1,0,1,0,24,660,2,700,162,0,0,Flask,0.95,Python deps: flask,,0,0,0
+pallets-eco/flask-caching,https://github.com/pallets-eco/flask-caching,Python,Redis,Web Application,0,1,1,1,0,138,1820,0,935,209,0,0,Flask,0.95,Python deps: flask,dependencies mention redis,0,0,0
+daveebbelaar/python-whatsapp-bot,https://github.com/daveebbelaar/python-whatsapp-bot,Python,Unknown,Web Application,0,0,0,1,0,4,818,5,1526,850,0,0,Flask,0.95,Python deps: flask,,0,0,0
+Evil0ctal/Douyin_TikTok_Download_API,https://github.com/Evil0ctal/Douyin_TikTok_Download_API,Python,Unknown,API,1,1,0,1,0,24,8926,38,19629,2739,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+fastapi/sqlmodel,https://github.com/fastapi/sqlmodel,Python,Unknown,Unknown,0,1,1,1,0,113,8139,0,18281,883,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+MODSetter/SurfSense,https://github.com/MODSetter/SurfSense,Python,PostgreSQL,API,1,1,1,1,0,98,423771,50,16003,1528,6675,52,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+tadata-org/fastapi_mcp,https://github.com/tadata-org/fastapi_mcp,Python,Unknown,API,0,1,1,1,0,18,423,0,11986,964,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+QuentinFuxa/WhisperLiveKit,https://github.com/QuentinFuxa/WhisperLiveKit,Python,Unknown,API,1,1,1,1,0,50,43519,0,10935,1132,321,39,FastAPI,0.95,Python deps: fastapi,,0,0,0
+polarsource/polar,https://github.com/polarsource/polar,Python,PostgreSQL,API,1,1,1,1,1,135,477455,14,10212,763,8004,52,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+vastsa/FileCodeBox,https://github.com/vastsa/FileCodeBox,Python,Unknown,API,1,1,1,1,0,21,29518,10,8481,1066,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+nonebot/nonebot2,https://github.com/nonebot/nonebot2,Python,Unknown,API,0,1,1,1,1,585,14548,34,7681,663,404,51,FastAPI,0.95,Python deps: fastapi,,0,0,0
+xerrors/Yuxi,https://github.com/xerrors/Yuxi,Python,PostgreSQL,API,1,1,1,1,0,54,50890,50,6546,975,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+fastapi-users/fastapi-users,https://github.com/fastapi-users/fastapi-users,Python,MongoDB,API,0,1,1,1,0,78,14836,10,6223,507,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention mongodb/mongoose/dll,0,0,0
+SenteLabsAI/OpenExecutive,https://github.com/SenteLabsAI/OpenExecutive,Python,Unknown,API,1,1,1,1,0,15,11863,21,5433,582,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+remsky/Kokoro-FastAPI,https://github.com/remsky/Kokoro-FastAPI,Python,Relational (ORM),API,1,1,1,1,0,45,75555,3,5370,882,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+liuzhao1225/YouDub-webui,https://github.com/liuzhao1225/YouDub-webui,Python,Unknown,API,0,1,1,1,0,6,100710,46,5350,578,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+hunvreus/devpush,https://github.com/hunvreus/devpush,Python,PostgreSQL,API,0,0,0,1,0,4,2255,7,4744,183,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+IBM/mcp-context-forge,https://github.com/IBM/mcp-context-forge,Python,PostgreSQL,API,1,1,1,1,0,171,440235,133,4361,834,2072,52,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+dramaclaw/dramaclaw,https://github.com/dramaclaw/dramaclaw,Python,PostgreSQL,API,1,1,1,1,0,10,149050,70,4248,417,337,12,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+datamodel-code-generator/datamodel-code-generator,https://github.com/datamodel-code-generator/datamodel-code-generator,Python,Unknown,API,1,1,1,1,0,217,30334,15,4027,460,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+pipeshub-ai/pipeshub-ai,https://github.com/pipeshub-ai/pipeshub-ai,Python,PostgreSQL,API,1,1,1,1,0,68,108025,151,3791,592,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+TracecatHQ/tracecat,https://github.com/TracecatHQ/tracecat,Python,PostgreSQL,API,1,1,1,1,0,46,113080,144,3777,404,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+shy3130/tick-stock-panel,https://github.com/shy3130/tick-stock-panel,Python,Unknown,API,1,1,1,1,0,21,20278,27,3670,863,442,11,FastAPI,0.95,Python deps: fastapi,,0,0,0
+kennethreitz/responder,https://github.com/kennethreitz/responder,Python,Unknown,Web Application,0,1,1,1,0,87,29291,0,3621,217,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+arvin341az-glitch/RVG,https://github.com/arvin341az-glitch/RVG,Python,Unknown,API,0,0,0,1,0,1,143,10,3596,10806,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+raullenchai/Rapid-MLX,https://github.com/raullenchai/Rapid-MLX,Python,Unknown,API,0,1,1,1,0,52,54678,15,3540,401,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+lxf746/any-auto-register,https://github.com/lxf746/any-auto-register,Python,Unknown,API,1,1,1,1,0,5,8856,47,3183,1032,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+tiangolo/uvicorn-gunicorn-fastapi-docker,https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker,Python,Unknown,API,1,1,1,1,0,9,283,3,2915,343,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+Soju06/codex-lb,https://github.com/Soju06/codex-lb,Python,PostgreSQL,API,1,1,1,1,0,107,46335,47,2856,423,1188,35,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+s3rius/FastAPI-template,https://github.com/s3rius/FastAPI-template,Python,PostgreSQL,API,1,1,1,1,0,23,2518,0,2821,239,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+smithyhq/sqladmin,https://github.com/smithyhq/sqladmin,Python,PostgreSQL,API,0,1,1,1,0,106,6683,0,2816,295,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+wassim249/fastapi-langgraph-agent-production-ready-template,https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template,Python,PostgreSQL,API,1,1,0,1,0,11,440,0,2611,614,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+Buuntu/fastapi-react,https://github.com/Buuntu/fastapi-react,Python,PostgreSQL,API,1,1,1,1,0,13,4396,51,2585,369,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+fastapi-practices/fastapi-best-architecture,https://github.com/fastapi-practices/fastapi-best-architecture,Python,PostgreSQL,API,1,1,1,1,0,27,22731,144,2519,379,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+CJackHwang/AIstudioProxyAPI,https://github.com/CJackHwang/AIstudioProxyAPI,Python,Unknown,API,1,1,1,1,0,28,9299,27,2486,420,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+paulpierre/RasaGPT,https://github.com/paulpierre/RasaGPT,Python,PostgreSQL,API,1,0,0,1,0,6,3138,24,2462,250,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+the-momentum/open-wearables,https://github.com/the-momentum/open-wearables,Python,PostgreSQL,API,1,1,1,1,0,55,54981,51,2395,453,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+dot-agent/nextpy,https://github.com/dot-agent/nextpy,Python,Redis,API,1,1,1,1,0,13,59373,3,2348,181,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention redis,0,0,0
+fastapiutils/fastapi-utils,https://github.com/fastapiutils/fastapi-utils,Python,Relational (ORM),API,0,1,1,1,0,6,549,65,2308,190,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+jwadow/kiro-gateway,https://github.com/jwadow/kiro-gateway,Python,Unknown,API,1,1,1,1,0,9,880,9,2236,541,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+simonlin1212/Vibe-Research,https://github.com/simonlin1212/Vibe-Research,Python,Unknown,API,0,0,1,1,0,5,5965,26,2173,453,67,7,FastAPI,0.95,Python deps: fastapi,,0,0,0
+BetaStreetOmnis/xhs_ai_publisher,https://github.com/BetaStreetOmnis/xhs_ai_publisher,Python,Relational (ORM),API,1,1,1,1,0,7,131629,35,2065,299,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+benavlabs/FastAPI-boilerplate,https://github.com/benavlabs/FastAPI-boilerplate,Python,PostgreSQL,API,1,1,1,1,0,31,2803,0,2062,306,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+laurentS/slowapi,https://github.com/laurentS/slowapi,Python,Redis,API,0,1,1,1,0,28,371,51,2051,129,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention redis,0,0,0
+ycd/manage-fastapi,https://github.com/ycd/manage-fastapi,Python,Unknown,API,1,1,1,1,0,7,4674,10,1909,103,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+long2ice/fastapi-cache,https://github.com/long2ice/fastapi-cache,Python,Redis,API,0,1,1,1,0,31,737,0,1868,206,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention redis,0,0,0
+pmh1314520/WebRPA,https://github.com/pmh1314520/WebRPA,Python,PostgreSQL,API,0,0,1,1,0,3,360838,116,1852,181,584,12,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+vstorm-co/full-stack-ai-agent-template,https://github.com/vstorm-co/full-stack-ai-agent-template,Python,PostgreSQL,API,1,1,1,1,0,7,254759,30,1851,357,357,29,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+ormar-orm/ormar,https://github.com/ormar-orm/ormar,Python,PostgreSQL,API,1,1,1,1,0,54,25825,0,1802,97,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+rochacbruno/python-week-2022,https://github.com/rochacbruno/python-week-2022,Python,Unknown,API,0,0,1,1,0,5,1903,0,1797,1114,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+awtkns/fastapi-crudrouter,https://github.com/awtkns/fastapi-crudrouter,Python,PostgreSQL,API,1,1,1,1,0,21,1368,28,1696,177,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+3441293738/creatorhub,https://github.com/3441293738/creatorhub,Python,Unknown,API,0,1,1,1,0,1,8430,18,1678,282,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+ExpDev07/coronavirus-tracker-api,https://github.com/ExpDev07/coronavirus-tracker-api,Python,Redis,API,1,1,1,1,0,27,1200,43,1568,310,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention redis,0,0,0
+benavlabs/fastcrud,https://github.com/benavlabs/fastcrud,Python,PostgreSQL,API,0,1,1,1,0,30,2730,0,1567,113,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+drmingler/docling-api,https://github.com/drmingler/docling-api,Python,Redis,API,1,0,1,1,0,3,3539,0,1538,390,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention redis,0,0,0
+guillevc/yubal,https://github.com/guillevc/yubal,Python,Unknown,API,1,1,1,1,0,7,41864,45,1511,56,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+insistence/RuoYi-Vue3-FastAPI,https://github.com/insistence/RuoYi-Vue3-FastAPI,Python,MySQL,API,1,1,1,1,0,6,4542,112,1506,401,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention mysql/mysqlclient/dll,0,0,0
+teamhide/fastapi-boilerplate,https://github.com/teamhide/fastapi-boilerplate,Python,MySQL,API,1,0,1,1,0,4,612,0,1492,216,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention mysql/mysqlclient/dll,0,0,0
+trallnag/prometheus-fastapi-instrumentator,https://github.com/trallnag/prometheus-fastapi-instrumentator,Python,Unknown,API,0,1,1,1,0,35,1193,0,1483,117,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+akfamily/aktools,https://github.com/akfamily/aktools,Python,Relational (ORM),API,1,1,1,1,0,3,35,11,1475,239,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+fim-ai/fim-one,https://github.com/fim-ai/fim-one,Python,PostgreSQL,API,1,1,1,1,0,9,55606,60,1447,161,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+devnen/Chatterbox-TTS-Server,https://github.com/devnen/Chatterbox-TTS-Server,Python,Unknown,API,1,1,0,1,0,21,19785,30,1418,349,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+koxudaxi/fastapi-code-generator,https://github.com/koxudaxi/fastapi-code-generator,Python,Unknown,API,0,1,1,1,0,36,5266,0,1405,153,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+Amm1rr/WebAI-to-API,https://github.com/Amm1rr/WebAI-to-API,Python,Unknown,API,1,0,1,1,0,14,5002,54,1346,230,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+transmute-app/transmute,https://github.com/transmute-app/transmute,Python,Unknown,API,1,1,1,1,0,32,443004,80,1313,87,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+vargasjona/fastapi-alembic-sqlmodel-async,https://github.com/vargasjona/fastapi-alembic-sqlmodel-async,Python,PostgreSQL,API,1,1,0,1,0,13,11219,0,1269,171,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+zhanymkanov/fastapi_production_template,https://github.com/zhanymkanov/fastapi_production_template,Python,PostgreSQL,API,1,1,0,1,0,12,89,0,1258,168,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+SalesforceAIResearch/enterprise-deep-research,https://github.com/SalesforceAIResearch/enterprise-deep-research,Python,Unknown,API,1,0,0,1,0,5,5339,74,1201,191,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+yezz123/authx,https://github.com/yezz123/authx,Python,Relational (ORM),API,0,1,1,1,0,24,5880,0,1197,62,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+art049/odmantic,https://github.com/art049/odmantic,Python,MongoDB,API,1,1,1,1,0,22,7283,0,1175,98,38,3,FastAPI,0.95,Python deps: fastapi,dependencies mention mongodb/mongoose/dll,0,0,0
+Ricky-7-Yan/intelligent-audit-system,https://github.com/Ricky-7-Yan/intelligent-audit-system,Python,MySQL,API,1,1,1,1,0,1,4556,19,1166,110,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention mysql/mysqlclient/dll,0,0,0
+asdfghj1237890/WebVideo2NAS,https://github.com/asdfghj1237890/WebVideo2NAS,Python,PostgreSQL,API,1,1,1,1,0,2,4052,49,1161,69,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+atpuxiner/fastapi-scaff,https://github.com/atpuxiner/fastapi-scaff,Python,SQLite,API,1,0,1,1,0,2,1779,22,1154,45,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention sqlite,0,0,0
+developmentseed/titiler,https://github.com/developmentseed/titiler,Python,Unknown,API,1,1,1,1,0,89,68258,11,1150,250,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+aegra/aegra,https://github.com/aegra/aegra,Python,PostgreSQL,API,1,1,1,1,0,47,4540,0,1149,234,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+blueswen/fastapi-observability,https://github.com/blueswen/fastapi-observability,Python,Unknown,API,1,1,0,0,0,3,17108,43,1117,142,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+tsukumijima/KonomiTV,https://github.com/tsukumijima/KonomiTV,Python,Unknown,API,1,1,0,0,0,24,199430,57,1031,103,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+beizhu-1209/AIHelms,https://github.com/beizhu-1209/AIHelms,Python,PostgreSQL,API,1,0,1,1,1,3,5017,20,1021,102,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+jowilf/starlette-admin,https://github.com/jowilf/starlette-admin,Python,PostgreSQL,API,0,1,1,1,0,33,11177,0,1016,96,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+dunossauro/fastapi-do-zero,https://github.com/dunossauro/fastapi-do-zero,Python,Unknown,API,1,1,1,1,0,51,72640,0,1013,132,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+sabuhish/fastapi-mail,https://github.com/sabuhish/fastapi-mail,Python,Redis,API,0,1,1,1,0,58,1300,0,1010,112,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention redis,0,0,0
+ajndkr/lanarky,https://github.com/ajndkr/lanarky,Python,Unknown,API,0,1,1,1,0,13,24003,0,990,76,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+adithya-s-k/marker-api,https://github.com/adithya-s-k/marker-api,Python,Redis,API,0,0,1,1,0,4,36672,0,984,118,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention redis,0,0,0
+iusztinpaul/energy-forecasting,https://github.com/iusztinpaul/energy-forecasting,Python,Unknown,API,1,1,0,1,0,7,4296,0,984,217,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+bitcart/bitcart,https://github.com/bitcart/bitcart,Python,PostgreSQL,API,0,1,1,1,0,24,9576,0,981,172,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+Finrandojin/alexandria-audiobook,https://github.com/Finrandojin/alexandria-audiobook,Python,Unknown,API,1,0,0,1,0,8,124841,14,973,120,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+weiwill88/Local_Pdf_Chat_RAG,https://github.com/weiwill88/Local_Pdf_Chat_RAG,Python,Unknown,API,0,1,1,1,0,3,6229,22,950,179,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+msoedov/langcorn,https://github.com/msoedov/langcorn,Python,Unknown,API,0,1,0,0,0,4,870,1,938,69,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+LibreChat-AI/rag-api,https://github.com/LibreChat-AI/rag-api,Python,PostgreSQL,API,1,1,1,1,0,37,30188,46,910,406,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+yigitkonur/api-llm-ocr,https://github.com/yigitkonur/api-llm-ocr,Python,Unknown,API,0,0,0,1,0,2,82,9,902,61,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+JMS1717/8mb.local,https://github.com/JMS1717/8mb.local,Python,Redis,API,1,1,1,1,0,4,5776,23,901,47,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention redis,0,0,0
+LvcidPsyche/auto-browser,https://github.com/LvcidPsyche/auto-browser,Python,Redis,API,1,1,1,1,0,7,1930,16,894,151,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention redis,0,0,0
+CloakHQ/CloakBrowser-Manager,https://github.com/CloakHQ/CloakBrowser-Manager,Python,Unknown,API,1,1,1,1,0,2,3018,26,891,208,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+danny-avila/rag_api,https://github.com/danny-avila/rag_api,Python,PostgreSQL,API,1,1,1,1,0,36,30177,46,884,388,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+Aeternalis-Ingenium/FastAPI-Backend-Template,https://github.com/Aeternalis-Ingenium/FastAPI-Backend-Template,Python,PostgreSQL,API,1,1,1,1,0,7,646,29,880,129,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention postgresql/psycopg/dll,0,0,0
+shenhao-stu/ohmycaptcha,https://github.com/shenhao-stu/ohmycaptcha,Python,Unknown,API,0,1,1,1,0,1,1367,13,858,261,17,1,FastAPI,0.95,Python deps: fastapi,,0,0,0
+JoeanAmier/KS-Downloader,https://github.com/JoeanAmier/KS-Downloader,Python,SQLite,API,1,1,0,1,0,2,3203,9,836,203,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention sqlite,0,0,0
+baoliay2008/lccn_predictor,https://github.com/baoliay2008/lccn_predictor,Python,MongoDB,API,1,1,1,1,0,3,940,58,832,30,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention mongodb/mongoose/dll,0,0,0
+IndominusByte/fastapi-jwt-auth,https://github.com/IndominusByte/fastapi-jwt-auth,Python,Unknown,API,0,1,1,1,0,4,814,0,830,179,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+rennf93/fastapi-guard,https://github.com/rennf93/fastapi-guard,Python,Redis,API,1,1,1,1,0,8,63747,5,823,47,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention redis,0,0,0
+maxrdu/fastapi_login,https://github.com/maxrdu/fastapi_login,Python,Relational (ORM),API,0,1,1,1,0,15,921,108,820,68,0,0,FastAPI,0.95,Python deps: fastapi,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+alikon-art/DeterminFlow,https://github.com/alikon-art/DeterminFlow,Python,Unknown,API,1,1,1,1,0,2,3658,72,819,116,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+fastapi-mvc/fastapi-mvc,https://github.com/fastapi-mvc/fastapi-mvc,Python,Unknown,API,1,1,1,1,0,7,9527,0,803,59,0,0,FastAPI,0.95,Python deps: fastapi,,0,0,0
+ARCANEDEV/LogViewer,https://github.com/ARCANEDEV/LogViewer,PHP,Unknown,Web Application,0,1,1,1,0,68,1484,4,2390,352,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+larastan/larastan,https://github.com/larastan/larastan,PHP,Unknown,Web Application,0,1,1,1,0,187,9376,10,6493,506,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+guillaumebriday/laravel-blog,https://github.com/guillaumebriday/laravel-blog,PHP,Unknown,API,1,0,1,1,0,9,3686,35,1797,592,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+slimkit/plus,https://github.com/slimkit/plus,PHP,Unknown,Web Application,0,1,1,1,1,691,88079,128,2200,466,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+nunomaduro/collision,https://github.com/nunomaduro/collision,PHP,Unknown,CLI,0,1,1,1,0,58,2320,11,4661,183,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+crivion/laranode,https://github.com/crivion/laranode,PHP,SQLite,Web Application,1,0,1,1,0,4,5501,38,1484,104,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+VanOns/laraberg,https://github.com/VanOns/laraberg,PHP,Unknown,Web Application,0,1,1,1,0,11,75563,34,1371,141,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+spatie/laravel-tags,https://github.com/spatie/laravel-tags,PHP,MySQL,Web Application,0,1,1,1,0,111,1439,6,1746,283,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention mysql/mysqlclient/dll,0,0,0
+spatie/laravel-tags,https://github.com/spatie/laravel-tags,PHP,MySQL,Web Application,0,1,1,1,0,111,1439,6,1746,283,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention mysql/mysqlclient/dll,0,0,0
+Attendize/Attendize,https://github.com/Attendize/Attendize,PHP,Unknown,Web Application,1,1,1,1,0,104,27080,57,4270,1228,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+koel/koel,https://github.com/koel/koel,PHP,Unknown,Web Application,0,1,1,1,0,109,28202,111,17229,2110,515,41,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+freescout-help-desk/freescout,https://github.com/freescout-help-desk/freescout,PHP,Unknown,Web Application,0,1,1,1,0,93,27878,27,4501,703,519,47,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+zhanghuanchong/icon-workshop,https://github.com/zhanghuanchong/icon-workshop,PHP,Unknown,Web Application,0,0,1,0,0,4,13676,66,2315,224,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+BookStackApp/BookStack,https://github.com/BookStackApp/BookStack,PHP,Unknown,Web Application,1,0,1,1,0,238,52139,71,19000,2422,320,44,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+LinkStackOrg/LinkStack,https://github.com/LinkStackOrg/LinkStack,PHP,Unknown,Web Application,0,1,1,1,0,46,46655,26,3822,431,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+spatie/laravel-analytics,https://github.com/spatie/laravel-analytics,PHP,Unknown,Web Application,0,1,1,1,0,80,14809,6,3239,472,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+BookStackApp/BookStack,https://github.com/BookStackApp/BookStack,PHP,Unknown,Web Application,1,0,1,1,0,238,52139,71,19000,2422,320,44,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+mewebstudio/Purifier,https://github.com/mewebstudio/Purifier,PHP,Unknown,Web Application,0,1,1,1,0,57,488,5,1978,241,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+orchestral/testbench,https://github.com/orchestral/testbench,PHP,Unknown,Web Application,0,1,1,0,0,48,1462,11,2236,140,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+nunomaduro/collision,https://github.com/nunomaduro/collision,PHP,Unknown,CLI,0,1,1,1,0,58,2320,11,4661,183,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+lunarphp/lunar,https://github.com/lunarphp/lunar,PHP,Unknown,E-commerce,0,1,1,1,1,146,14976,57,3685,502,138,20,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+LLPhant/LLPhant,https://github.com/LLPhant/LLPhant,PHP,MongoDB,Web Application,1,1,1,1,0,66,2080,50,1712,172,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention mongodb/mongoose/dll,0,0,0
+Paymenter/Paymenter,https://github.com/Paymenter/Paymenter,PHP,SQLite,E-commerce,1,1,1,1,0,54,15521,35,2259,483,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+freescout-help-desk/freescout,https://github.com/freescout-help-desk/freescout,PHP,Unknown,Web Application,0,1,1,1,0,93,27878,27,4501,703,519,47,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+summerblue/laravel-shop,https://github.com/summerblue/laravel-shop,PHP,Unknown,E-commerce,0,0,1,1,0,1,8504,28,2449,780,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+Hasnayeen/invobook,https://github.com/Hasnayeen/invobook,PHP,Unknown,CLI,0,0,1,1,0,2,3337,21,2236,612,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+antonioribeiro/tracker,https://github.com/antonioribeiro/tracker,PHP,Unknown,Web Application,0,1,1,0,0,44,1184,11,2932,594,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+orchestral/testbench,https://github.com/orchestral/testbench,PHP,Unknown,Web Application,0,1,1,0,0,48,1462,11,2236,140,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+pinkary-project/pinkary.com,https://github.com/pinkary-project/pinkary.com,PHP,SQLite,Web Application,1,1,1,1,0,95,10189,34,1537,380,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+larastan/larastan,https://github.com/larastan/larastan,PHP,Unknown,Web Application,0,1,1,1,0,187,9376,10,6493,506,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+vyuldashev/laravel-queue-rabbitmq,https://github.com/vyuldashev/laravel-queue-rabbitmq,PHP,Unknown,Web Application,1,1,1,1,0,84,627,4,2126,459,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+vyuldashev/laravel-queue-rabbitmq,https://github.com/vyuldashev/laravel-queue-rabbitmq,PHP,Unknown,Web Application,1,1,1,1,0,84,627,4,2126,459,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+saleem-hadad/larecipe,https://github.com/saleem-hadad/larecipe,PHP,Unknown,API,0,0,1,1,0,47,8247,24,2513,267,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+vyuldashev/laravel-queue-rabbitmq,https://github.com/vyuldashev/laravel-queue-rabbitmq,PHP,Unknown,Web Application,1,1,1,1,0,84,627,4,2126,459,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+HDInnovations/UNIT3D,https://github.com/HDInnovations/UNIT3D,PHP,Unknown,Web Application,1,1,1,1,0,159,86307,56,2416,449,352,14,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+Vuedo/vuedo,https://github.com/Vuedo/vuedo,PHP,Unknown,CMS,0,1,1,1,0,7,1014,47,2268,529,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+mewebstudio/Purifier,https://github.com/mewebstudio/Purifier,PHP,Unknown,Web Application,0,1,1,1,0,57,488,5,1978,241,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+koel/koel,https://github.com/koel/koel,PHP,Unknown,Web Application,0,1,1,1,0,109,28202,111,17229,2110,515,41,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+HDInnovations/UNIT3D,https://github.com/HDInnovations/UNIT3D,PHP,Unknown,Web Application,1,1,1,1,0,159,86307,56,2416,449,352,14,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+unopim/unopim,https://github.com/unopim/unopim,PHP,Unknown,Web Application,1,1,1,1,1,36,52589,66,10853,167,660,44,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+nunomaduro/collision,https://github.com/nunomaduro/collision,PHP,Unknown,CLI,0,1,1,1,0,58,2320,11,4661,183,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+wireui/wireui,https://github.com/wireui/wireui,PHP,Unknown,Web Application,0,1,1,0,0,66,11811,29,1790,190,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+vitodeploy/vito,https://github.com/vitodeploy/vito,PHP,SQLite,Web Application,1,1,1,1,0,55,32972,91,3216,413,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+laravel/telescope,https://github.com/laravel/telescope,PHP,SQLite,Web Application,0,1,1,0,0,234,15607,22,5215,668,76,39,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+cachethq/cachet,https://github.com/cachethq/cachet,PHP,SQLite,Web Application,0,1,1,1,0,215,37975,8,15226,1632,34,12,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+orchestral/testbench,https://github.com/orchestral/testbench,PHP,Unknown,Web Application,0,1,1,0,0,48,1462,11,2236,140,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+pixelfed/pixelfed,https://github.com/pixelfed/pixelfed,PHP,Unknown,Web Application,1,1,1,1,0,204,69378,107,7074,873,669,42,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+invoiceninja/invoiceninja,https://github.com/invoiceninja/invoiceninja,PHP,Unknown,Web Application,0,1,1,1,0,112,4233895,124,10022,2681,2131,50,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+zhanghuanchong/icon-workshop,https://github.com/zhanghuanchong/icon-workshop,PHP,Unknown,Web Application,0,0,1,0,0,4,13676,66,2315,224,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+BookStackApp/BookStack,https://github.com/BookStackApp/BookStack,PHP,Unknown,Web Application,1,0,1,1,0,238,52139,71,19000,2422,320,44,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+andrewdwallo/erpsaas,https://github.com/andrewdwallo/erpsaas,PHP,SQLite,Web Application,0,0,1,1,0,9,14069,29,1473,421,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+orchestral/testbench,https://github.com/orchestral/testbench,PHP,Unknown,Web Application,0,1,1,0,0,48,1462,11,2236,140,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+summerblue/phphub,https://github.com/summerblue/phphub,PHP,Unknown,Web Application,0,1,1,0,0,24,5567,30,1799,500,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+jcc/blog,https://github.com/jcc/blog,PHP,Unknown,CMS,1,0,1,0,0,28,7020,53,2854,673,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+akaunting/akaunting,https://github.com/akaunting/akaunting,PHP,Unknown,API,0,1,1,1,0,130,86524,135,10090,2969,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+saleem-hadad/larecipe,https://github.com/saleem-hadad/larecipe,PHP,Unknown,API,0,0,1,1,0,47,8247,24,2513,267,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+nuwave/lighthouse,https://github.com/nuwave/lighthouse,PHP,Unknown,Web Application,1,1,1,1,0,238,16744,21,3502,469,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+jadjoubran/laravel5-angular-material-starter,https://github.com/jadjoubran/laravel5-angular-material-starter,PHP,Unknown,Web Application,0,1,1,1,0,31,5377,29,1646,386,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+wintercms/winter,https://github.com/wintercms/winter,PHP,Unknown,CMS,0,1,1,1,0,495,69889,47,1519,248,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+Laravel-Backpack/CRUD,https://github.com/Laravel-Backpack/CRUD,PHP,Unknown,API,0,1,1,1,0,359,77488,6,3375,926,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+prism-php/prism,https://github.com/prism-php/prism,PHP,Unknown,Web Application,0,1,1,1,0,129,44292,5,2418,309,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+cachethq/cachet,https://github.com/cachethq/cachet,PHP,SQLite,Web Application,0,1,1,1,0,215,37975,8,15226,1632,34,12,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+BookStackApp/BookStack,https://github.com/BookStackApp/BookStack,PHP,Unknown,Web Application,1,0,1,1,0,238,52139,71,19000,2422,320,44,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+octobercms/october,https://github.com/octobercms/october,PHP,Unknown,API,0,0,1,1,0,487,78955,59,11147,2203,240,46,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+santigarcor/laratrust,https://github.com/santigarcor/laratrust,PHP,Unknown,Dashboard,0,1,1,1,0,93,1971,8,2275,380,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+cachethq/cachet,https://github.com/cachethq/cachet,PHP,SQLite,Web Application,0,1,1,1,0,215,37975,8,15226,1632,34,12,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+santigarcor/laratrust,https://github.com/santigarcor/laratrust,PHP,Unknown,Dashboard,0,1,1,1,0,93,1971,8,2275,380,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+jsdecena/laracom,https://github.com/jsdecena/laracom,PHP,Unknown,E-commerce,1,1,1,1,0,45,13351,35,2037,861,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+laravel/telescope,https://github.com/laravel/telescope,PHP,SQLite,Web Application,0,1,1,0,0,234,15607,22,5215,668,76,39,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+jcc/blog,https://github.com/jcc/blog,PHP,Unknown,CMS,1,0,1,0,0,28,7020,53,2854,673,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+OpnForm/OpnForm,https://github.com/OpnForm/OpnForm,PHP,Unknown,Web Application,1,1,1,1,0,38,56651,129,3637,533,364,49,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+relaticle/relaticle,https://github.com/relaticle/relaticle,PHP,SQLite,Web Application,1,1,1,1,0,9,81746,91,1746,211,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+vyuldashev/laravel-queue-rabbitmq,https://github.com/vyuldashev/laravel-queue-rabbitmq,PHP,Unknown,Web Application,1,1,1,1,0,84,627,4,2126,459,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+pixelfed/pixelfed,https://github.com/pixelfed/pixelfed,PHP,Unknown,Web Application,1,1,1,1,0,204,69378,107,7074,873,669,42,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+laravelio/laravel.io,https://github.com/laravelio/laravel.io,PHP,Unknown,Web Application,0,1,1,1,0,140,30843,46,2497,660,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+larastan/larastan,https://github.com/larastan/larastan,PHP,Unknown,Web Application,0,1,1,1,0,187,9376,10,6493,506,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+guillaumebriday/laravel-blog,https://github.com/guillaumebriday/laravel-blog,PHP,Unknown,API,1,0,1,1,0,9,3686,35,1797,592,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+jadjoubran/laravel5-angular-material-starter,https://github.com/jadjoubran/laravel5-angular-material-starter,PHP,Unknown,Web Application,0,1,1,1,0,31,5377,29,1646,386,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+VanOns/laraberg,https://github.com/VanOns/laraberg,PHP,Unknown,Web Application,0,1,1,1,0,11,75563,34,1371,141,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+vyuldashev/laravel-queue-rabbitmq,https://github.com/vyuldashev/laravel-queue-rabbitmq,PHP,Unknown,Web Application,1,1,1,1,0,84,627,4,2126,459,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+cretueusebiu/laravel-vue-spa,https://github.com/cretueusebiu/laravel-vue-spa,PHP,Unknown,Web Application,0,1,1,1,0,23,2487,45,3027,933,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+nasirkhan/laravel-starter,https://github.com/nasirkhan/laravel-starter,PHP,SQLite,Dashboard,1,1,1,1,0,18,59354,25,1405,467,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+pinkary-project/pinkary.com,https://github.com/pinkary-project/pinkary.com,PHP,SQLite,Web Application,1,1,1,1,0,95,10189,34,1537,380,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention sqlite,0,0,0
+imanghafoori1/laravel-microscope,https://github.com/imanghafoori1/laravel-microscope,PHP,Unknown,Web Application,0,1,0,1,0,41,2556,10,1493,95,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+zhanghuanchong/icon-workshop,https://github.com/zhanghuanchong/icon-workshop,PHP,Unknown,Web Application,0,0,1,0,0,4,13676,66,2315,224,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+Attendize/Attendize,https://github.com/Attendize/Attendize,PHP,Unknown,Web Application,1,1,1,1,0,104,27080,57,4270,1228,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+jqhph/dcat-admin,https://github.com/jqhph/dcat-admin,PHP,Unknown,Web Application,1,1,1,1,0,98,82997,38,4018,772,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+orchestral/testbench,https://github.com/orchestral/testbench,PHP,Unknown,Web Application,0,1,1,0,0,48,1462,11,2236,140,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+changeweb/Unifiedtransform,https://github.com/changeweb/Unifiedtransform,PHP,Unknown,Web Application,1,1,1,1,0,25,11757,17,2997,1285,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+area17/twill,https://github.com/area17/twill,PHP,Unknown,CMS,0,1,1,1,0,208,60856,85,3976,588,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+larastan/larastan,https://github.com/larastan/larastan,PHP,Unknown,Web Application,0,1,1,1,0,187,9376,10,6493,506,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+spatie/laravel-responsecache,https://github.com/spatie/laravel-responsecache,PHP,Unknown,Web Application,0,1,1,1,0,99,1770,9,2812,247,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+antonioribeiro/health,https://github.com/antonioribeiro/health,PHP,Unknown,Web Application,0,1,1,1,0,32,4380,20,1968,211,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+summerblue/phphub,https://github.com/summerblue/phphub,PHP,Unknown,Web Application,0,1,1,0,0,24,5567,30,1799,500,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+invoiceninja/invoiceninja,https://github.com/invoiceninja/invoiceninja,PHP,Unknown,Web Application,0,1,1,1,0,112,4233895,124,10022,2681,2131,50,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+monicahq/monica,https://github.com/monicahq/monica,PHP,Unknown,Web Application,1,1,1,1,0,40,152694,76,25101,2597,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+akaunting/akaunting,https://github.com/akaunting/akaunting,PHP,Unknown,API,0,1,1,1,0,130,86524,135,10090,2969,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+jsdecena/laracom,https://github.com/jsdecena/laracom,PHP,Unknown,E-commerce,1,1,1,1,0,45,13351,35,2037,861,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+solidtime-io/solidtime,https://github.com/solidtime-io/solidtime,PHP,PostgreSQL,Web Application,1,1,1,1,1,12,9183,96,8878,500,0,0,Laravel,0.95,composer.json: laravel/framework,dependencies mention postgresql/psycopg/dll,0,0,0
+wintercms/winter,https://github.com/wintercms/winter,PHP,Unknown,CMS,0,1,1,1,0,495,69889,47,1519,248,0,0,Laravel,0.95,composer.json: laravel/framework,,0,0,0
+laravel/horizon,https://github.com/laravel/horizon,PHP,Redis,Dashboard,0,1,1,0,0,239,29984,29,4164,750,0,0,Symfony,0.9,composer.json: symfony,dependencies mention redis,0,0,0
+spatie/laravel-collection-macros,https://github.com/spatie/laravel-collection-macros,PHP,Unknown,Web Application,0,1,1,1,0,66,441,2,1913,144,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+darryldecode/laravelshoppingcart,https://github.com/darryldecode/laravelshoppingcart,PHP,Unknown,E-commerce,0,1,1,1,0,40,277,4,1406,491,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/ui,https://github.com/laravel/ui,PHP,Unknown,Web Application,0,1,1,1,0,67,323,6,2722,479,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+mpociot/laravel-apidoc-generator,https://github.com/mpociot/laravel-apidoc-generator,PHP,Unknown,API,0,1,1,1,0,100,1444,24,3452,598,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/jetstream,https://github.com/laravel/jetstream,PHP,Unknown,Web Application,0,1,1,0,0,264,2195,7,4058,828,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+darryldecode/laravelshoppingcart,https://github.com/darryldecode/laravelshoppingcart,PHP,Unknown,E-commerce,0,1,1,1,0,40,277,4,1406,491,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/pulse,https://github.com/laravel/pulse,PHP,Redis,Dashboard,0,1,1,0,0,65,1849,28,1726,216,0,0,Symfony,0.95,composer.json: symfony,dependencies mention redis,0,0,0
+laravel/horizon,https://github.com/laravel/horizon,PHP,Redis,Dashboard,0,1,1,0,0,239,29984,29,4164,750,0,0,Symfony,0.9,composer.json: symfony,dependencies mention redis,0,0,0
+spatie/laravel-honeypot,https://github.com/spatie/laravel-honeypot,PHP,Unknown,Web Application,0,1,1,1,0,59,299,9,1578,106,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+facade/ignition,https://github.com/facade/ignition,PHP,Unknown,Web Application,0,1,1,1,0,85,2687,41,2078,178,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/scout,https://github.com/laravel/scout,PHP,Unknown,Web Application,1,1,1,0,0,196,1210,9,1677,361,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+mpociot/laravel-apidoc-generator,https://github.com/mpociot/laravel-apidoc-generator,PHP,Unknown,API,0,1,1,1,0,100,1444,24,3452,598,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+mpociot/laravel-apidoc-generator,https://github.com/mpociot/laravel-apidoc-generator,PHP,Unknown,API,0,1,1,1,0,100,1444,24,3452,598,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/envoy,https://github.com/laravel/envoy,PHP,Unknown,Web Application,0,1,1,0,0,84,832,5,1615,180,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/pulse,https://github.com/laravel/pulse,PHP,Redis,Dashboard,0,1,1,0,0,65,1849,28,1726,216,0,0,Symfony,0.95,composer.json: symfony,dependencies mention redis,0,0,0
+spatie/laravel-backup,https://github.com/spatie/laravel-backup,PHP,Unknown,Web Application,0,1,1,1,0,259,2642,15,6019,786,89,25,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/jetstream,https://github.com/laravel/jetstream,PHP,Unknown,Web Application,0,1,1,0,0,264,2195,7,4058,828,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/envoy,https://github.com/laravel/envoy,PHP,Unknown,Web Application,0,1,1,0,0,84,832,5,1615,180,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+flarum/framework,https://github.com/flarum/framework,PHP,Unknown,Web Application,0,1,1,1,1,212,189412,94,6746,882,671,41,Symfony,0.9,composer.json: symfony,,0,0,0
+backup-manager/backup-manager,https://github.com/backup-manager/backup-manager,PHP,Unknown,Web Application,0,1,1,1,0,42,615,3,1706,224,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/pulse,https://github.com/laravel/pulse,PHP,Redis,Dashboard,0,1,1,0,0,65,1849,28,1726,216,0,0,Symfony,0.95,composer.json: symfony,dependencies mention redis,0,0,0
+mongodb/laravel-mongodb,https://github.com/mongodb/laravel-mongodb,PHP,MongoDB,Web Application,1,1,1,1,0,220,3813,10,7073,1436,0,0,Symfony,0.9,composer.json: symfony,dependencies mention mongodb/mongoose/dll,0,0,0
+laravel/envoy,https://github.com/laravel/envoy,PHP,Unknown,Web Application,0,1,1,0,0,84,832,5,1615,180,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/passport,https://github.com/laravel/passport,PHP,Unknown,Web Application,0,1,1,0,0,214,1762,19,3414,800,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+corcel/corcel,https://github.com/corcel/corcel,PHP,Unknown,API,0,1,1,1,0,71,1675,7,4776,600,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+mongodb/laravel-mongodb,https://github.com/mongodb/laravel-mongodb,PHP,MongoDB,Web Application,1,1,1,1,0,220,3813,10,7073,1436,0,0,Symfony,0.9,composer.json: symfony,dependencies mention mongodb/mongoose/dll,0,0,0
+laravel/lumen-framework,https://github.com/laravel/lumen-framework,PHP,Unknown,Web Application,0,1,1,0,0,239,1305,37,1510,411,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/pulse,https://github.com/laravel/pulse,PHP,Redis,Dashboard,0,1,1,0,0,65,1849,28,1726,216,0,0,Symfony,0.95,composer.json: symfony,dependencies mention redis,0,0,0
+laravel/tinker,https://github.com/laravel/tinker,PHP,Unknown,Web Application,0,1,1,0,0,44,271,6,7439,139,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/passport,https://github.com/laravel/passport,PHP,Unknown,Web Application,0,1,1,0,0,214,1762,19,3414,800,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+spatie/laravel-honeypot,https://github.com/spatie/laravel-honeypot,PHP,Unknown,Web Application,0,1,1,1,0,59,299,9,1578,106,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+backup-manager/backup-manager,https://github.com/backup-manager/backup-manager,PHP,Unknown,Web Application,0,1,1,1,0,42,615,3,1706,224,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+darryldecode/laravelshoppingcart,https://github.com/darryldecode/laravelshoppingcart,PHP,Unknown,E-commerce,0,1,1,1,0,40,277,4,1406,491,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/passport,https://github.com/laravel/passport,PHP,Unknown,Web Application,0,1,1,0,0,214,1762,19,3414,800,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+tailflow/laravel-orion,https://github.com/tailflow/laravel-orion,PHP,Unknown,API,1,1,1,0,0,28,1198,10,1597,97,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/cashier-stripe,https://github.com/laravel/cashier-stripe,PHP,Unknown,Web Application,0,1,1,0,0,219,48120,19,2541,743,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+cartalyst/sentinel,https://github.com/cartalyst/sentinel,PHP,Unknown,Web Application,0,1,1,1,0,43,1993,3,1526,245,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+cartalyst/sentinel,https://github.com/cartalyst/sentinel,PHP,Unknown,Web Application,0,1,1,1,0,43,1993,3,1526,245,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+InfyOmLabs/laravel-generator,https://github.com/InfyOmLabs/laravel-generator,PHP,Unknown,API,0,1,1,1,0,80,1279,6,3823,832,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/lumen-framework,https://github.com/laravel/lumen-framework,PHP,Unknown,Web Application,0,1,1,0,0,239,1305,37,1510,411,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/lumen-framework,https://github.com/laravel/lumen-framework,PHP,Unknown,Web Application,0,1,1,0,0,239,1305,37,1510,411,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/valet,https://github.com/laravel/valet,PHP,Unknown,Web Application,0,1,1,1,0,217,98118,11,2597,719,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/ui,https://github.com/laravel/ui,PHP,Unknown,Web Application,0,1,1,1,0,67,323,6,2722,479,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/ui,https://github.com/laravel/ui,PHP,Unknown,Web Application,0,1,1,1,0,67,323,6,2722,479,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+facade/ignition,https://github.com/facade/ignition,PHP,Unknown,Web Application,0,1,1,1,0,85,2687,41,2078,178,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/passport,https://github.com/laravel/passport,PHP,Unknown,Web Application,0,1,1,0,0,214,1762,19,3414,800,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/scout,https://github.com/laravel/scout,PHP,Unknown,Web Application,1,1,1,0,0,196,1210,9,1677,361,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+spatie/laravel-collection-macros,https://github.com/spatie/laravel-collection-macros,PHP,Unknown,Web Application,0,1,1,1,0,66,441,2,1913,144,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+tailflow/laravel-orion,https://github.com/tailflow/laravel-orion,PHP,Unknown,API,1,1,1,0,0,28,1198,10,1597,97,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+flarum/framework,https://github.com/flarum/framework,PHP,Unknown,Web Application,0,1,1,1,1,212,189412,94,6746,882,671,41,Symfony,0.9,composer.json: symfony,,0,0,0
+cydrobolt/polr,https://github.com/cydrobolt/polr,PHP,Unknown,API,0,1,1,1,0,35,24360,12,5096,887,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+facade/ignition,https://github.com/facade/ignition,PHP,Unknown,Web Application,0,1,1,1,0,85,2687,41,2078,178,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/horizon,https://github.com/laravel/horizon,PHP,Redis,Dashboard,0,1,1,0,0,239,29984,29,4164,750,0,0,Symfony,0.9,composer.json: symfony,dependencies mention redis,0,0,0
+laravel/pulse,https://github.com/laravel/pulse,PHP,Redis,Dashboard,0,1,1,0,0,65,1849,28,1726,216,0,0,Symfony,0.95,composer.json: symfony,dependencies mention redis,0,0,0
+hhxsv5/laravel-s,https://github.com/hhxsv5/laravel-s,PHP,Unknown,Web Application,0,1,1,1,0,44,5779,6,3879,464,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/horizon,https://github.com/laravel/horizon,PHP,Redis,Dashboard,0,1,1,0,0,239,29984,29,4164,750,0,0,Symfony,0.9,composer.json: symfony,dependencies mention redis,0,0,0
+driesvints/blade-icons,https://github.com/driesvints/blade-icons,PHP,Unknown,Web Application,0,1,1,1,0,72,592,7,2482,161,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+spatie/laravel-backup,https://github.com/spatie/laravel-backup,PHP,Unknown,Web Application,0,1,1,1,0,259,2642,15,6019,786,89,25,Symfony,0.9,composer.json: symfony,,0,0,0
+tailflow/laravel-orion,https://github.com/tailflow/laravel-orion,PHP,Unknown,API,1,1,1,0,0,28,1198,10,1597,97,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/lumen-framework,https://github.com/laravel/lumen-framework,PHP,Unknown,Web Application,0,1,1,0,0,239,1305,37,1510,411,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/sanctum,https://github.com/laravel/sanctum,PHP,Unknown,Web Application,0,1,1,0,0,90,465,7,2977,329,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+driesvints/blade-icons,https://github.com/driesvints/blade-icons,PHP,Unknown,Web Application,0,1,1,1,0,72,592,7,2482,161,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+spatie/laravel-honeypot,https://github.com/spatie/laravel-honeypot,PHP,Unknown,Web Application,0,1,1,1,0,59,299,9,1578,106,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+hhxsv5/laravel-s,https://github.com/hhxsv5/laravel-s,PHP,Unknown,Web Application,0,1,1,1,0,44,5779,6,3879,464,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+spatie/laravel-honeypot,https://github.com/spatie/laravel-honeypot,PHP,Unknown,Web Application,0,1,1,1,0,59,299,9,1578,106,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/pulse,https://github.com/laravel/pulse,PHP,Redis,Dashboard,0,1,1,0,0,65,1849,28,1726,216,0,0,Symfony,0.95,composer.json: symfony,dependencies mention redis,0,0,0
+mongodb/laravel-mongodb,https://github.com/mongodb/laravel-mongodb,PHP,MongoDB,Web Application,1,1,1,1,0,220,3813,10,7073,1436,0,0,Symfony,0.9,composer.json: symfony,dependencies mention mongodb/mongoose/dll,0,0,0
+spatie/laravel-collection-macros,https://github.com/spatie/laravel-collection-macros,PHP,Unknown,Web Application,0,1,1,1,0,66,441,2,1913,144,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/lumen-framework,https://github.com/laravel/lumen-framework,PHP,Unknown,Web Application,0,1,1,0,0,239,1305,37,1510,411,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/ui,https://github.com/laravel/ui,PHP,Unknown,Web Application,0,1,1,1,0,67,323,6,2722,479,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/lumen-framework,https://github.com/laravel/lumen-framework,PHP,Unknown,Web Application,0,1,1,0,0,239,1305,37,1510,411,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/horizon,https://github.com/laravel/horizon,PHP,Redis,Dashboard,0,1,1,0,0,239,29984,29,4164,750,0,0,Symfony,0.9,composer.json: symfony,dependencies mention redis,0,0,0
+laravel/passport,https://github.com/laravel/passport,PHP,Unknown,Web Application,0,1,1,0,0,214,1762,19,3414,800,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+darryldecode/laravelshoppingcart,https://github.com/darryldecode/laravelshoppingcart,PHP,Unknown,E-commerce,0,1,1,1,0,40,277,4,1406,491,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/jetstream,https://github.com/laravel/jetstream,PHP,Unknown,Web Application,0,1,1,0,0,264,2195,7,4058,828,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/ui,https://github.com/laravel/ui,PHP,Unknown,Web Application,0,1,1,1,0,67,323,6,2722,479,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+flarum/framework,https://github.com/flarum/framework,PHP,Unknown,Web Application,0,1,1,1,1,212,189412,94,6746,882,671,41,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/sanctum,https://github.com/laravel/sanctum,PHP,Unknown,Web Application,0,1,1,0,0,90,465,7,2977,329,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/cashier-stripe,https://github.com/laravel/cashier-stripe,PHP,Unknown,Web Application,0,1,1,0,0,219,48120,19,2541,743,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+spatie/laravel-backup,https://github.com/spatie/laravel-backup,PHP,Unknown,Web Application,0,1,1,1,0,259,2642,15,6019,786,89,25,Symfony,0.9,composer.json: symfony,,0,0,0
+driesvints/blade-icons,https://github.com/driesvints/blade-icons,PHP,Unknown,Web Application,0,1,1,1,0,72,592,7,2482,161,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/jetstream,https://github.com/laravel/jetstream,PHP,Unknown,Web Application,0,1,1,0,0,264,2195,7,4058,828,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+spatie/laravel-backup,https://github.com/spatie/laravel-backup,PHP,Unknown,Web Application,0,1,1,1,0,259,2642,15,6019,786,89,25,Symfony,0.9,composer.json: symfony,,0,0,0
+mongodb/laravel-mongodb,https://github.com/mongodb/laravel-mongodb,PHP,MongoDB,Web Application,1,1,1,1,0,220,3813,10,7073,1436,0,0,Symfony,0.9,composer.json: symfony,dependencies mention mongodb/mongoose/dll,0,0,0
+corcel/corcel,https://github.com/corcel/corcel,PHP,Unknown,API,0,1,1,1,0,71,1675,7,4776,600,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+backup-manager/backup-manager,https://github.com/backup-manager/backup-manager,PHP,Unknown,Web Application,0,1,1,1,0,42,615,3,1706,224,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+InfyOmLabs/laravel-generator,https://github.com/InfyOmLabs/laravel-generator,PHP,Unknown,API,0,1,1,1,0,80,1279,6,3823,832,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+spatie/laravel-backup,https://github.com/spatie/laravel-backup,PHP,Unknown,Web Application,0,1,1,1,0,259,2642,15,6019,786,89,25,Symfony,0.9,composer.json: symfony,,0,0,0
+backup-manager/backup-manager,https://github.com/backup-manager/backup-manager,PHP,Unknown,Web Application,0,1,1,1,0,42,615,3,1706,224,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+darryldecode/laravelshoppingcart,https://github.com/darryldecode/laravelshoppingcart,PHP,Unknown,E-commerce,0,1,1,1,0,40,277,4,1406,491,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+driesvints/blade-icons,https://github.com/driesvints/blade-icons,PHP,Unknown,Web Application,0,1,1,1,0,72,592,7,2482,161,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+spatie/laravel-honeypot,https://github.com/spatie/laravel-honeypot,PHP,Unknown,Web Application,0,1,1,1,0,59,299,9,1578,106,0,0,Symfony,0.95,composer.json: symfony,,0,0,0
+laravel/passport,https://github.com/laravel/passport,PHP,Unknown,Web Application,0,1,1,0,0,214,1762,19,3414,800,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+mongodb/laravel-mongodb,https://github.com/mongodb/laravel-mongodb,PHP,MongoDB,Web Application,1,1,1,1,0,220,3813,10,7073,1436,0,0,Symfony,0.9,composer.json: symfony,dependencies mention mongodb/mongoose/dll,0,0,0
+InfyOmLabs/laravel-generator,https://github.com/InfyOmLabs/laravel-generator,PHP,Unknown,API,0,1,1,1,0,80,1279,6,3823,832,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+spatie/laravel-backup,https://github.com/spatie/laravel-backup,PHP,Unknown,Web Application,0,1,1,1,0,259,2642,15,6019,786,89,25,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/sanctum,https://github.com/laravel/sanctum,PHP,Unknown,Web Application,0,1,1,0,0,90,465,7,2977,329,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/valet,https://github.com/laravel/valet,PHP,Unknown,Web Application,0,1,1,1,0,217,98118,11,2597,719,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+laravel/ui,https://github.com/laravel/ui,PHP,Unknown,Web Application,0,1,1,1,0,67,323,6,2722,479,0,0,Symfony,0.9,composer.json: symfony,,0,0,0
+LianjiaTech/retrofit-spring-boot-starter,https://github.com/LianjiaTech/retrofit-spring-boot-starter,Java,Unknown,Web Application,0,0,0,1,0,12,1707,24,1912,340,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+springfox/springfox,https://github.com/springfox/springfox,Java,Unknown,API,0,0,1,1,0,210,186279,15,5929,1510,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+AnghelLeonard/Hibernate-SpringBoot,https://github.com/AnghelLeonard/Hibernate-SpringBoot,Java,MySQL,Web Application,0,0,0,1,0,1,33471,10,1372,537,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+ZainZhao/HIS,https://github.com/ZainZhao/HIS,Java,MySQL,Web Application,0,1,1,1,0,4,9344,93,1624,599,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+mybatis/spring-boot-starter,https://github.com/mybatis/spring-boot-starter,Java,Unknown,Web Application,0,1,0,1,0,39,16688,23,4249,1790,149,46,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+awspring/spring-cloud-aws,https://github.com/awspring/spring-cloud-aws,Java,Unknown,Web Application,1,1,0,1,0,214,33919,19,1123,389,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+feiniaojin/graceful-response,https://github.com/feiniaojin/graceful-response,Java,Unknown,API,0,0,0,1,0,13,1971,7,1256,174,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+feiniaojin/graceful-response,https://github.com/feiniaojin/graceful-response,Java,Unknown,API,0,0,0,1,0,13,1971,7,1256,174,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+1024-lab/smart-admin,https://github.com/1024-lab/smart-admin,Java,MySQL,API,0,0,0,1,0,5,36442,206,3830,1003,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+elunez/eladmin,https://github.com/elunez/eladmin,Java,MySQL,Web Application,0,0,0,1,0,59,7523,31,21918,7341,4,2,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+grimmory-tools/grimmory,https://github.com/grimmory-tools/grimmory,Java,MySQL,Web Application,1,1,0,1,1,145,59432,109,4040,299,1763,50,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+DerekYRC/mini-spring-cloud,https://github.com/DerekYRC/mini-spring-cloud,Java,Unknown,Web Application,0,0,0,1,0,3,1286,36,1901,383,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+apolloconfig/apollo,https://github.com/apolloconfig/apollo,Java,MySQL,Web Application,1,1,1,1,0,214,57797,43,29799,10161,83,34,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql,0,0,0
+ulisesbocchio/jasypt-spring-boot,https://github.com/ulisesbocchio/jasypt-spring-boot,Java,Unknown,Web Application,0,1,0,1,0,42,597,24,3086,545,30,8,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+LogNet/grpc-spring-boot-starter,https://github.com/LogNet/grpc-spring-boot-starter,Java,PostgreSQL,Web Application,0,1,0,0,0,31,17137,10,2258,423,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+apolloconfig/apollo,https://github.com/apolloconfig/apollo,Java,MySQL,Web Application,1,1,1,1,0,214,57797,43,29799,10161,83,34,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql,0,0,0
+mxdldev/spring-cloud-flycloud,https://github.com/mxdldev/spring-cloud-flycloud,Java,MySQL,Web Application,0,0,0,1,0,2,1419,0,1580,439,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+mateaix/matecloud,https://github.com/mateaix/matecloud,Java,MySQL,Web Application,1,1,0,1,1,1,20644,127,1685,466,20,3,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+mybatis/spring-boot-starter,https://github.com/mybatis/spring-boot-starter,Java,Unknown,Web Application,0,1,0,1,0,39,16688,23,4249,1790,149,46,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+prontera/spring-cloud-rest-tcc,https://github.com/prontera/spring-cloud-rest-tcc,Java,MySQL,Web Application,0,0,0,1,0,1,7004,27,2539,1178,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+lerry903/RuoYi,https://github.com/lerry903/RuoYi,Java,MySQL,Web Application,1,0,0,1,0,27,12472,21,1212,478,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+ballcat-projects/ballcat,https://github.com/ballcat-projects/ballcat,Java,Redis,Web Application,0,1,0,1,0,39,13326,3,1728,316,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention redis,0,0,0
+grimmory-tools/grimmory,https://github.com/grimmory-tools/grimmory,Java,MySQL,Web Application,1,1,0,1,1,145,59432,109,4040,299,1763,50,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+atjiu/pybbs,https://github.com/atjiu/pybbs,Java,MySQL,Web Application,1,1,0,1,0,22,57342,27,1958,718,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+murraco/spring-boot-jwt,https://github.com/murraco/spring-boot-jwt,Java,MySQL,Web Application,1,1,0,1,0,8,113,15,1688,651,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+zalando/logbook,https://github.com/zalando/logbook,Java,Unknown,CLI,0,1,0,1,0,103,7444,26,2059,285,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+mateaix/matecloud,https://github.com/mateaix/matecloud,Java,MySQL,Web Application,1,1,0,1,1,1,20644,127,1685,466,20,3,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+cheese10yun/spring-jpa-best-practices,https://github.com/cheese10yun/spring-jpa-best-practices,Java,Unknown,Web Application,0,1,0,1,0,11,1419,19,1172,235,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+springfox/springfox,https://github.com/springfox/springfox,Java,Unknown,API,0,0,1,1,0,210,186279,15,5929,1510,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+kagkarlsson/db-scheduler,https://github.com/kagkarlsson/db-scheduler,Java,PostgreSQL,Web Application,0,1,0,1,0,84,3586,63,1615,251,90,18,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+kagkarlsson/db-scheduler,https://github.com/kagkarlsson/db-scheduler,Java,PostgreSQL,Web Application,0,1,0,1,0,84,3586,63,1615,251,90,18,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+shzlw/poli,https://github.com/shzlw/poli,Java,SQLite,Dashboard,1,1,0,1,0,2,22745,29,1973,335,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention sqlite,0,0,0
+kagkarlsson/db-scheduler,https://github.com/kagkarlsson/db-scheduler,Java,PostgreSQL,Web Application,0,1,0,1,0,84,3586,63,1615,251,90,18,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+BroadleafCommerce/BroadleafCommerce,https://github.com/BroadleafCommerce/BroadleafCommerce,Java,Relational (ORM),E-commerce,0,1,1,1,0,135,304995,174,1918,1319,60,17,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+moxi624/mogu_blog_v2,https://github.com/moxi624/mogu_blog_v2,Java,MongoDB,CMS,1,1,0,1,0,32,68820,210,1808,488,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mongodb/mongoose/dll,0,0,0
+mxdldev/spring-cloud-flycloud,https://github.com/mxdldev/spring-cloud-flycloud,Java,MySQL,Web Application,0,0,0,1,0,2,1419,0,1580,439,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+elunez/eladmin,https://github.com/elunez/eladmin,Java,MySQL,Web Application,0,0,0,1,0,59,7523,31,21918,7341,4,2,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+BroadleafCommerce/BroadleafCommerce,https://github.com/BroadleafCommerce/BroadleafCommerce,Java,Relational (ORM),E-commerce,0,1,1,1,0,135,304995,174,1918,1319,60,17,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+codecentric/spring-boot-admin,https://github.com/codecentric/spring-boot-admin,Java,Unknown,Web Application,1,1,1,1,0,212,104926,132,12848,3141,954,51,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+mybatis/spring-boot-starter,https://github.com/mybatis/spring-boot-starter,Java,Unknown,Web Application,0,1,0,1,0,39,16688,23,4249,1790,149,46,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+hantsy/spring-reactive-sample,https://github.com/hantsy/spring-reactive-sample,Java,Unknown,Web Application,1,1,0,1,0,12,5080,28,1368,457,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+lets-mica/mica,https://github.com/lets-mica/mica,Java,MySQL,Web Application,0,1,0,1,0,28,78292,45,2237,376,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+zlt2000/microservices-platform,https://github.com/zlt2000/microservices-platform,Java,MySQL,Web Application,1,0,1,1,0,23,300854,114,4750,1680,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+linlinjava/litemall,https://github.com/linlinjava/litemall,Java,MySQL,Web Application,1,1,1,1,0,74,24622,111,20338,7313,1,1,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+mateaix/matecloud,https://github.com/mateaix/matecloud,Java,MySQL,Web Application,1,1,0,1,1,1,20644,127,1685,466,20,3,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+wxiaoqi/Spring-Cloud-Platform,https://github.com/wxiaoqi/Spring-Cloud-Platform,Java,Unknown,Web Application,1,0,0,1,0,21,212466,5,6403,2350,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+xuchengsheng/spring-reading,https://github.com/xuchengsheng/spring-reading,Java,MySQL,API,0,0,0,1,0,4,2808,3,9932,1264,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+DerekYRC/mini-spring-cloud,https://github.com/DerekYRC/mini-spring-cloud,Java,Unknown,Web Application,0,0,0,1,0,3,1286,36,1901,383,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+apolloconfig/apollo,https://github.com/apolloconfig/apollo,Java,MySQL,Web Application,1,1,1,1,0,214,57797,43,29799,10161,83,34,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql,0,0,0
+zhangyd-c/OneBlog,https://github.com/zhangyd-c/OneBlog,Java,Redis,CMS,1,0,0,1,0,35,13342,13,1105,402,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention redis,0,0,0
+mateaix/matecloud,https://github.com/mateaix/matecloud,Java,MySQL,Web Application,1,1,0,1,1,1,20644,127,1685,466,20,3,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+troyzhxu/bean-searcher,https://github.com/troyzhxu/bean-searcher,Java,Unknown,Web Application,0,0,0,1,0,17,8228,46,1378,148,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+ali-bouali/spring-boot-3-jwt-security,https://github.com/ali-bouali/spring-boot-3-jwt-security,Java,PostgreSQL,Web Application,1,0,0,0,0,3,80,12,2035,925,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+zfile-dev/zfile,https://github.com/zfile-dev/zfile,Java,MySQL,Web Application,1,0,0,1,0,13,46184,41,10823,1964,29,8,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+shzlw/poli,https://github.com/shzlw/poli,Java,SQLite,Dashboard,1,1,0,1,0,2,22745,29,1973,335,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention sqlite,0,0,0
+techa03/goodsKill,https://github.com/techa03/goodsKill,Java,PostgreSQL,Web Application,1,1,0,1,0,7,18416,91,2421,519,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+adorsys/keycloak-config-cli,https://github.com/adorsys/keycloak-config-cli,Java,Unknown,CLI,1,1,0,1,0,80,19286,52,1204,200,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+jeecgboot/jeewx-boot,https://github.com/jeecgboot/jeewx-boot,Java,MySQL,API,1,0,0,1,0,1,22028,29,1147,552,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+metasfresh/metasfresh,https://github.com/metasfresh/metasfresh,Java,Unknown,Web Application,1,1,1,1,0,86,372148,24,2407,810,5161,52,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+YeautyYE/netty-websocket-spring-boot-starter,https://github.com/YeautyYE/netty-websocket-spring-boot-starter,Java,Unknown,Web Application,0,0,0,1,0,8,155,3,1933,562,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+linlinjava/litemall,https://github.com/linlinjava/litemall,Java,MySQL,Web Application,1,1,1,1,0,74,24622,111,20338,7313,1,1,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+apolloconfig/apollo,https://github.com/apolloconfig/apollo,Java,MySQL,Web Application,1,1,1,1,0,214,57797,43,29799,10161,83,34,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql,0,0,0
+macrozheng/mall-swarm,https://github.com/macrozheng/mall-swarm,Java,MySQL,Web Application,0,0,0,1,0,2,54615,51,13099,5518,5,2,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+linyimin0812/spring-startup-analyzer,https://github.com/linyimin0812/spring-startup-analyzer,Java,Unknown,Web Application,1,1,0,1,0,10,17069,28,1832,148,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+linlinjava/litemall,https://github.com/linlinjava/litemall,Java,MySQL,Web Application,1,1,1,1,0,74,24622,111,20338,7313,1,1,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+linyimin0812/spring-startup-analyzer,https://github.com/linyimin0812/spring-startup-analyzer,Java,Unknown,Web Application,1,1,0,1,0,10,17069,28,1832,148,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+dibo-software/diboot,https://github.com/dibo-software/diboot,Java,PostgreSQL,Web Application,0,0,0,1,0,23,54186,153,1604,287,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+zlt2000/microservices-platform,https://github.com/zlt2000/microservices-platform,Java,MySQL,Web Application,1,0,1,1,0,23,300854,114,4750,1680,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+ali-bouali/spring-boot-3-jwt-security,https://github.com/ali-bouali/spring-boot-3-jwt-security,Java,PostgreSQL,Web Application,1,0,0,0,0,3,80,12,2035,925,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+geekidea/spring-boot-plus,https://github.com/geekidea/spring-boot-plus,Java,MySQL,Web Application,1,0,0,1,0,10,8477,30,2518,712,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+timebusker/spring-boot,https://github.com/timebusker/spring-boot,Java,PostgreSQL,Web Application,0,0,0,1,0,6,12173,24,1272,452,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+kagkarlsson/db-scheduler,https://github.com/kagkarlsson/db-scheduler,Java,PostgreSQL,Web Application,0,1,0,1,0,84,3586,63,1615,251,90,18,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+wxiaoqi/Spring-Cloud-Platform,https://github.com/wxiaoqi/Spring-Cloud-Platform,Java,Unknown,Web Application,1,0,0,1,0,21,212466,5,6403,2350,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+javahongxi/whatsmars,https://github.com/javahongxi/whatsmars,Java,PostgreSQL,Web Application,0,0,0,1,0,4,16140,73,1967,603,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+springfox/springfox,https://github.com/springfox/springfox,Java,Unknown,API,0,0,1,1,0,210,186279,15,5929,1510,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+AnghelLeonard/Hibernate-SpringBoot,https://github.com/AnghelLeonard/Hibernate-SpringBoot,Java,MySQL,Web Application,0,0,0,1,0,1,33471,10,1372,537,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+adorsys/keycloak-config-cli,https://github.com/adorsys/keycloak-config-cli,Java,Unknown,CLI,1,1,0,1,0,80,19286,52,1204,200,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+kagkarlsson/db-scheduler,https://github.com/kagkarlsson/db-scheduler,Java,PostgreSQL,Web Application,0,1,0,1,0,84,3586,63,1615,251,90,18,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+SpringForAll/spring-boot-starter-swagger,https://github.com/SpringForAll/spring-boot-starter-swagger,Java,Unknown,Web Application,0,1,0,1,0,10,224,10,2103,510,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+cheese10yun/spring-jpa-best-practices,https://github.com/cheese10yun/spring-jpa-best-practices,Java,Unknown,Web Application,0,1,0,1,0,11,1419,19,1172,235,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+mateaix/mateclaw,https://github.com/mateaix/mateclaw,Java,PostgreSQL,Web Application,1,0,1,1,0,19,37518,118,1146,337,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+DerekYRC/mini-spring-cloud,https://github.com/DerekYRC/mini-spring-cloud,Java,Unknown,Web Application,0,0,0,1,0,3,1286,36,1901,383,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+1024-lab/smart-admin,https://github.com/1024-lab/smart-admin,Java,MySQL,API,0,0,0,1,0,5,36442,206,3830,1003,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+springdoc/springdoc-openapi,https://github.com/springdoc/springdoc-openapi,Java,Unknown,API,0,1,1,1,0,150,16883,47,3736,600,155,25,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+mateaix/matecloud,https://github.com/mateaix/matecloud,Java,MySQL,Web Application,1,1,0,1,1,1,20644,127,1685,466,20,3,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+ityouknow/spring-boot-leaning,https://github.com/ityouknow/spring-boot-leaning,Java,MySQL,Web Application,1,0,0,1,0,1,528,9,2088,920,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+java-aodeng/hope-boot,https://github.com/java-aodeng/hope-boot,Java,Redis,Web Application,1,0,0,1,0,6,13976,24,3233,672,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention redis,0,0,0
+springfox/springfox,https://github.com/springfox/springfox,Java,Unknown,API,0,0,1,1,0,210,186279,15,5929,1510,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+xuxueli/xxl-sso,https://github.com/xuxueli/xxl-sso,Java,Redis,Web Application,0,1,0,1,0,9,4671,20,2011,830,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention redis,0,0,0
+roncoo/roncoo-education,https://github.com/roncoo/roncoo-education,Java,Unknown,Web Application,0,0,0,1,0,21,138080,9,1539,592,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+troyzhxu/bean-searcher,https://github.com/troyzhxu/bean-searcher,Java,Unknown,Web Application,0,0,0,1,0,17,8228,46,1378,148,0,0,Spring Boot,0.95,pom/gradle: spring-boot,,0,0,0
+xuchengsheng/spring-reading,https://github.com/xuchengsheng/spring-reading,Java,MySQL,API,0,0,0,1,0,4,2808,3,9932,1264,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+conductor-oss/conductor,https://github.com/conductor-oss/conductor,Java,PostgreSQL,API,1,1,1,1,0,416,55174,200,32118,991,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/etc,0,0,0
+zfile-dev/zfile,https://github.com/zfile-dev/zfile,Java,MySQL,Web Application,1,0,0,1,0,13,46184,41,10823,1964,29,8,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+dibo-software/diboot,https://github.com/dibo-software/diboot,Java,PostgreSQL,Web Application,0,0,0,1,0,23,54186,153,1604,287,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+hs-web/hsweb-framework,https://github.com/hs-web/hsweb-framework,Java,PostgreSQL,Web Application,0,1,0,1,0,37,34575,35,8400,3017,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+jeecgboot/jeewx-boot,https://github.com/jeecgboot/jeewx-boot,Java,MySQL,API,1,0,0,1,0,1,22028,29,1147,552,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+zfile-dev/zfile,https://github.com/zfile-dev/zfile,Java,MySQL,Web Application,1,0,0,1,0,13,46184,41,10823,1964,29,8,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention mysql/mysqlclient/dll,0,0,0
+techa03/goodsKill,https://github.com/techa03/goodsKill,Java,PostgreSQL,Web Application,1,1,0,1,0,7,18416,91,2421,519,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+techa03/goodsKill,https://github.com/techa03/goodsKill,Java,PostgreSQL,Web Application,1,1,0,1,0,7,18416,91,2421,519,0,0,Spring Boot,0.95,pom/gradle: spring-boot,dependencies mention postgresql/psycopg/dll,0,0,0
+cdimascio/generator-express-no-stress,https://github.com/cdimascio/generator-express-no-stress,JavaScript,Unknown,API,1,0,0,1,0,18,10037,13,598,81,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+twreporter/twreporter-react,https://github.com/twreporter/twreporter-react,JavaScript,Unknown,Web Application,1,0,0,0,0,42,175655,111,324,61,0,0,Express.js,0.95,package.json: express,,0,0,0
+nz-m/SocialEcho,https://github.com/nz-m/SocialEcho,JavaScript,MongoDB,Web Application,1,0,0,1,0,3,19907,63,2435,590,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+express-promise-router/express-promise-router,https://github.com/express-promise-router/express-promise-router,JavaScript,Unknown,Web Application,0,1,0,1,0,15,1860,21,382,41,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+aichbauer/express-rest-api-boilerplate,https://github.com/aichbauer/express-rest-api-boilerplate,JavaScript,SQLite,API,0,0,0,1,0,8,164,19,496,190,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention sqlite,0,0,0
+janoside/btc-rpc-explorer,https://github.com/janoside/btc-rpc-explorer,JavaScript,Redis,Web Application,1,1,0,1,0,41,19226,44,1789,1354,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention redis,0,0,0
+InsForge/InsForge,https://github.com/InsForge/InsForge,TypeScript,PostgreSQL,API,1,1,1,1,1,121,152673,88,12782,1158,0,0,Express.js,0.95,package.json: express,dependencies mention postgresql/psycopg/dll,0,0,0
+watscho/express-graphql-mongodb-boilerplate,https://github.com/watscho/express-graphql-mongodb-boilerplate,JavaScript,MongoDB,API,1,0,0,1,1,3,176,27,348,60,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+redf0x1/camofox-browser,https://github.com/redf0x1/camofox-browser,JavaScript,Unknown,API,1,1,1,1,0,3,9427,16,371,55,223,13,Express.js,0.95,package.json: express (fallback),,0,0,0
+redf0x1/camofox-browser,https://github.com/redf0x1/camofox-browser,JavaScript,Unknown,API,1,1,1,1,0,3,9427,16,371,55,223,13,Express.js,0.95,package.json: express (fallback),,0,0,0
+ITCNZ/Nuxt-ssr,https://github.com/ITCNZ/Nuxt-ssr,JavaScript,MongoDB,Web Application,0,0,0,1,0,3,2690,25,346,69,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+crsandeep/simple-react-full-stack,https://github.com/crsandeep/simple-react-full-stack,JavaScript,Unknown,Web Application,0,1,0,1,0,10,329,26,1629,657,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+expressjs/morgan,https://github.com/expressjs/morgan,JavaScript,Unknown,Unknown,0,1,0,1,0,31,276,16,8200,563,15,5,Express.js,0.95,package.json: express (fallback),,0,0,0
+panshak/accountill,https://github.com/panshak/accountill,JavaScript,MongoDB,Web Application,1,0,0,1,0,5,1967,48,1691,500,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+xrr2016/vue-express-mongodb,https://github.com/xrr2016/vue-express-mongodb,JavaScript,MongoDB,Web Application,0,0,0,1,0,5,3751,44,585,140,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+bailicangdu/node-elm,https://github.com/bailicangdu/node-elm,JavaScript,MongoDB,E-commerce,0,0,0,1,0,7,8212,37,12336,3674,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb,0,0,0
+ITCNZ/Nuxt-ssr,https://github.com/ITCNZ/Nuxt-ssr,JavaScript,MongoDB,Web Application,0,0,0,1,0,3,2690,25,346,69,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+fhsinchy/docker-handbook-projects,https://github.com/fhsinchy/docker-handbook-projects,JavaScript,SQLite,Web Application,1,0,1,0,0,3,1175,46,1395,330,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention sqlite,0,0,0
+cabinjs/cabin,https://github.com/cabinjs/cabin,JavaScript,PostgreSQL,Web Application,0,1,0,1,0,5,5052,45,890,43,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention postgresql/psycopg/dll,0,0,0
+bailicangdu/node-elm,https://github.com/bailicangdu/node-elm,JavaScript,MongoDB,E-commerce,0,0,0,1,0,7,8212,37,12336,3674,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb,0,0,0
+alloyteamzy/vue2_blog,https://github.com/alloyteamzy/vue2_blog,JavaScript,Unknown,CLI,0,0,0,1,0,2,2780,67,448,118,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+netpi/ueditor,https://github.com/netpi/ueditor,JavaScript,Unknown,Web Application,0,0,0,1,0,9,6402,13,499,162,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+janoside/btc-rpc-explorer,https://github.com/janoside/btc-rpc-explorer,JavaScript,Redis,Web Application,1,1,0,1,0,41,19226,44,1789,1354,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention redis,0,0,0
+kwhitley/apicache,https://github.com/kwhitley/apicache,JavaScript,Redis,API,0,1,0,1,0,39,1073,14,1248,191,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention redis,0,0,0
+MoathShraim/Nodejs-rest-api-project-structure-Express,https://github.com/MoathShraim/Nodejs-rest-api-project-structure-Express,JavaScript,MongoDB,API,0,0,0,0,0,2,105,12,366,141,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+MichielDeMey/express-jwt-permissions,https://github.com/MichielDeMey/express-jwt-permissions,JavaScript,Unknown,Web Application,0,1,0,1,0,13,509,5,520,37,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+panshak/accountill,https://github.com/panshak/accountill,JavaScript,MongoDB,Web Application,1,0,0,1,0,5,1967,48,1691,500,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+foyzulkarim/mernboilerplate-antd,https://github.com/foyzulkarim/mernboilerplate-antd,JavaScript,MongoDB,Dashboard,1,1,1,1,0,7,8824,91,339,101,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+misa-j/social-network,https://github.com/misa-j/social-network,JavaScript,MongoDB,Web Application,1,0,0,1,0,1,10394,59,636,138,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+LionC/express-basic-auth,https://github.com/LionC/express-basic-auth,JavaScript,Unknown,Web Application,0,0,0,1,0,3,197,7,334,57,0,0,Express.js,0.95,package.json: express,,0,0,0
+nemanjam/mern-boilerplate,https://github.com/nemanjam/mern-boilerplate,JavaScript,MongoDB,Web Application,1,0,0,1,0,1,1181,41,507,135,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+cefjoeii/mern-crud,https://github.com/cefjoeii/mern-crud,JavaScript,MongoDB,API,1,0,0,1,0,12,4645,21,766,510,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+orifmilod/iCinema,https://github.com/orifmilod/iCinema,JavaScript,MongoDB,API,0,0,1,0,0,6,52376,47,332,121,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+netpi/ueditor,https://github.com/netpi/ueditor,JavaScript,Unknown,Web Application,0,0,0,1,0,9,6402,13,499,162,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+sameerkumar18/corporate-bs-generator-api,https://github.com/sameerkumar18/corporate-bs-generator-api,JavaScript,Unknown,API,0,0,0,0,0,1,576,2,353,17,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+nz-m/SocialEcho,https://github.com/nz-m/SocialEcho,JavaScript,MongoDB,Web Application,1,0,0,1,0,3,19907,63,2435,590,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+gustaYo/vue-chess,https://github.com/gustaYo/vue-chess,JavaScript,MongoDB,Web Application,0,0,0,1,0,1,19649,95,469,187,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+gustaYo/vue-chess,https://github.com/gustaYo/vue-chess,JavaScript,MongoDB,Web Application,0,0,0,1,0,1,19649,95,469,187,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+jigar-sable/instagram-mern,https://github.com/jigar-sable/instagram-mern,JavaScript,MongoDB,Web Application,0,0,0,1,0,2,1832,41,680,226,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+gustaYo/vue-chess,https://github.com/gustaYo/vue-chess,JavaScript,MongoDB,Web Application,0,0,0,1,0,1,19649,95,469,187,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+vmasto/express-babel,https://github.com/vmasto/express-babel,JavaScript,Unknown,Web Application,0,0,0,1,0,8,1695,20,611,108,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+amazingandyyy/mern,https://github.com/amazingandyyy/mern,JavaScript,MongoDB,Web Application,0,1,0,1,0,8,36103,52,574,313,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+alloyteamzy/vue2_blog,https://github.com/alloyteamzy/vue2_blog,JavaScript,Unknown,CLI,0,0,0,1,0,2,2780,67,448,118,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+expressjs/morgan,https://github.com/expressjs/morgan,JavaScript,Unknown,Unknown,0,1,0,1,0,31,276,16,8200,563,15,5,Express.js,0.95,package.json: express (fallback),,0,0,0
+vmasto/express-babel,https://github.com/vmasto/express-babel,JavaScript,Unknown,Web Application,0,0,0,1,0,8,1695,20,611,108,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+simov/grant,https://github.com/simov/grant,JavaScript,Unknown,API,0,1,0,1,0,57,1595,41,4169,268,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+janoside/btc-rpc-explorer,https://github.com/janoside/btc-rpc-explorer,JavaScript,Redis,Web Application,1,1,0,1,0,41,19226,44,1789,1354,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention redis,0,0,0
+ForbesLindesay/browserify-middleware,https://github.com/ForbesLindesay/browserify-middleware,JavaScript,Unknown,Web Application,0,1,0,1,0,23,247,13,380,60,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+ecitlm/Node-SpliderApi,https://github.com/ecitlm/Node-SpliderApi,JavaScript,MySQL,Web Application,0,0,0,0,0,4,5945,43,865,215,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mysql/mysqlclient/dll,0,0,0
+kartikk221/hyper-express,https://github.com/kartikk221/hyper-express,JavaScript,Unknown,API,0,1,1,1,0,46,2237,24,2028,109,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+apereo/cas,https://github.com/apereo/cas,Java,Unknown,Web Application,1,1,1,1,0,381,352514,63,11359,3956,5147,52,Express.js,0.95,package.json: express (fallback),,0,0,0
+foyzulkarim/mernboilerplate-antd,https://github.com/foyzulkarim/mernboilerplate-antd,JavaScript,MongoDB,Dashboard,1,1,1,1,0,7,8824,91,339,101,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+netpi/ueditor,https://github.com/netpi/ueditor,JavaScript,Unknown,Web Application,0,0,0,1,0,9,6402,13,499,162,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+developit/express-es6-rest-api,https://github.com/developit/express-es6-rest-api,JavaScript,Unknown,API,1,0,0,0,0,12,23,12,2439,538,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+RafalWilinski/express-status-monitor,https://github.com/RafalWilinski/express-status-monitor,JavaScript,Unknown,Web Application,0,0,0,1,0,39,1263,14,3614,264,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+bezkoder/node-express-mongodb,https://github.com/bezkoder/node-express-mongodb,JavaScript,MongoDB,API,0,0,0,1,0,1,6,3,338,333,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+xrr2016/vue-express-mongodb,https://github.com/xrr2016/vue-express-mongodb,JavaScript,MongoDB,Web Application,0,0,0,1,0,5,3751,44,585,140,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+bailicangdu/node-elm,https://github.com/bailicangdu/node-elm,JavaScript,MongoDB,E-commerce,0,0,0,1,0,7,8212,37,12336,3674,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb,0,0,0
+openreplay/openreplay,https://github.com/openreplay/openreplay,TypeScript,PostgreSQL,Web Application,1,1,1,1,0,80,216264,191,12564,809,2354,51,Express.js,0.95,package.json: express,dependencies mention postgresql/psycopg/dll,0,0,0
+orifmilod/iCinema,https://github.com/orifmilod/iCinema,JavaScript,MongoDB,API,0,0,1,0,0,6,52376,47,332,121,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+netpi/ueditor,https://github.com/netpi/ueditor,JavaScript,Unknown,Web Application,0,0,0,1,0,9,6402,13,499,162,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+k-yle/rtsp-relay,https://github.com/k-yle/rtsp-relay,JavaScript,Unknown,Web Application,0,1,0,1,0,6,26304,17,385,69,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+hitarth-gg/zenshin,https://github.com/hitarth-gg/zenshin,JavaScript,Unknown,API,0,1,0,1,0,1,10788,106,758,70,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+azat-co/practicalnode,https://github.com/azat-co/practicalnode,JavaScript,Unknown,API,1,0,1,0,0,27,44471,10,3780,672,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+jigar-sable/instagram-mern,https://github.com/jigar-sable/instagram-mern,JavaScript,MongoDB,Web Application,0,0,0,1,0,2,1832,41,680,226,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+maanavshah/stock-market-india,https://github.com/maanavshah/stock-market-india,JavaScript,Unknown,API,0,0,0,1,0,8,77,4,1036,411,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+liuxing/node-abc,https://github.com/liuxing/node-abc,JavaScript,MySQL,Web Application,0,0,0,1,0,4,227,9,365,99,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mysql/mysqlclient/dll,0,0,0
+linweiwei123/multipages-generator,https://github.com/linweiwei123/multipages-generator,JavaScript,Unknown,Web Application,0,0,0,1,0,5,2815,119,352,39,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+OpenUserJS/OpenUserJS.org,https://github.com/OpenUserJS/OpenUserJS.org,JavaScript,MongoDB,Web Application,0,1,0,1,0,23,9283,67,1005,364,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+maoxiaoquan/kite,https://github.com/maoxiaoquan/kite,JavaScript,MySQL,CMS,0,0,0,1,0,2,11911,124,633,109,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mysql/mysqlclient/dll,0,0,0
+apereo/cas,https://github.com/apereo/cas,Java,Unknown,Web Application,1,1,1,1,0,381,352514,63,11359,3956,5147,52,Express.js,0.95,package.json: express (fallback),,0,0,0
+bailicangdu/node-elm,https://github.com/bailicangdu/node-elm,JavaScript,MongoDB,E-commerce,0,0,0,1,0,7,8212,37,12336,3674,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb,0,0,0
+CodeGenieApp/serverless-express,https://github.com/CodeGenieApp/serverless-express,JavaScript,Unknown,API,0,1,1,1,1,65,26314,40,5263,675,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+dimartarmizi/OmniCloud,https://github.com/dimartarmizi/OmniCloud,JavaScript,SQLite,Web Application,1,0,0,1,0,1,840,23,575,131,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention sqlite,0,0,0
+apereo/cas,https://github.com/apereo/cas,Java,Unknown,Web Application,1,1,1,1,0,381,352514,63,11359,3956,5147,52,Express.js,0.95,package.json: express (fallback),,0,0,0
+dimartarmizi/OmniCloud,https://github.com/dimartarmizi/OmniCloud,JavaScript,SQLite,Web Application,1,0,0,1,0,1,840,23,575,131,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention sqlite,0,0,0
+twreporter/twreporter-react,https://github.com/twreporter/twreporter-react,JavaScript,Unknown,Web Application,1,0,0,0,0,42,175655,111,324,61,0,0,Express.js,0.95,package.json: express,,0,0,0
+EQuimper/nodejs-api-boilerplate,https://github.com/EQuimper/nodejs-api-boilerplate,JavaScript,MongoDB,API,1,1,1,1,0,5,2064,56,466,123,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+kartikk221/hyper-express,https://github.com/kartikk221/hyper-express,JavaScript,Unknown,API,0,1,1,1,0,46,2237,24,2028,109,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+bezkoder/node-express-mongodb,https://github.com/bezkoder/node-express-mongodb,JavaScript,MongoDB,API,0,0,0,1,0,1,6,3,338,333,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+hitarth-gg/zenshin,https://github.com/hitarth-gg/zenshin,JavaScript,Unknown,API,0,1,0,1,0,1,10788,106,758,70,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+maitraysuthar/rest-api-nodejs-mongodb,https://github.com/maitraysuthar/rest-api-nodejs-mongodb,JavaScript,MongoDB,API,0,1,0,1,0,3,667,21,1187,415,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+davehowson/chat-app,https://github.com/davehowson/chat-app,JavaScript,MongoDB,Web Application,0,0,0,1,0,2,1589,31,375,119,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+gustaYo/vue-chess,https://github.com/gustaYo/vue-chess,JavaScript,MongoDB,Web Application,0,0,0,1,0,1,19649,95,469,187,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+developit/express-es6-rest-api,https://github.com/developit/express-es6-rest-api,JavaScript,Unknown,API,1,0,0,0,0,12,23,12,2439,538,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+liuzi6612/nav,https://github.com/liuzi6612/nav,TypeScript,Unknown,Web Application,0,1,0,1,0,10,88944,55,3336,2380,0,0,Express.js,0.95,package.json: express,,0,0,0
+pompelmi/pompelmi,https://github.com/pompelmi/pompelmi,JavaScript,Unknown,Web Application,1,1,0,1,1,1,15599,5,673,32,90,7,Express.js,0.95,package.json: express (fallback),,0,0,0
+nz-m/SocialEcho,https://github.com/nz-m/SocialEcho,JavaScript,MongoDB,Web Application,1,0,0,1,0,3,19907,63,2435,590,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+express-promise-router/express-promise-router,https://github.com/express-promise-router/express-promise-router,JavaScript,Unknown,Web Application,0,1,0,1,0,15,1860,21,382,41,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+liuxing/node-abc,https://github.com/liuxing/node-abc,JavaScript,MySQL,Web Application,0,0,0,1,0,4,227,9,365,99,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mysql/mysqlclient/dll,0,0,0
+watscho/express-graphql-mongodb-boilerplate,https://github.com/watscho/express-graphql-mongodb-boilerplate,JavaScript,MongoDB,API,1,0,0,1,1,3,176,27,348,60,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+gustaYo/vue-chess,https://github.com/gustaYo/vue-chess,JavaScript,MongoDB,Web Application,0,0,0,1,0,1,19649,95,469,187,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+krishnakanthb13/antigravity_phone_chat,https://github.com/krishnakanthb13/antigravity_phone_chat,JavaScript,Unknown,Web Application,0,0,0,1,0,3,15973,5,792,127,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+DaKheera47/job-ops,https://github.com/DaKheera47/job-ops,TypeScript,SQLite,Dashboard,1,1,1,1,0,40,9460,115,3873,501,735,36,Express.js,0.95,package.json: express,dependencies mention sqlite,0,0,0
+sameerkumar18/corporate-bs-generator-api,https://github.com/sameerkumar18/corporate-bs-generator-api,JavaScript,Unknown,API,0,0,0,0,0,1,576,2,353,17,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+syxanash/maxheadbox,https://github.com/syxanash/maxheadbox,JavaScript,Unknown,Web Application,0,0,0,1,0,1,49715,29,351,55,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+xrr2016/vue-express-mongodb,https://github.com/xrr2016/vue-express-mongodb,JavaScript,MongoDB,Web Application,0,0,0,1,0,5,3751,44,585,140,0,0,Express.js,0.95,package.json: express (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+crsandeep/simple-react-full-stack,https://github.com/crsandeep/simple-react-full-stack,JavaScript,Unknown,Web Application,0,1,0,1,0,10,329,26,1629,657,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+Bharat2044/100xDevs-Cohort3-WebDev-and-Devops,https://github.com/Bharat2044/100xDevs-Cohort3-WebDev-and-Devops,JavaScript,Unknown,Web Application,0,0,0,1,1,3,6665,3,1535,384,0,0,Express.js,0.95,package.json: express (fallback),,0,0,0
+foyzulkarim/mernboilerplate-antd,https://github.com/foyzulkarim/mernboilerplate-antd,JavaScript,MongoDB,Dashboard,1,1,1,1,0,7,8824,91,339,101,0,0,Express.js,0.95,package.json: express,dependencies mention mongodb/mongoose/dll,0,0,0
+calcom/cal.diy,https://github.com/calcom/cal.diy,TypeScript,Unknown,Dashboard,1,1,1,1,1,969,1146727,44,47909,14924,4164,46,Next.js,0.95,package.json: next,,0,0,0
+trpc/trpc,https://github.com/trpc/trpc,TypeScript,Unknown,Web Application,1,1,1,1,1,519,69029,128,40543,1653,247,38,Next.js,0.95,package.json: next,,0,0,0
+CopilotKit/CopilotKit,https://github.com/CopilotKit/CopilotKit,TypeScript,Unknown,Web Application,1,1,1,1,1,227,829076,99,37019,4576,12425,52,Next.js,0.95,package.json: next,,0,0,0
+Dokploy/dokploy,https://github.com/Dokploy/dokploy,TypeScript,PostgreSQL,API,1,1,0,1,1,381,31979,160,36844,2907,1907,52,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+gitroomhq/postiz-app,https://github.com/gitroomhq/postiz-app,TypeScript,Redis,Web Application,1,1,1,1,1,74,50369,269,35094,6643,861,52,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+simstudioai/sim,https://github.com/simstudioai/sim,TypeScript,PostgreSQL,Web Application,1,1,1,1,1,60,557072,73,29472,3790,0,0,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+labring/FastGPT,https://github.com/labring/FastGPT,TypeScript,MongoDB,Web Application,1,1,1,1,1,176,455721,63,29437,7276,948,52,Next.js,0.95,package.json: next,dependencies mention mongodb/mongoose/dll,0,0,0
+nrwl/nx,https://github.com/nrwl/nx,TypeScript,Unknown,CLI,1,1,1,1,1,1283,997218,380,29263,3001,3370,52,Next.js,0.95,package.json: next,,0,0,0
+t3-oss/create-t3-app,https://github.com/t3-oss/create-t3-app,TypeScript,PostgreSQL,CLI,0,1,0,1,1,360,8482,103,29098,1533,12,5,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+nextauthjs/next-auth,https://github.com/nextauthjs/next-auth,TypeScript,MySQL,Web Application,1,1,1,1,1,905,70532,66,28341,4044,49,12,Next.js,0.95,package.json: next,dependencies mention mysql/mysqlclient/dll,0,0,0
+onlook-dev/onlook,https://github.com/onlook-dev/onlook,TypeScript,Unknown,Web Application,1,1,1,1,1,108,83029,22,26554,2078,169,16,Next.js,0.95,package.json: next,,0,0,0
+vercel/ai,https://github.com/vercel/ai,TypeScript,Redis,Web Application,0,1,1,1,1,697,357394,131,26395,5018,0,0,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+dubinc/dub,https://github.com/dubinc/dub,TypeScript,Redis,CLI,1,1,1,1,1,93,90320,178,24560,3250,6422,52,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+readest/readest,https://github.com/readest/readest,TypeScript,Unknown,Web Application,1,1,1,1,1,107,251410,214,23697,1506,1835,52,Next.js,0.95,package.json: next,,0,0,0
+pascalorg/editor,https://github.com/pascalorg/editor,TypeScript,Unknown,Web Application,1,1,1,1,1,37,128699,66,21691,2784,1210,33,Next.js,0.95,package.json: next,,0,0,0
+vercel/chatbot,https://github.com/vercel/chatbot,TypeScript,PostgreSQL,Web Application,0,1,1,1,0,76,6321,85,20868,6729,133,22,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+linkwarden/linkwarden,https://github.com/linkwarden/linkwarden,TypeScript,SQLite,Web Application,1,1,1,1,1,90,42063,171,19587,827,560,50,Next.js,0.95,package.json: next,dependencies mention sqlite,0,0,0
+wulkano/Kap,https://github.com/wulkano/Kap,TypeScript,Unknown,Web Application,0,0,0,1,0,58,24623,94,19334,889,0,0,Next.js,0.95,package.json: next,,0,0,0
+shadcn-ui/taxonomy,https://github.com/shadcn-ui/taxonomy,TypeScript,Relational (ORM),Web Application,0,0,0,1,0,10,14600,100,19286,2734,1,1,Next.js,0.95,package.json: next,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+ahmedkhaleel2004/gitdiagram,https://github.com/ahmedkhaleel2004/gitdiagram,TypeScript,Redis,CLI,1,1,0,1,0,5,13774,55,17645,1351,0,0,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+nextjs/saas-starter,https://github.com/nextjs/saas-starter,TypeScript,PostgreSQL,Web Application,0,0,0,1,0,25,403,27,16054,2698,2,1,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+midday-ai/midday,https://github.com/midday-ai/midday,TypeScript,Unknown,Web Application,1,1,1,1,1,33,324492,146,14898,1844,465,34,Next.js,0.95,package.json: next,,0,0,0
+documenso/documenso,https://github.com/documenso/documenso,TypeScript,Relational (ORM),Web Application,1,1,1,1,1,185,287740,110,14727,3120,0,0,Next.js,0.95,package.json: next,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+vercel/commerce,https://github.com/vercel/commerce,TypeScript,Unknown,E-commerce,0,0,0,1,0,143,11114,19,14236,5468,5,5,Next.js,0.95,package.json: next,,0,0,0
+blitz-js/blitz,https://github.com/blitz-js/blitz,TypeScript,Relational (ORM),Web Application,0,1,1,1,1,67,124159,72,14128,806,2,1,Next.js,0.95,package.json: next,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+Open-Dev-Society/OpenStock,https://github.com/Open-Dev-Society/OpenStock,TypeScript,MongoDB,Web Application,1,0,1,1,0,14,2254,42,14117,1869,94,16,Next.js,0.95,package.json: next,dependencies mention mongodb/mongoose/dll,0,0,0
+LibreSpark/LibreTV,https://github.com/LibreSpark/LibreTV,TypeScript,Unknown,Web Application,1,1,0,1,0,30,3305,22,14005,27495,0,0,Next.js,0.95,package.json: next,,0,0,0
+shuding/nextra,https://github.com/shuding/nextra,TypeScript,Unknown,Web Application,0,1,1,1,1,194,40982,29,13910,1416,0,0,Next.js,0.95,package.json: next,,0,0,0
+tinacms/tinacms,https://github.com/tinacms/tinacms,TypeScript,Unknown,CMS,0,1,1,1,1,171,932657,41,13753,743,816,50,Next.js,0.95,package.json: next,,0,0,0
+ixartz/Next-js-Boilerplate,https://github.com/ixartz/Next-js-Boilerplate,TypeScript,Unknown,Web Application,0,1,1,1,0,39,45877,53,13056,2406,0,0,Next.js,0.95,package.json: next,,0,0,0
+fuma-nama/fumadocs,https://github.com/fuma-nama/fumadocs,TypeScript,Unknown,Web Application,0,1,0,1,1,180,137563,103,12970,723,0,0,Next.js,0.95,package.json: next,,0,0,0
+codexu/note-gen,https://github.com/codexu/note-gen,TypeScript,Unknown,Web Application,0,1,0,1,0,35,17815,147,12682,959,700,46,Next.js,0.95,package.json: next,,0,0,0
+giscus/giscus,https://github.com/giscus/giscus,TypeScript,Unknown,CMS,0,1,0,1,0,85,3420,39,12055,478,2,1,Next.js,0.95,package.json: next,,0,0,0
+notionnext-org/NotionNext,https://github.com/notionnext-org/NotionNext,JavaScript,Redis,Web Application,1,1,1,1,0,125,272394,69,11775,14719,534,33,Next.js,0.95,package.json: next (fallback),dependencies mention redis,0,0,0
+cosscom/coss,https://github.com/cosscom/coss,TypeScript,Unknown,Web Application,0,1,0,1,1,53,16382,90,10449,530,269,41,Next.js,0.95,package.json: next,,0,0,0
+baptisteArno/typebot.io,https://github.com/baptisteArno/typebot.io,TypeScript,Redis,Web Application,1,1,1,1,1,88,403334,149,10285,3195,581,49,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+BartoszJarocki/cv,https://github.com/BartoszJarocki/cv,TypeScript,Unknown,Web Application,1,0,0,1,0,13,641,21,9681,1066,8,1,Next.js,0.95,package.json: next,,0,0,0
+nhost/nhost,https://github.com/nhost/nhost,TypeScript,Unknown,API,1,1,1,1,1,158,752518,177,9280,612,0,0,Next.js,0.95,package.json: next,,0,0,0
+papermark/papermark,https://github.com/papermark/papermark,TypeScript,Redis,Web Application,0,1,0,1,0,61,36051,181,8969,1367,994,51,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+xitanggg/open-resume,https://github.com/xitanggg/open-resume,TypeScript,Unknown,Web Application,1,0,1,1,0,8,25033,28,8859,1025,0,0,Next.js,0.95,package.json: next,,0,0,0
+lnkiai/m3e-canvas,https://github.com/lnkiai/m3e-canvas,TypeScript,Unknown,Web Application,0,1,0,1,0,10,9357,12,8520,897,141,5,Next.js,0.95,package.json: next,,0,0,0
+garmeeh/next-seo,https://github.com/garmeeh/next-seo,TypeScript,Unknown,Web Application,0,1,1,1,1,118,9946,33,8510,455,0,0,Next.js,0.95,package.json: next,,0,0,0
+Snouzy/workout-cool,https://github.com/Snouzy/workout-cool,TypeScript,Relational (ORM),Web Application,1,1,0,1,0,14,8927,119,8411,742,80,14,Next.js,0.95,package.json: next,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+webiny/webiny-js,https://github.com/webiny/webiny-js,TypeScript,SQLite,CMS,1,1,1,1,1,85,493870,127,8032,673,2061,51,Next.js,0.95,package.json: next,dependencies mention sqlite,0,0,0
+juliencrn/usehooks-ts,https://github.com/juliencrn/usehooks-ts,TypeScript,Unknown,Web Application,0,1,1,1,1,67,11805,66,7850,457,0,0,Next.js,0.95,package.json: next,,0,0,0
+vercel/next-forge,https://github.com/vercel/next-forge,TypeScript,Relational (ORM),Web Application,0,1,1,1,1,64,20234,81,7662,712,71,9,Next.js,0.95,package.json: next,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+leerob/next-mdx-blog,https://github.com/leerob/next-mdx-blog,TypeScript,PostgreSQL,CMS,0,0,0,0,0,92,207591,16,7575,1452,11,6,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+Blazity/next-enterprise,https://github.com/Blazity/next-enterprise,TypeScript,Unknown,Web Application,0,1,0,1,0,15,5175,90,7445,1963,6,4,Next.js,0.95,package.json: next,,0,0,0
+ixartz/SaaS-Boilerplate,https://github.com/ixartz/SaaS-Boilerplate,TypeScript,Unknown,Web Application,0,1,1,1,0,10,6730,71,7380,1333,36,15,Next.js,0.95,package.json: next,,0,0,0
+transitive-bullshit/nextjs-notion-starter-kit,https://github.com/transitive-bullshit/nextjs-notion-starter-kit,TypeScript,Redis,CMS,0,1,0,0,1,30,4984,36,7027,5677,40,8,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+plasmicapp/plasmic,https://github.com/plasmicapp/plasmic,TypeScript,Relational (ORM),CMS,1,1,1,1,1,88,316870,72,6969,711,1177,52,Next.js,0.95,package.json: next,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+Kiranism/next-shadcn-dashboard-starter,https://github.com/Kiranism/next-shadcn-dashboard-starter,TypeScript,Unknown,Dashboard,1,0,0,1,0,13,5085,60,6867,1572,0,0,Next.js,0.95,package.json: next,,0,0,0
+nodejs/nodejs.org,https://github.com/nodejs/nodejs.org,TypeScript,Unknown,Web Application,0,1,1,1,1,999,123652,82,6862,6485,667,51,Next.js,0.95,package.json: next,,0,0,0
+hexclave/hexclave,https://github.com/hexclave/hexclave,TypeScript,PostgreSQL,API,1,1,1,1,1,68,113919,105,6840,521,0,0,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+vercel/platforms,https://github.com/vercel/platforms,TypeScript,Redis,Web Application,0,0,0,1,0,46,7330,22,6705,1063,2,2,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+typehero/typehero,https://github.com/typehero/typehero,TypeScript,Redis,Web Application,1,1,1,1,1,140,104032,112,6638,469,15,7,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+op7418/CodePilot,https://github.com/op7418/CodePilot,TypeScript,SQLite,Web Application,0,1,1,1,0,14,35755,140,6418,689,0,0,Next.js,0.95,package.json: next,dependencies mention sqlite,0,0,0
+e2b-dev/fragments,https://github.com/e2b-dev/fragments,TypeScript,Unknown,Web Application,0,1,0,1,0,17,5570,57,6372,866,26,16,Next.js,0.95,package.json: next,,0,0,0
+al1abb/invoify,https://github.com/al1abb/invoify,TypeScript,Unknown,Web Application,1,1,0,1,0,33,4663,73,6346,729,148,14,Next.js,0.95,package.json: next,,0,0,0
+bagisto/nextjs-commerce,https://github.com/bagisto/nextjs-commerce,TypeScript,Unknown,E-commerce,0,0,0,1,0,11,10600,28,6272,113,60,18,Next.js,0.95,package.json: next,,0,0,0
+sadmann7/tablecn,https://github.com/sadmann7/tablecn,TypeScript,PostgreSQL,Web Application,1,1,0,1,1,33,4549,62,6260,557,113,19,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+i18next/next-i18next,https://github.com/i18next/next-i18next,TypeScript,Unknown,Web Application,0,1,1,1,0,105,8366,56,6162,759,0,0,Next.js,0.95,package.json: next,,0,0,0
+t3-oss/create-t3-turbo,https://github.com/t3-oss/create-t3-turbo,TypeScript,Unknown,Web Application,0,1,0,1,1,105,8603,74,6103,564,46,8,Next.js,0.95,package.json: next,,0,0,0
+builderz-labs/mission-control,https://github.com/builderz-labs/mission-control,TypeScript,SQLite,Web Application,1,1,1,1,1,53,21525,46,6087,58,450,16,Next.js,0.95,package.json: next,dependencies mention sqlite,0,0,0
+nolly-studio/cult-ui,https://github.com/nolly-studio/cult-ui,TypeScript,Unknown,Web Application,0,1,0,1,1,8,218911,159,6061,332,55,18,Next.js,0.95,package.json: next,,0,0,0
+srizzon/git-city,https://github.com/srizzon/git-city,TypeScript,Unknown,Web Application,0,1,0,1,0,20,24431,54,5765,284,319,18,Next.js,0.95,package.json: next,,0,0,0
+antiwork/shortest,https://github.com/antiwork/shortest,TypeScript,PostgreSQL,Web Application,0,1,1,1,1,39,2182,107,5666,338,1,1,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+devias-io/material-kit-react,https://github.com/devias-io/material-kit-react,TypeScript,Unknown,Dashboard,0,0,0,1,0,12,10955,47,5587,2562,0,0,Next.js,0.95,package.json: next,,0,0,0
+kanbn/kan,https://github.com/kanbn/kan,TypeScript,Unknown,Web Application,1,1,1,1,1,49,69585,80,5489,451,355,47,Next.js,0.95,package.json: next,,0,0,0
+sadmann7/skateshop,https://github.com/sadmann7/skateshop,TypeScript,PostgreSQL,E-commerce,0,1,0,1,0,32,176309,114,5453,776,0,0,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+NotionX/react-notion-x,https://github.com/NotionX/react-notion-x,TypeScript,Unknown,API,0,1,0,0,1,100,5603,47,5431,647,166,19,Next.js,0.95,package.json: next,,0,0,0
+lukevella/rallly,https://github.com/lukevella/rallly,TypeScript,Relational (ORM),Web Application,1,1,1,1,1,34,43813,55,5222,550,1249,51,Next.js,0.95,package.json: next,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+steven-tey/precedent,https://github.com/steven-tey/precedent,TypeScript,Unknown,Web Application,0,0,0,1,0,19,450,35,5115,492,0,0,Next.js,0.95,package.json: next,,0,0,0
+opennextjs/opennextjs-aws,https://github.com/opennextjs/opennextjs-aws,TypeScript,Unknown,Web Application,0,1,1,1,1,97,24709,32,5020,226,142,39,Next.js,0.95,package.json: next,,0,0,0
+boxyhq/saas-starter-kit,https://github.com/boxyhq/saas-starter-kit,TypeScript,Relational (ORM),Web Application,1,1,1,1,0,43,11488,65,4913,1232,0,0,Next.js,0.95,package.json: next,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+cruip/open-react-template,https://github.com/cruip/open-react-template,TypeScript,Unknown,Web Application,0,0,0,1,0,3,4448,14,4693,2089,0,0,Next.js,0.95,package.json: next,,0,0,0
+async-labs/saas,https://github.com/async-labs/saas,TypeScript,MongoDB,API,0,0,0,1,0,11,6887,97,4503,743,0,0,Next.js,0.95,package.json: next,dependencies mention mongodb/mongoose/dll,0,0,0
+cruip/tailwind-landing-page-template,https://github.com/cruip/tailwind-landing-page-template,TypeScript,Unknown,Web Application,0,0,0,1,0,3,3724,15,4494,1713,0,0,Next.js,0.95,package.json: next,,0,0,0
+clintonwoo/hackernews-react-graphql,https://github.com/clintonwoo/hackernews-react-graphql,TypeScript,Unknown,Web Application,1,0,1,1,0,5,10716,63,4449,552,0,0,Next.js,0.95,package.json: next,,0,0,0
+saltyshiomix/nextron,https://github.com/saltyshiomix/nextron,TypeScript,Unknown,Web Application,0,0,0,1,1,41,28442,34,4426,253,0,0,Next.js,0.95,package.json: next,,0,0,0
+melgarafael/DeskcommCRM,https://github.com/melgarafael/DeskcommCRM,TypeScript,Redis,API,1,1,1,1,0,117,223429,89,4317,1091,0,0,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+imskyleen/animate-ui,https://github.com/imskyleen/animate-ui,TypeScript,Unknown,Web Application,0,0,0,1,1,28,8952,77,4201,238,0,0,Next.js,0.95,package.json: next,,0,0,0
+vvo/iron-session,https://github.com/vvo/iron-session,TypeScript,Unknown,Web Application,0,1,0,1,1,48,8250,38,4137,255,1,1,Next.js,0.95,package.json: next,,0,0,0
+alovajs/alova,https://github.com/alovajs/alova,TypeScript,Unknown,API,0,1,0,1,1,21,21554,73,4014,148,0,0,Next.js,0.95,package.json: next,,0,0,0
+crafter-station/petdex,https://github.com/crafter-station/petdex,TypeScript,PostgreSQL,CLI,0,1,1,1,1,37,75496,57,3969,188,812,17,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+hunvreus/pagescms,https://github.com/hunvreus/pagescms,TypeScript,PostgreSQL,CMS,0,0,0,1,0,8,3112,80,3938,529,0,0,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+premieroctet/photoshot,https://github.com/premieroctet/photoshot,TypeScript,Relational (ORM),Web Application,1,0,0,1,0,5,37501,53,3870,471,0,0,Next.js,0.95,package.json: next,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+ijjk/notion-blog,https://github.com/ijjk/notion-blog,TypeScript,Unknown,Web Application,0,0,0,0,0,15,1147,16,3859,549,0,0,Next.js,0.95,package.json: next,,0,0,0
+iamvishnusankar/next-sitemap,https://github.com/iamvishnusankar/next-sitemap,TypeScript,Unknown,Web Application,0,1,1,1,0,27,6574,47,3745,141,0,0,Next.js,0.95,package.json: next,,0,0,0
+OvidijusParsiunas/deep-chat,https://github.com/OvidijusParsiunas/deep-chat,TypeScript,Unknown,Web Application,0,1,0,1,0,17,99619,61,3706,451,271,50,Next.js,0.95,package.json: next,,0,0,0
+Renhuai123/ziwei-doushu,https://github.com/Renhuai123/ziwei-doushu,TypeScript,Redis,Web Application,0,0,0,1,0,2,78,25,3673,794,13,7,Next.js,0.95,package.json: next,dependencies mention redis,0,0,0
+adrianhajdin/portfolio,https://github.com/adrianhajdin/portfolio,TypeScript,Unknown,Web Application,0,0,0,1,0,2,18401,31,3671,800,0,0,Next.js,0.95,package.json: next,,0,0,0
+dimthink/PriceAI,https://github.com/dimthink/PriceAI,TypeScript,SQLite,Web Application,0,1,0,1,0,2,27662,23,3554,184,0,0,Next.js,0.95,package.json: next,dependencies mention sqlite,0,0,0
+rashadphz/farfalle,https://github.com/rashadphz/farfalle,TypeScript,PostgreSQL,API,1,1,0,1,0,5,2291,53,3540,320,0,0,Next.js,0.95,package.json: next,dependencies mention postgresql/psycopg/dll,0,0,0
+theodorusclarence/ts-nextjs-tailwind-starter,https://github.com/theodorusclarence/ts-nextjs-tailwind-starter,TypeScript,Unknown,Web Application,0,1,1,1,0,19,2749,35,3414,614,0,0,Next.js,0.95,package.json: next,,0,0,0
+pacexy/flow,https://github.com/pacexy/flow,TypeScript,Unknown,Web Application,1,1,0,1,1,13,4894,99,3347,292,0,0,Next.js,0.95,package.json: next,,0,0,0
+ts-rest/ts-rest,https://github.com/ts-rest/ts-rest,TypeScript,Relational (ORM),API,1,1,1,1,1,82,10230,193,3341,178,0,0,Next.js,0.95,package.json: next,dependencies mention orm (prisma/sqlalchemy/etc),0,0,0
+Mayandev/notion-avatar,https://github.com/Mayandev/notion-avatar,TypeScript,Unknown,Web Application,0,1,0,1,0,11,4390,51,3224,262,0,0,Next.js,0.95,package.json: next,,0,0,0
+imranhsayed/woo-next,https://github.com/imranhsayed/woo-next,JavaScript,Unknown,API,0,0,0,1,0,7,205547,26,895,257,0,0,Next.js,0.95,package.json: next (fallback),,0,0,0
+salihozdemir/stackoverflow-clone,https://github.com/salihozdemir/stackoverflow-clone,JavaScript,MongoDB,API,0,0,1,1,0,4,1197,42,685,181,0,0,Next.js,0.95,package.json: next (fallback),dependencies mention mongodb/mongoose/dll,0,0,0
+gitlabhq/gitlabhq,https://github.com/gitlabhq/gitlabhq,Ruby,PostgreSQL,Web Application,1,1,1,1,0,3006,2799604,277,24535,5987,2320,52,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/etc,0,0,0
+heartcombo/devise,https://github.com/heartcombo/devise,Ruby,MongoDB,CLI,0,1,0,1,0,721,5944,0,24360,5476,55,20,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mongodb,0,0,0
+forem/forem,https://github.com/forem/forem,Ruby,PostgreSQL,Web Application,1,1,1,1,0,801,1821053,110,22770,4180,1012,51,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/etc,0,0,0
+diaspora/diaspora,https://github.com/diaspora/diaspora,Ruby,PostgreSQL,Web Application,1,1,1,1,0,550,117798,23,13652,2863,111,7,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+activeadmin/activeadmin,https://github.com/activeadmin/activeadmin,Ruby,SQLite,Web Application,0,1,1,1,0,809,16839,9,9704,3325,158,49,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+kaminari/kaminari,https://github.com/kaminari/kaminari,Ruby,PostgreSQL,Web Application,0,1,0,1,0,181,1568,0,8672,1073,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+basecamp/fizzy,https://github.com/basecamp/fizzy,Ruby,SQLite,Web Application,1,1,0,1,0,111,62061,0,8118,1170,5571,51,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+presidentbeef/brakeman,https://github.com/presidentbeef/brakeman,Ruby,MySQL,Web Application,1,1,1,1,1,194,46431,6,7261,776,84,24,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+zammad/zammad,https://github.com/zammad/zammad,Ruby,PostgreSQL,Web Application,1,1,1,1,1,176,1050543,157,5862,1044,2393,52,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+rmosolgo/graphql-ruby,https://github.com/rmosolgo/graphql-ruby,Ruby,Unknown,Web Application,0,1,1,0,0,638,236933,25,5444,1418,941,43,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+solidusio/solidus,https://github.com/solidusio/solidus,Ruby,PostgreSQL,E-commerce,1,1,1,1,0,1320,125228,0,5324,1403,645,48,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+rails/webpacker,https://github.com/rails/webpacker,Ruby,Unknown,Web Application,0,1,1,1,0,456,5462,25,5273,1444,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+aasm/aasm,https://github.com/aasm/aasm,Ruby,SQLite,Web Application,1,1,1,1,0,247,2071,0,5231,643,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+ddnexus/pagy,https://github.com/ddnexus/pagy,Ruby,SQLite,API,0,1,0,1,0,152,41340,13,4989,446,325,40,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+lobsters/lobsters,https://github.com/lobsters/lobsters,Ruby,SQLite,Web Application,1,1,1,1,0,324,8883,0,4815,980,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+ankane/ahoy,https://github.com/ankane/ahoy,Ruby,MySQL,Web Application,0,1,0,1,0,49,864,0,4484,387,31,13,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+octobox/octobox,https://github.com/octobox/octobox,Ruby,Redis,Web Application,1,1,0,1,0,128,24685,0,4481,349,382,51,Ruby on Rails,0.95,Gemfile: rails,dependencies mention redis,0,0,0
+blackcandy-org/blackcandy,https://github.com/blackcandy-org/blackcandy,Ruby,PostgreSQL,Web Application,1,1,0,1,0,9,12104,10,4405,222,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+crmne/ruby_llm,https://github.com/crmne/ruby_llm,Ruby,SQLite,Web Application,0,1,1,1,0,116,314071,0,4320,488,749,38,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+flippercloud/flipper,https://github.com/flippercloud/flipper,Ruby,MySQL,API,1,1,1,1,0,154,8439,2,3965,440,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+ruby-china/homeland,https://github.com/ruby-china/homeland,Ruby,Redis,Web Application,1,1,0,0,0,156,29677,48,3860,1179,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention redis,0,0,0
+thoughtbot/clearance,https://github.com/thoughtbot/clearance,Ruby,SQLite,Web Application,0,1,1,1,0,207,6876,0,3737,464,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+scenic-views/scenic,https://github.com/scenic-views/scenic,Ruby,Unknown,Web Application,1,1,1,1,0,58,515,0,3623,241,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+thoughtbot/shoulda-matchers,https://github.com/thoughtbot/shoulda-matchers,Ruby,Unknown,Web Application,0,1,1,1,0,342,16436,0,3582,917,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+lynndylanhurley/devise_token_auth,https://github.com/lynndylanhurley/devise_token_auth,Ruby,Unknown,API,0,1,0,1,0,248,9083,0,3571,1132,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+bensheldon/good_job,https://github.com/bensheldon/good_job,Ruby,Unknown,API,1,1,1,1,0,172,19674,0,2994,250,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+theforeman/foreman,https://github.com/theforeman/foreman,Ruby,Unknown,Web Application,1,1,1,1,0,575,151458,135,2907,1038,392,51,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+danbooru/danbooru,https://github.com/danbooru/danbooru,Ruby,Redis,Web Application,1,1,0,1,0,85,80947,53,2789,449,677,41,Ruby on Rails,0.95,Gemfile: rails,dependencies mention redis,0,0,0
+activeadmin/inherited_resources,https://github.com/activeadmin/inherited_resources,Ruby,Unknown,Web Application,0,1,0,1,0,119,1435,0,2714,380,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+comfy/comfortable-mexican-sofa,https://github.com/comfy/comfortable-mexican-sofa,Ruby,SQLite,CMS,0,1,1,1,0,161,10025,0,2709,616,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+splitrb/split,https://github.com/splitrb/split,Ruby,Unknown,Web Application,0,1,1,1,0,184,1456,3,2708,369,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+excid3/noticed,https://github.com/excid3/noticed,Ruby,SQLite,Web Application,0,1,0,1,0,91,1802,0,2702,202,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+danmayer/coverband,https://github.com/danmayer/coverband,Ruby,PostgreSQL,Web Application,0,1,0,1,0,89,31497,0,2688,169,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+DavyJonesLocker/client_side_validations,https://github.com/DavyJonesLocker/client_side_validations,Ruby,SQLite,CLI,0,1,0,1,0,70,2339,4,2680,395,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+scambra/devise_invitable,https://github.com/scambra/devise_invitable,Ruby,SQLite,Web Application,0,1,0,1,0,189,1502,0,2676,543,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+NoamB/sorcery,https://github.com/NoamB/sorcery,Ruby,SQLite,Web Application,0,1,1,0,0,158,2698,0,2300,373,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+pay-rails/pay,https://github.com/pay-rails/pay,Ruby,MySQL,Web Application,1,1,0,1,0,134,7499,0,2253,354,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+adamcooke/staytus,https://github.com/adamcooke/staytus,Ruby,MySQL,Web Application,1,0,0,1,0,22,522,0,2173,274,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+rubyconfig/config,https://github.com/rubyconfig/config,Ruby,SQLite,Web Application,1,1,1,1,0,100,779,0,2170,231,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+manyfold3d/manyfold,https://github.com/manyfold3d/manyfold,Ruby,PostgreSQL,Web Application,1,1,1,1,0,37,27964,45,2140,138,4499,52,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+ambethia/recaptcha,https://github.com/ambethia/recaptcha,Ruby,SQLite,Web Application,0,1,0,1,0,167,822,0,2005,439,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+TrestleAdmin/trestle,https://github.com/TrestleAdmin/trestle,Ruby,SQLite,Dashboard,0,1,1,1,0,31,17185,30,1992,175,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+ClosureTree/closure_tree,https://github.com/ClosureTree/closure_tree,Ruby,MySQL,Web Application,1,1,0,1,0,97,1427,0,1943,248,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+bullet-train-co/bullet_train,https://github.com/bullet-train-co/bullet_train,Ruby,PostgreSQL,Web Application,1,1,1,1,0,67,7084,33,1886,303,247,44,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+snibox/snibox,https://github.com/snibox/snibox,Ruby,Unknown,Web Application,1,0,1,0,0,7,916,24,1811,115,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+avo-hq/avo,https://github.com/avo-hq/avo,Ruby,Redis,Dashboard,1,1,1,1,0,142,30414,81,1797,315,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention redis,0,0,0
+fphilipe/premailer-rails,https://github.com/fphilipe/premailer-rails,Ruby,Unknown,Web Application,0,1,1,1,0,57,339,0,1764,257,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+24pullrequests/24pullrequests,https://github.com/24pullrequests/24pullrequests,Ruby,Unknown,Web Application,1,1,1,1,0,286,14988,0,1707,533,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+palkan/logidze,https://github.com/palkan/logidze,Ruby,Unknown,Web Application,0,1,1,1,0,41,736,0,1685,84,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+bootstrap-ruby/bootstrap_form,https://github.com/bootstrap-ruby/bootstrap_form,Ruby,SQLite,Web Application,0,1,0,1,0,104,6327,10,1643,351,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+adzap/validates_timeliness,https://github.com/adzap/validates_timeliness,Ruby,SQLite,Web Application,0,1,1,1,0,30,1396,0,1617,233,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+thredded/thredded,https://github.com/thredded/thredded,Ruby,Unknown,Web Application,1,1,1,1,0,55,3768,7,1599,214,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+ElMassimo/vite_ruby,https://github.com/ElMassimo/vite_ruby,Ruby,Unknown,Web Application,1,1,1,1,1,58,3339,30,1592,150,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+palkan/action_policy,https://github.com/palkan/action_policy,Ruby,SQLite,Web Application,0,1,1,1,0,57,2946,30,1560,89,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+RailsEventStore/rails_event_store,https://github.com/RailsEventStore/rails_event_store,Ruby,SQLite,Web Application,1,1,1,1,0,82,16840,16,1551,129,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+gonzalo-bulnes/simple_token_authentication,https://github.com/gonzalo-bulnes/simple_token_authentication,Ruby,Unknown,API,0,1,1,1,0,30,777,0,1504,233,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+GeorgeKaraszi/ActiveRecordExtended,https://github.com/GeorgeKaraszi/ActiveRecordExtended,Ruby,Unknown,Web Application,0,1,1,1,0,19,444,0,1467,51,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+codetriage/CodeTriage,https://github.com/codetriage/CodeTriage,Ruby,Unknown,Web Application,0,1,0,1,0,169,11165,0,1465,383,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+Sorcery/sorcery,https://github.com/Sorcery/sorcery,Ruby,SQLite,Web Application,0,1,1,1,0,228,1941,0,1465,230,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+ManageIQ/manageiq,https://github.com/ManageIQ/manageiq,Ruby,Unknown,Web Application,1,1,1,1,0,391,420762,0,1400,931,433,50,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+ossf/best-practices-badge,https://github.com/ossf/best-practices-badge,Ruby,PostgreSQL,Web Application,1,1,0,1,0,51,79490,0,1356,234,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+westonganger/spreadsheet_architect,https://github.com/westonganger/spreadsheet_architect,Ruby,SQLite,Web Application,0,1,0,1,0,11,1148,0,1350,44,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+tryzealot/zealot,https://github.com/tryzealot/zealot,Ruby,Unknown,Web Application,1,1,1,1,1,17,240003,17,1346,172,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+mikker/passwordless,https://github.com/mikker/passwordless,Ruby,SQLite,Web Application,0,1,0,1,0,51,406,0,1338,91,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+amatsuda/jb,https://github.com/amatsuda/jb,Ruby,Unknown,API,0,1,0,1,0,11,159,0,1315,42,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+procore-oss/blueprinter,https://github.com/procore-oss/blueprinter,Ruby,SQLite,Web Application,0,1,1,1,0,61,3356,0,1312,115,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+Shopify/maintenance_tasks,https://github.com/Shopify/maintenance_tasks,Ruby,SQLite,Web Application,0,1,0,1,0,83,3498,0,1303,112,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+waiting-for-dev/devise-jwt,https://github.com/waiting-for-dev/devise-jwt,Ruby,SQLite,Web Application,0,1,1,1,0,40,278,0,1293,130,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+openfoodfoundation/openfoodnetwork,https://github.com/openfoodfoundation/openfoodnetwork,Ruby,PostgreSQL,Web Application,1,1,1,1,0,314,128297,59,1275,797,2724,52,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+igorkasyanchuk/rails_performance,https://github.com/igorkasyanchuk/rails_performance,Ruby,SQLite,Web Application,0,1,0,1,0,29,7037,0,1244,92,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+TracksApp/tracks,https://github.com/TracksApp/tracks,Ruby,PostgreSQL,Web Application,1,1,0,1,0,119,22881,0,1239,530,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+djezzzl/database_consistency,https://github.com/djezzzl/database_consistency,Ruby,MySQL,Web Application,1,1,1,1,0,38,1033,6,1191,65,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+igorkasyanchuk/active_storage_validations,https://github.com/igorkasyanchuk/active_storage_validations,Ruby,SQLite,Web Application,0,1,1,1,0,93,3313,0,1190,150,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+shioyama/mobility,https://github.com/shioyama/mobility,Ruby,PostgreSQL,Web Application,0,1,1,1,0,41,2938,0,1136,96,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+amatsuda/active_decorator,https://github.com/amatsuda/active_decorator,Ruby,SQLite,Web Application,0,1,1,1,0,53,353,0,1129,109,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+palkan/isolator,https://github.com/palkan/isolator,Ruby,SQLite,Web Application,0,1,1,1,0,30,287,0,1120,31,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+bogdan/datagrid,https://github.com/bogdan/datagrid,Ruby,SQLite,Dashboard,0,1,1,1,0,49,1500,0,1111,112,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+DefactoSoftware/Hours,https://github.com/DefactoSoftware/Hours,Ruby,Unknown,Web Application,1,1,1,1,0,40,7947,0,1035,258,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+ledermann/rails-settings,https://github.com/ledermann/rails-settings,Ruby,Unknown,Web Application,0,1,1,1,0,27,323,0,1027,142,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+publiclab/plots2,https://github.com/publiclab/plots2,Ruby,MySQL,Web Application,1,1,1,1,0,1196,30838,51,1019,1870,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+rails-sqlserver/activerecord-sqlserver-adapter,https://github.com/rails-sqlserver/activerecord-sqlserver-adapter,Ruby,SQLite,Web Application,1,1,0,1,0,108,4296,0,981,556,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+textacular/textacular,https://github.com/textacular/textacular,Ruby,Unknown,Web Application,0,1,1,1,0,58,476,0,957,83,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+rgeo/activerecord-postgis-adapter,https://github.com/rgeo/activerecord-postgis-adapter,Ruby,SQLite,Web Application,1,1,0,1,0,67,1298,0,936,256,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+openSUSE/osem,https://github.com/openSUSE/osem,Ruby,Unknown,Web Application,1,1,1,0,0,157,44607,0,926,502,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+palkan/anyway_config,https://github.com/palkan/anyway_config,Ruby,Unknown,Web Application,0,1,1,1,0,39,683,0,914,61,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+marckohlbrugge/sessy,https://github.com/marckohlbrugge/sessy,Ruby,SQLite,Web Application,1,1,0,1,0,8,1405,0,914,42,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+AlchemyCMS/alchemy_cms,https://github.com/AlchemyCMS/alchemy_cms,Ruby,PostgreSQL,CMS,1,1,1,1,1,140,43544,26,907,322,1300,51,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+capistrano/rails,https://github.com/capistrano/rails,Ruby,Unknown,API,0,1,0,1,0,58,144,0,901,262,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+wearefine/fae,https://github.com/wearefine/fae,Ruby,MySQL,CMS,1,0,1,1,0,57,14448,0,852,142,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+motor-admin/motor-admin-rails,https://github.com/motor-admin/motor-admin-rails,Ruby,MongoDB,Dashboard,0,1,1,1,0,19,1581,61,840,89,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mongodb/mongoose/dll,0,0,0
+amatsuda/database_rewinder,https://github.com/amatsuda/database_rewinder,Ruby,PostgreSQL,Web Application,0,1,0,1,0,37,272,0,824,92,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention postgresql/psycopg/dll,0,0,0
+basecamp/upright,https://github.com/basecamp/upright,Ruby,SQLite,Web Application,1,1,0,1,0,7,2067,1,817,34,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+activeadmin/arbre,https://github.com/activeadmin/arbre,Ruby,Unknown,Web Application,0,1,1,1,0,46,864,0,805,76,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+platanus/activeadmin_addons,https://github.com/platanus/activeadmin_addons,Ruby,Unknown,Web Application,0,0,1,1,0,72,8978,12,778,287,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+excid3/madmin,https://github.com/excid3/madmin,Ruby,MySQL,Dashboard,0,1,0,1,0,48,3085,0,769,104,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+DmitryTsepelev/ar_lazy_preload,https://github.com/DmitryTsepelev/ar_lazy_preload,Ruby,SQLite,Web Application,0,1,1,1,0,21,221,0,746,26,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0
+klausmeyer/docker-registry-browser,https://github.com/klausmeyer/docker-registry-browser,Ruby,Unknown,API,1,1,1,1,0,20,3172,0,702,64,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+github/github-ds,https://github.com/github/github-ds,Ruby,MySQL,Web Application,1,1,0,1,0,29,321,0,700,29,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention mysql/mysqlclient/dll,0,0,0
+browserify-rails/browserify-rails,https://github.com/browserify-rails/browserify-rails,Ruby,Unknown,Web Application,0,0,0,1,0,50,461,8,696,88,0,0,Ruby on Rails,0.95,Gemfile: rails,,0,0,0
+unabridged/motion,https://github.com/unabridged/motion,Ruby,SQLite,Web Application,0,1,1,1,0,20,1244,15,694,19,0,0,Ruby on Rails,0.95,Gemfile: rails,dependencies mention sqlite,0,0,0

@@ -1,0 +1,14 @@
+Bimbingan 1 TA : Jumat, 4 September 2026
+
+- Menjelasakan rule TA serta penjadwalan bimbingan 
+- Bimbingan minimal 10 kali
+- Absen Kehadiran harus ditanda tangani dosen TA setiap minggu (bukan ditanda tangani di akhir sekalian semuanya) - Hard copy mengikuti template
+- Cari dan kumpulkan data yang menjadi pokok permasalahan yang bisa dijawab oleh topik "PENERAPAN MACHINE LEARNING DENGAN PENDEKATAN MULTICLASS CLASSIFICATION UNTUK SISTEM REKOMENDASI FRAMEWORK WEB BERDASARKAN KARAKTERISTIK PROYEK" / penelitian TA yang sedang saya lakukan.
+- Kebutuhannya ada, tidak?	
+- Apakah dataset itu valid gak untuk dipakai
+- Metode apa yang digunakan dalam system rekomendasi ini dan pastikan metodenya tidak jadul
+- Caritahu dimana kebutuhan dari penelitian.
+- Yang bisa di planning: 
+
+poin UTAMA:
+Apakah penelitian rekomendasi framework ini benar benar dibutuhkan? dan perkuatlah latar belakang yang menjadi alsana penelitian. Untuk memperkuatnya bisa ditanya langsung atau gunakan survey ke target user nya.

@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 69ab52c6271cac60b077c91cc428c2901a542e2b ovan <geoyansen@gmail.com> 1786545269 +0700	commit (initial): pembuatan draft penulisan skripsi
+69ab52c6271cac60b077c91cc428c2901a542e2b 0826bd6f2c0f89615fab65615800b5cb858641b0 ovan <geoyansen@gmail.com> 1786545593 +0700	commit: tambah judul
+0826bd6f2c0f89615fab65615800b5cb858641b0 69ab52c6271cac60b077c91cc428c2901a542e2b ovan <geoyansen@gmail.com> 1786545994 +0700	reset: moving to head~1
+69ab52c6271cac60b077c91cc428c2901a542e2b 69ab52c6271cac60b077c91cc428c2901a542e2b ovan <geoyansen@gmail.com> 1786546340 +0700	checkout: moving from main to draft-penulisan-skripsi
+69ab52c6271cac60b077c91cc428c2901a542e2b 69ab52c6271cac60b077c91cc428c2901a542e2b ovan <geoyansen@gmail.com> 1786546381 +0700	checkout: moving from draft-penulisan-skripsi to contoh-judul
+69ab52c6271cac60b077c91cc428c2901a542e2b 69ab52c6271cac60b077c91cc428c2901a542e2b ovan <geoyansen@gmail.com> 1786547077 +0700	checkout: moving from contoh-judul to main
+69ab52c6271cac60b077c91cc428c2901a542e2b 75e8e1efb9d42af3cf7d2c21f5a22c51321a74d8 ovan <geoyansen@gmail.com> 1786547182 +0700	commit: tambah judul
+75e8e1efb9d42af3cf7d2c21f5a22c51321a74d8 69ab52c6271cac60b077c91cc428c2901a542e2b ovan <geoyansen@gmail.com> 1786547365 +0700	checkout: moving from main to draft-penulisan-skripsi
+69ab52c6271cac60b077c91cc428c2901a542e2b 75e8e1efb9d42af3cf7d2c21f5a22c51321a74d8 ovan <geoyansen@gmail.com> 1786547389 +0700	checkout: moving from draft-penulisan-skripsi to penambahan-judul
+75e8e1efb9d42af3cf7d2c21f5a22c51321a74d8 69ab52c6271cac60b077c91cc428c2901a542e2b ovan <geoyansen@gmail.com> 1786547411 +0700	checkout: moving from penambahan-judul to draft-penulisan-skripsi
+69ab52c6271cac60b077c91cc428c2901a542e2b cf55b2adf35b554dfbefd40af6821ed18482d55a ovan <geoyansen@gmail.com> 1787543978 +0700	commit: audit_dataset berhasil
+cf55b2adf35b554dfbefd40af6821ed18482d55a b10ce8d69e4871d5b51f5f0cff6fd1713bfb151d ovan <geoyansen@gmail.com> 1792459299 +0700	commit: update skripsi

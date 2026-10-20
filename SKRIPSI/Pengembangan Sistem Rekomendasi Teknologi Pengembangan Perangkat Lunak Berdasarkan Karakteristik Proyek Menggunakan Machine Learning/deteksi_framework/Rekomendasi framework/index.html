@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrameRec — Sistem Rekomendasi Framework Web</title>
+  <meta name="description" content="Sistem rekomendasi framework pengembangan web berbasis Machine Learning. Dapatkan rekomendasi framework terbaik berdasarkan karakteristik proyek Anda." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <div class="nav-logo">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <circle cx="14" cy="14" r="14" fill="url(#logoGrad)"/>
+            <path d="M8 10l6-4 6 4v8l-6 4-6-4V10z" stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+            <circle cx="14" cy="14" r="2" fill="white"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#7C3AED"/>
+                <stop offset="1" stop-color="#06B6D4"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span class="nav-title">FrameRec<span class="nav-dot">.</span></span>
+      </div>
+      <div class="nav-links">
+        <a href="#hero" class="nav-link active" id="nav-beranda">Beranda</a>
+        <a href="#form-section" class="nav-link" id="nav-form">Mulai</a>
+        <a href="#about-section" class="nav-link" id="nav-tentang">Tentang</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Didukung Machine Learning · Random Forest
+      </div>
+      <h1 class="hero-title">
+        Rekomendasi <span class="gradient-text">Framework</span><br/>
+        yang Tepat untuk Proyekmu
+      </h1>
+      <p class="hero-subtitle">
+        Sistem cerdas berbasis ML yang menganalisis karakteristik proyek Anda<br/>
+        untuk merekomendasikan framework terbaik dari 9 pilihan teknologi web.
+      </p>
+      <div class="hero-actions">
+        <a href="#form-section" class="btn-primary" id="btn-mulai">
+          <span>Mulai Analisis</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#about-section" class="btn-secondary" id="btn-pelajari">
+          Pelajari Lebih Lanjut
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">9</span>
+          <span class="stat-label">Framework</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">10</span>
+          <span class="stat-label">Fitur Analisis</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">87%</span>
+          <span class="stat-label">Akurasi Model</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="framework-orbit">
+        <div class="orbit-ring ring-1">
+          <div class="orbit-node" style="--angle:0deg" title="Django"><img src="icons/django.svg" alt="Django" onerror="this.parentElement.innerHTML='<span>Dj</span>'"/></div>
+          <div class="orbit-node" style="--angle:72deg" title="FastAPI"><img src="icons/fastapi.svg" alt="FastAPI" onerror="this.parentElement.innerHTML='<span>FA</span>'"/></div>
+          <div class="orbit-node" style="--angle:144deg" title="Laravel"><img src="icons/laravel.svg" alt="Laravel" onerror="this.parentElement.innerHTML='<span>Lv</span>'"/></div>
+          <div class="orbit-node" style="--angle:216deg" title="Next.js"><img src="icons/nextjs.svg" alt="Next.js" onerror="this.parentElement.innerHTML='<span>Nx</span>'"/></div>
+          <div class="orbit-node" style="--angle:288deg" title="Spring Boot"><img src="icons/spring.svg" alt="Spring" onerror="this.parentElement.innerHTML='<span>SB</span>'"/></div>
+        </div>
+        <div class="orbit-ring ring-2">
+          <div class="orbit-node small" style="--angle:36deg" title="Flask"><span>Fl</span></div>
+          <div class="orbit-node small" style="--angle:108deg" title="Express.js"><span>Ex</span></div>
+          <div class="orbit-node small" style="--angle:180deg" title="Symfony"><span>Sy</span></div>
+          <div class="orbit-node small" style="--angle:252deg" title="Ruby on Rails"><span>RR</span></div>
+        </div>
+        <div class="orbit-center">
+          <div class="center-pulse"></div>
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <path d="M18 6l10 6v12L18 30 8 24V12L18 6z" stroke="url(#cg)" stroke-width="2" stroke-linejoin="round" fill="none"/>
+            <circle cx="18" cy="18" r="4" fill="url(#cg)"/>
+            <defs>
+              <linearGradient id="cg" x1="8" y1="6" x2="28" y2="30" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#A78BFA"/>
+                <stop offset="1" stop-color="#22D3EE"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll untuk mulai</span>
+    </div>
+  </section>
+
+  <!-- ===================== FORM SECTION ===================== -->
+  <section class="form-section" id="form-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Analisis Proyek</div>
+        <h2 class="section-title">Ceritakan <span class="gradient-text">Proyek Anda</span></h2>
+        <p class="section-desc">Jawab 10 pertanyaan berikut untuk mendapatkan rekomendasi framework yang paling sesuai dengan kebutuhan proyek Anda.</p>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="progress-container">
+        <div class="progress-header">
+          <span class="progress-label">Progres Pengisian</span>
+          <span class="progress-count" id="progress-count">0 / 10</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+        </div>
+        <div class="progress-steps" id="progress-steps">
+          <!-- Steps generated by JS -->
+        </div>
+      </div>
+
+      <!-- Question Cards -->
+      <div class="questions-wrapper" id="questions-wrapper">
+
+        <!-- Q1: Jenis Aplikasi -->
+        <div class="question-card" data-q="1" id="card-1">
+          <div class="card-header">
+            <div class="q-number">01</div>
+            <div class="q-meta">
+              <span class="q-category">Karakteristik Aplikasi</span>
+              <div class="q-required">Wajib diisi</div>
+            </div>
+          </div>
+          <h3 class="q-title">Apa jenis utama aplikasi yang akan dikembangkan?</h3>
+          <p class="q-desc">Pilih kategori yang paling menggambarkan fungsi utama sistem Anda.</p>
+          <div class="options-grid" id="q1-options">
+            <label class="option-card" for="q1_web">
+              <input type="radio" name="q1" id="q1_web" value="1" data-q="1"/>
+              <div class="option-icon">🌐</div>
+              <div class="option-text">
+                <strong>Web Application</strong>
+                <span>Aplikasi web umum, portal, sistem informasi</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q1_api">
+              <input type="radio" name="q1" id="q1_api" value="2" data-q="1"/>
+              <div class="option-icon">🔌</div>
+              <div class="option-text">
+                <strong>API / Backend Service</strong>
+                <span>REST API, microservice, backend murni</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q1_cms">
+              <input type="radio" name="q1" id="q1_cms" value="3" data-q="1"/>
+              <div class="option-icon">📝</div>
+              <div class="option-text">
+                <strong>CMS / Konten</strong>
+                <span>Manajemen konten, blog, media</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q1_dashboard">
+              <input type="radio" name="q1" id="q1_dashboard" value="4" data-q="1"/>
+              <div class="option-icon">📊</div>
+              <div class="option-text">
+                <strong>Dashboard / Analytics</strong>
+                <span>Visualisasi data, monitoring, laporan</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q1_ecommerce">
+              <input type="radio" name="q1" id="q1_ecommerce" value="5" data-q="1"/>
+              <div class="option-icon">🛒</div>
+              <div class="option-text">
+                <strong>E-commerce</strong>
+                <span>Toko online, marketplace, transaksi digital</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q1_cli">
+              <input type="radio" name="q1" id="q1_cli" value="6" data-q="1"/>
+              <div class="option-icon">⌨️</div>
+              <div class="option-text">
+                <strong>CLI / Tool</strong>
+                <span>Aplikasi command-line, automation tool</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q2: Bahasa Pemrograman -->
+        <div class="question-card" data-q="2" id="card-2">
+          <div class="card-header">
+            <div class="q-number">02</div>
+            <div class="q-meta">
+              <span class="q-category">Tim & Pengalaman</span>
+              <div class="q-required">Wajib diisi</div>
+            </div>
+          </div>
+          <h3 class="q-title">Bahasa pemrograman utama yang dikuasai tim?</h3>
+          <p class="q-desc">Pilih bahasa yang paling familiar digunakan oleh mayoritas developer di tim Anda.</p>
+          <div class="options-grid" id="q2-options">
+            <label class="option-card" for="q2_python">
+              <input type="radio" name="q2" id="q2_python" value="1" data-q="2"/>
+              <div class="option-icon">🐍</div>
+              <div class="option-text">
+                <strong>Python</strong>
+                <span>Cocok untuk data, AI/ML, backend cepat</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q2_php">
+              <input type="radio" name="q2" id="q2_php" value="2" data-q="2"/>
+              <div class="option-icon">🐘</div>
+              <div class="option-text">
+                <strong>PHP</strong>
+                <span>Ekosistem web mature, hosting mudah</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q2_java">
+              <input type="radio" name="q2" id="q2_java" value="3" data-q="2"/>
+              <div class="option-icon">☕</div>
+              <div class="option-text">
+                <strong>Java</strong>
+                <span>Enterprise-grade, JVM ecosystem</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q2_javascript">
+              <input type="radio" name="q2" id="q2_javascript" value="4" data-q="2"/>
+              <div class="option-icon">🟨</div>
+              <div class="option-text">
+                <strong>JavaScript</strong>
+                <span>Full-stack, Node.js, ekosistem npm</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q2_typescript">
+              <input type="radio" name="q2" id="q2_typescript" value="5" data-q="2"/>
+              <div class="option-icon">🔷</div>
+              <div class="option-text">
+                <strong>TypeScript</strong>
+                <span>JavaScript bertype, lebih aman dan scalable</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q2_ruby">
+              <input type="radio" name="q2" id="q2_ruby" value="6" data-q="2"/>
+              <div class="option-icon">💎</div>
+              <div class="option-text">
+                <strong>Ruby</strong>
+                <span>Developer-friendly, Rails convention</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q3: Database -->
+        <div class="question-card" data-q="3" id="card-3">
+          <div class="card-header">
+            <div class="q-number">03</div>
+            <div class="q-meta">
+              <span class="q-category">Infrastruktur</span>
+              <div class="q-required">Wajib diisi</div>
+            </div>
+          </div>
+          <h3 class="q-title">Database apa yang akan digunakan?</h3>
+          <p class="q-desc">Pilih sistem manajemen basis data yang sesuai dengan kebutuhan penyimpanan data proyek.</p>
+          <div class="options-grid" id="q3-options">
+            <label class="option-card" for="q3_pg">
+              <input type="radio" name="q3" id="q3_pg" value="1" data-q="3"/>
+              <div class="option-icon">🐘</div>
+              <div class="option-text">
+                <strong>PostgreSQL</strong>
+                <span>Relasional, ACID, fitur advanced</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q3_mysql">
+              <input type="radio" name="q3" id="q3_mysql" value="2" data-q="3"/>
+              <div class="option-icon">🐬</div>
+              <div class="option-text">
+                <strong>MySQL</strong>
+                <span>Relasional, populer, kompatibilitas luas</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q3_mongo">
+              <input type="radio" name="q3" id="q3_mongo" value="3" data-q="3"/>
+              <div class="option-icon">🍃</div>
+              <div class="option-text">
+                <strong>MongoDB</strong>
+                <span>NoSQL, dokumen fleksibel, skema bebas</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q3_sqlite">
+              <input type="radio" name="q3" id="q3_sqlite" value="4" data-q="3"/>
+              <div class="option-icon">📦</div>
+              <div class="option-text">
+                <strong>SQLite</strong>
+                <span>Embedded, ringan, cocok untuk prototype</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q3_redis">
+              <input type="radio" name="q3" id="q3_redis" value="5" data-q="3"/>
+              <div class="option-icon">⚡</div>
+              <div class="option-text">
+                <strong>Redis</strong>
+                <span>In-memory, caching, session, queue</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q3_orm">
+              <input type="radio" name="q3" id="q3_orm" value="6" data-q="3"/>
+              <div class="option-icon">🔗</div>
+              <div class="option-text">
+                <strong>Relasional (ORM)</strong>
+                <span>Gunakan ORM, belum tentukan DB spesifik</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q4: Docker -->
+        <div class="question-card" data-q="4" id="card-4">
+          <div class="card-header">
+            <div class="q-number">04</div>
+            <div class="q-meta">
+              <span class="q-category">Infrastruktur & DevOps</span>
+              <div class="q-required">Wajib diisi</div>
+            </div>
+          </div>
+          <h3 class="q-title">Apakah proyek akan menggunakan Docker / containerization?</h3>
+          <p class="q-desc">Docker memungkinkan aplikasi berjalan konsisten di berbagai environment dan memudahkan deployment.</p>
+          <div class="options-grid two-col" id="q4-options">
+            <label class="option-card" for="q4_ya">
+              <input type="radio" name="q4" id="q4_ya" value="1" data-q="4"/>
+              <div class="option-icon">✅</div>
+              <div class="option-text">
+                <strong>Ya, menggunakan Docker</strong>
+                <span>Containerization, orchestration (K8s), portabilitas tinggi</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q4_tidak">
+              <input type="radio" name="q4" id="q4_tidak" value="0" data-q="4"/>
+              <div class="option-icon">❌</div>
+              <div class="option-text">
+                <strong>Tidak menggunakan Docker</strong>
+                <span>Deploy langsung / traditional server setup</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q5: CI/CD -->
+        <div class="question-card" data-q="5" id="card-5">
+          <div class="card-header">
+            <div class="q-number">05</div>
+            <div class="q-meta">
+              <span class="q-category">Praktik Pengembangan</span>
+              <div class="q-required">Wajib diisi</div>
+            </div>
+          </div>
+          <h3 class="q-title">Apakah tim akan menerapkan CI/CD (Continuous Integration/Deployment)?</h3>
+          <p class="q-desc">CI/CD adalah praktik otomatisasi build, test, dan deployment yang mempersingkat siklus pengembangan.</p>
+          <div class="options-grid two-col" id="q5-options">
+            <label class="option-card" for="q5_ya">
+              <input type="radio" name="q5" id="q5_ya" value="1" data-q="5"/>
+              <div class="option-icon">🚀</div>
+              <div class="option-text">
+                <strong>Ya, ada pipeline CI/CD</strong>
+                <span>GitHub Actions, GitLab CI, Jenkins, dll.</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q5_tidak">
+              <input type="radio" name="q5" id="q5_tidak" value="0" data-q="5"/>
+              <div class="option-icon">🔧</div>
+              <div class="option-text">
+                <strong>Tidak / Manual Deploy</strong>
+                <span>Deploy secara manual atau belum direncanakan</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q6: Testing -->
+        <div class="question-card" data-q="6" id="card-6">
+          <div class="card-header">
+            <div class="q-number">06</div>
+            <div class="q-meta">
+              <span class="q-category">Kualitas Kode</span>
+              <div class="q-required">Wajib diisi</div>
+            </div>
+          </div>
+          <h3 class="q-title">Apakah proyek akan dilengkapi dengan automated testing?</h3>
+          <p class="q-desc">Unit test, integration test, atau end-to-end test yang dijalankan secara otomatis untuk menjaga kualitas kode.</p>
+          <div class="options-grid two-col" id="q6-options">
+            <label class="option-card" for="q6_ya">
+              <input type="radio" name="q6" id="q6_ya" value="1" data-q="6"/>
+              <div class="option-icon">🧪</div>
+              <div class="option-text">
+                <strong>Ya, ada automated testing</strong>
+                <span>Unit test, integration test, E2E test</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q6_tidak">
+              <input type="radio" name="q6" id="q6_tidak" value="0" data-q="6"/>
+              <div class="option-icon">🤷</div>
+              <div class="option-text">
+                <strong>Tidak / Manual Testing</strong>
+                <span>Testing dilakukan secara manual</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q7: Monorepo -->
+        <div class="question-card" data-q="7" id="card-7">
+          <div class="card-header">
+            <div class="q-number">07</div>
+            <div class="q-meta">
+              <span class="q-category">Arsitektur Proyek</span>
+              <div class="q-required">Wajib diisi</div>
+            </div>
+          </div>
+          <h3 class="q-title">Apakah proyek menggunakan arsitektur Monorepo?</h3>
+          <p class="q-desc">Monorepo berarti semua komponen (frontend, backend, library) disimpan dalam satu repository tunggal.</p>
+          <div class="options-grid two-col" id="q7-options">
+            <label class="option-card" for="q7_ya">
+              <input type="radio" name="q7" id="q7_ya" value="1" data-q="7"/>
+              <div class="option-icon">🏗️</div>
+              <div class="option-text">
+                <strong>Ya, Monorepo</strong>
+                <span>Semua dalam satu repo (Nx, Turborepo, Lerna)</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q7_tidak">
+              <input type="radio" name="q7" id="q7_tidak" value="0" data-q="7"/>
+              <div class="option-icon">📁</div>
+              <div class="option-text">
+                <strong>Tidak, Polyrepo</strong>
+                <span>Setiap komponen di repository terpisah</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q8: Contributors / Tim -->
+        <div class="question-card" data-q="8" id="card-8">
+          <div class="card-header">
+            <div class="q-number">08</div>
+            <div class="q-meta">
+              <span class="q-category">Skala Tim</span>
+              <div class="q-required">Wajib diisi</div>
+            </div>
+          </div>
+          <h3 class="q-title">Berapa jumlah developer yang akan berkontribusi pada proyek?</h3>
+          <p class="q-desc">Ukuran tim memengaruhi pilihan framework dari sisi kemudahan kolaborasi dan maintenance.</p>
+          <div class="options-grid two-col" id="q8-options">
+            <label class="option-card" for="q8_1">
+              <input type="radio" name="q8" id="q8_1" value="1" data-q="8"/>
+              <div class="option-icon">👤</div>
+              <div class="option-text">
+                <strong>1 Developer</strong>
+                <span>Solo developer / freelance</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q8_23">
+              <input type="radio" name="q8" id="q8_23" value="2" data-q="8"/>
+              <div class="option-icon">👥</div>
+              <div class="option-text">
+                <strong>2–3 Developer</strong>
+                <span>Tim kecil, startup awal</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q8_410">
+              <input type="radio" name="q8" id="q8_410" value="3" data-q="8"/>
+              <div class="option-icon">👨‍👩‍👧‍👦</div>
+              <div class="option-text">
+                <strong>4–10 Developer</strong>
+                <span>Tim menengah, divisi IT</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q8_10plus">
+              <input type="radio" name="q8" id="q8_10plus" value="4" data-q="8"/>
+              <div class="option-icon">🏢</div>
+              <div class="option-text">
+                <strong>Lebih dari 10 Developer</strong>
+                <span>Tim besar, enterprise, open source</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q9: Jumlah Pengguna -->
+        <div class="question-card" data-q="9" id="card-9">
+          <div class="card-header">
+            <div class="q-number">09</div>
+            <div class="q-meta">
+              <span class="q-category">Skala Aplikasi</span>
+              <div class="q-required">Wajib diisi</div>
+            </div>
+          </div>
+          <h3 class="q-title">Berapa perkiraan jumlah pengguna aplikasi?</h3>
+          <p class="q-desc">Estimasi pengguna menentukan kebutuhan skalabilitas dan performa framework yang sesuai.</p>
+          <div class="options-grid" id="q9-options">
+            <label class="option-card" for="q9_kecil">
+              <input type="radio" name="q9" id="q9_kecil" value="1" data-q="9"/>
+              <div class="option-icon">🌱</div>
+              <div class="option-text">
+                <strong>Kurang dari 100</strong>
+                <span>Prototype, internal tool, MVP awal</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q9_100_1k">
+              <input type="radio" name="q9" id="q9_100_1k" value="2" data-q="9"/>
+              <div class="option-icon">🌿</div>
+              <div class="option-text">
+                <strong>100 – 1.000</strong>
+                <span>Startup awal, komunitas kecil</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q9_1k_10k">
+              <input type="radio" name="q9" id="q9_1k_10k" value="3" data-q="9"/>
+              <div class="option-icon">🌳</div>
+              <div class="option-text">
+                <strong>1.001 – 10.000</strong>
+                <span>Skala menengah, perlu performa baik</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q9_10k_100k">
+              <input type="radio" name="q9" id="q9_10k_100k" value="4" data-q="9"/>
+              <div class="option-icon">🌲</div>
+              <div class="option-text">
+                <strong>10.001 – 100.000</strong>
+                <span>Skala besar, butuh skalabilitas tinggi</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q9_100k_plus">
+              <input type="radio" name="q9" id="q9_100k_plus" value="5" data-q="9"/>
+              <div class="option-icon">🌐</div>
+              <div class="option-text">
+                <strong>Lebih dari 100.000</strong>
+                <span>Skala enterprise / platform nasional</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q10: Durasi Pengembangan -->
+        <div class="question-card" data-q="10" id="card-10">
+          <div class="card-header">
+            <div class="q-number">10</div>
+            <div class="q-meta">
+              <span class="q-category">Timeline Proyek</span>
+              <div class="q-required">Wajib diisi</div>
+            </div>
+          </div>
+          <h3 class="q-title">Berapa lama rencana pengembangan aktif proyek?</h3>
+          <p class="q-desc">Durasi pengembangan mencerminkan kompleksitas dan komitmen jangka panjang terhadap proyek.</p>
+          <div class="options-grid two-col" id="q10-options">
+            <label class="option-card" for="q10_1">
+              <input type="radio" name="q10" id="q10_1" value="1" data-q="10"/>
+              <div class="option-icon">⚡</div>
+              <div class="option-text">
+                <strong>Kurang dari 3 bulan</strong>
+                <span>Rapid prototype, MVP cepat</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q10_2">
+              <input type="radio" name="q10" id="q10_2" value="2" data-q="10"/>
+              <div class="option-icon">📅</div>
+              <div class="option-text">
+                <strong>3 – 6 bulan</strong>
+                <span>Proyek menengah, versi pertama</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q10_3">
+              <input type="radio" name="q10" id="q10_3" value="3" data-q="10"/>
+              <div class="option-icon">🗓️</div>
+              <div class="option-text">
+                <strong>6 – 12 bulan</strong>
+                <span>Proyek besar dengan fitur lengkap</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+            <label class="option-card" for="q10_4">
+              <input type="radio" name="q10" id="q10_4" value="4" data-q="10"/>
+              <div class="option-icon">♾️</div>
+              <div class="option-text">
+                <strong>Lebih dari 1 tahun</strong>
+                <span>Produk jangka panjang, enterprise</span>
+              </div>
+              <div class="option-check"></div>
+            </label>
+          </div>
+        </div>
+
+      </div><!-- end questions-wrapper -->
+
+      <!-- Submit Button -->
+      <div class="submit-section">
+        <div class="submit-info" id="submit-info">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <circle cx="9" cy="9" r="8" stroke="#6B7280" stroke-width="1.5"/>
+            <path d="M9 8v5M9 6v.5" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <span>Lengkapi semua pertanyaan sebelum mendapatkan rekomendasi</span>
+        </div>
+        <button class="btn-analyze" id="btn-analyze" disabled>
+          <span id="btn-analyze-text">Analisis Sekarang</span>
+          <div class="btn-spinner" id="btn-spinner" style="display:none"></div>
+          <svg id="btn-icon" width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path d="M3 9h12M11 5l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESULT SECTION ===================== -->
+  <section class="result-section" id="result-section" style="display:none">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge success">Hasil Analisis</div>
+        <h2 class="section-title">Rekomendasi <span class="gradient-text">untuk Anda</span></h2>
+        <p class="section-desc">Berdasarkan 10 karakteristik proyek yang Anda berikan, berikut adalah ranking framework yang paling sesuai.</p>
+      </div>
+
+      <!-- Top Recommendation Card -->
+      <div class="top-recommendation" id="top-recommendation">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- All Rankings -->
+      <div class="rankings-section">
+        <h3 class="rankings-title">Perbandingan Semua Framework</h3>
+        <div class="rankings-list" id="rankings-list">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+
+      <!-- Reset Button -->
+      <div class="result-actions">
+        <button class="btn-reset" id="btn-reset">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M2 8a6 6 0 1 0 1-3.46" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M2 3v3h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Analisis Ulang
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT SECTION ===================== -->
+  <section class="about-section" id="about-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Tentang Sistem</div>
+        <h2 class="section-title">Bagaimana <span class="gradient-text">Sistem Bekerja?</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M14 4L4 9v10l10 5 10-5V9L14 4z" stroke="url(#g1)" stroke-width="1.5" stroke-linejoin="round"/>
+              <path d="M4 9l10 5 10-5M14 14v10" stroke="url(#g1)" stroke-width="1.5" stroke-linecap="round"/>
+              <defs><linearGradient id="g1" x1="4" y1="4" x2="24" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+          </div>
+          <h4>Random Forest ML</h4>
+          <p>Menggunakan algoritma Random Forest Classifier yang dilatih pada dataset proyek open-source dari GitHub. Model mencapai akurasi 87.22%.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <circle cx="14" cy="14" r="9" stroke="url(#g2)" stroke-width="1.5"/>
+              <path d="M9 14h10M14 9v10" stroke="url(#g2)" stroke-width="1.5" stroke-linecap="round"/>
+              <defs><linearGradient id="g2" x1="5" y1="5" x2="23" y2="23" gradientUnits="userSpaceOnUse"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+          </div>
+          <h4>10 Fitur Analisis</h4>
+          <p>Sistem menganalisis karakteristik proyek dari 10 dimensi: tipe aplikasi, bahasa, database, Docker, CI/CD, testing, monorepo, tim, pengguna, dan durasi.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M8 20l4-8 4 4 4-12" stroke="url(#g3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs><linearGradient id="g3" x1="8" y1="4" x2="20" y2="20" gradientUnits="userSpaceOnUse"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+          </div>
+          <h4>Ranking dengan Probabilitas</h4>
+          <p>Hasil berupa ranking semua 9 framework dengan persentase kecocokan dan penjelasan mengapa framework tersebut sesuai atau tidak.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M6 14h4l3-8 4 16 3-8h5" stroke="url(#g4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs><linearGradient id="g4" x1="6" y1="6" x2="22" y2="22" gradientUnits="userSpaceOnUse"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+          </div>
+          <h4>Dataset Open-Source GitHub</h4>
+          <p>Model dilatih dari ribuan repository nyata di GitHub, mengekstrak metadata, bahasa, dependency, dan framework yang digunakan.</p>
+        </div>
+      </div>
+
+      <div class="frameworks-showcase">
+        <h3>9 Framework yang Dapat Direkomendasikan</h3>
+        <div class="frameworks-grid" id="frameworks-grid">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <svg width="24" height="24" viewBox="0 0 28 28" fill="none">
+              <circle cx="14" cy="14" r="14" fill="url(#footerLogo)"/>
+              <path d="M8 10l6-4 6 4v8l-6 4-6-4V10z" stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+              <circle cx="14" cy="14" r="2" fill="white"/>
+              <defs><linearGradient id="footerLogo" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+          </div>
+          <span>FrameRec</span>
+        </div>
+        <p class="footer-text">
+          Sistem Rekomendasi Teknologi Pengembangan Perangkat Lunak<br/>
+          Berbasis Karakteristik Proyek Menggunakan Machine Learning
+        </p>
+        <p class="footer-credit">Skripsi · Teknik Informatika · 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Loading Overlay -->
+  <div class="loading-overlay" id="loading-overlay">
+    <div class="loading-content">
+      <div class="loading-spinner"></div>
+      <p class="loading-text">Memuat model ML...</p>
+      <p class="loading-sub">Memproses <span id="loading-progress-text">0</span> pohon keputusan</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
